@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "References",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "authors",
+      "year",
+      "title",
+      "journal",
+      "doi",
+      "kind",
+      "routes"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "authors": {
+        "type": "string"
+      },
+      "year": {
+        "type": "integer"
+      },
+      "title": {
+        "type": "string"
+      },
+      "journal": {
+        "type": "string"
+      },
+      "doi": {
+        "type": "string",
+        "pattern": "^10\\.\\d{4,9}/\\S+$"
+      },
+      "kind": {
+        "enum": [
+          "review",
+          "research"
+        ]
+      },
+      "routes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

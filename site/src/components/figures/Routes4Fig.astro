@@ -1,0 +1,32 @@
+---
+// Conceptual schematic of four production logics (Chemistry §01).
+const cols = [
+  { t: 'Fermentation + chemistry', a: 'sugar', b: 'lactic acid', c: 'lactide', d: 'PLA (ROP)' },
+  { t: 'Made inside the cell', a: 'sugar / oil / waste', b: 'acetyl-CoA', c: '(R)-3HB-CoA', d: 'PHA granules' },
+  { t: 'Chemocatalysis + condensation', a: 'fructose', b: 'HMF', c: 'FDCA + MEG', d: 'PEF' },
+  { t: 'Modify a natural polymer', a: 'wood / crops', b: 'cellulose · starch', c: 'esterify · plasticise', d: 'modified polymer' },
+];
+---
+<figure class="fig">
+  <svg viewBox="0 0 680 250" role="img" aria-labelledby="r4-t r4-d">
+    <title id="r4-t">Four ways bio-based polymers are made</title>
+    <desc id="r4-d">Four columns, each a chain of four boxes from raw material to polymer: fermentation then chemical polymerisation (PLA), polymerisation inside the cell (PHA), chemocatalysis then polycondensation (PEF), and modification of natural polymers. Conceptual.</desc>
+    <defs><marker id="r4-ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 10 5 0 10z" fill="currentColor"/></marker></defs>
+    {cols.map((c, i) => {
+      const x = 10 + i * 170;
+      return (
+        <g font-family="system-ui,sans-serif" font-size="11">
+          <text x={x + 75} y="18" text-anchor="middle" font-weight="700" fill="var(--accent)">{c.t}</text>
+          {[c.a, c.b, c.c, c.d].map((s, j) => (
+            <>
+              <rect x={x} y={34 + j * 54} width="150" height="34" rx="6" fill={j === 3 ? 'var(--accent-soft)' : 'var(--surface)'} stroke="var(--line)" />
+              <text x={x + 75} y={55 + j * 54} text-anchor="middle" fill="currentColor">{s}</text>
+              {j < 3 && <path d={`M${x + 75} ${68 + j * 54} v16`} stroke="currentColor" stroke-width="1.4" marker-end="url(#r4-ar)" />}
+            </>
+          ))}
+        </g>
+      );
+    })}
+  </svg>
+  <figcaption>Conceptual schematic. Intermediates are named, not drawn; verified structures are in the library below.</figcaption>
+</figure>

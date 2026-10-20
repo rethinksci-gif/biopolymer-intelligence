@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Monthly newsletter issue",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "window",
+    "cutoff",
+    "status",
+    "layout_status",
+    "review"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "window": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "cutoff": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "evidence-checked",
+        "signed"
+      ]
+    },
+    "layout_status": {
+      "enum": [
+        "skeleton",
+        "layout-ready draft",
+        "final"
+      ]
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "reviewer",
+        "date"
+      ],
+      "properties": {
+        "reviewer": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        }
+      }
+    },
+    "what_changed": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cards": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "development"
+        ],
+        "properties": {
+          "development": {
+            "type": "string"
+          },
+          "headline": {
+            "type": "string"
+          },
+          "visual": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "visual_brief": {
+            "type": "string"
+          },
+          "change": {
+            "type": "string"
+          },
+          "implication": {
+            "type": "string"
+          },
+          "gap": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "watchlist": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "shortlist": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": [
+          "lead_id",
+          "why"
+        ],
+        "properties": {
+          "lead_id": {
+            "type": "string"
+          },
+          "why": {
+            "type": "string"
+          },
+          "evidence_status": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

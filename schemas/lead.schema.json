@@ -1,0 +1,187 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Machine-triaged lead",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "url",
+    "source_type",
+    "published_date",
+    "route",
+    "hidden"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "venue": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "source_type": {
+      "enum": [
+        "journal",
+        "news",
+        "preprint",
+        "patent",
+        "press"
+      ]
+    },
+    "published_date": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "event_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "language": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string",
+      "enum": [
+        "pla",
+        "pha",
+        "pef",
+        "bio-polyesters",
+        "polyamides",
+        "polycarbonates",
+        "polyurethanes",
+        "thermosets",
+        "natural-polymers",
+        "scope-review",
+        "none",
+        "untriaged"
+      ]
+    },
+    "novelty_type": {
+      "type": "string",
+      "enum": [
+        "new-chemistry",
+        "new-route",
+        "new-formulation-or-application",
+        "scale-or-supply",
+        "unclassified"
+      ]
+    },
+    "relevance": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "signal_type": {
+      "enum": [
+        "research",
+        "scale-up",
+        "supply",
+        "policy",
+        "market",
+        "other"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "quote_location": {
+      "enum": [
+        "title",
+        "abstract",
+        null
+      ]
+    },
+    "triaged_at": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "run_id": {
+      "type": "string"
+    },
+    "hidden": {
+      "type": "boolean"
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "region": {
+      "type": "string"
+    }
+  },
+  "if": {
+    "properties": {
+      "hidden": {
+        "const": false
+      }
+    }
+  },
+  "then": {
+    "required": [
+      "novelty_type",
+      "relevance",
+      "summary",
+      "quote",
+      "quote_location",
+      "triaged_at",
+      "model",
+      "run_id"
+    ],
+    "properties": {
+      "route": {
+        "type": "string",
+        "enum": [
+          "pla",
+          "pha",
+          "pef",
+          "bio-polyesters",
+          "polyamides",
+          "polycarbonates",
+          "polyurethanes",
+          "thermosets",
+          "natural-polymers",
+          "scope-review"
+        ]
+      },
+      "novelty_type": {
+        "type": "string",
+        "enum": [
+          "new-chemistry",
+          "new-route",
+          "new-formulation-or-application",
+          "scale-or-supply"
+        ]
+      },
+      "relevance": {
+        "minimum": 0.6
+      },
+      "quote": {
+        "minLength": 6
+      }
+    }
+  }
+}

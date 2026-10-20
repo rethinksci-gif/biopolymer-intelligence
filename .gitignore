@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+site/node_modules/
+site/dist/
+site/.astro/
+.env
+.qa-root/
+site/src/generated/
+site/public/newsletter/
+*.egg-info/

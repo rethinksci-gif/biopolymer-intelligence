@@ -1,0 +1,37 @@
+---
+// Conceptual schematic of chain-growth vs step-growth logic (Chemistry §02). Shapes, not structures.
+---
+<figure class="fig">
+  <svg viewBox="0 0 680 210" role="img" aria-labelledby="mf-t mf-d">
+    <title id="mf-t">Four polymerisation mechanisms as shape diagrams</title>
+    <desc id="mf-d">Step-growth: two different end-functional units join and release a small molecule. Ring-opening: a ring opens onto a chain end at a catalyst. ROCOP: an epoxide and CO2 alternate. Polyaddition: units join without a by-product. Conceptual.</desc>
+    <g font-family="system-ui,sans-serif" font-size="11" fill="currentColor">
+      <text x="85" y="18" text-anchor="middle" font-weight="700" fill="var(--accent)">Step-growth</text>
+      <rect x="20" y="40" width="44" height="16" rx="8" fill="var(--accent-soft)" stroke="var(--accent)"/><rect x="100" y="40" width="44" height="16" rx="3" fill="var(--surface-2)" stroke="currentColor"/>
+      <text x="82" y="52" text-anchor="middle">+</text>
+      <path d="M85 64v22" stroke="currentColor"/><text x="92" y="80">− H₂O / MeOH</text>
+      <rect x="20" y="96" width="44" height="16" rx="8" fill="var(--accent-soft)" stroke="var(--accent)"/><rect x="64" y="96" width="44" height="16" rx="3" fill="var(--surface-2)" stroke="currentColor"/><rect x="108" y="96" width="44" height="16" rx="8" fill="var(--accent-soft)" stroke="var(--accent)"/>
+      <text x="85" y="140" text-anchor="middle" class="small">equilibrium: remove by-product</text>
+      <text x="85" y="156" text-anchor="middle">long chains only at</text><text x="85" y="170" text-anchor="middle">very high conversion</text>
+
+      <text x="255" y="18" text-anchor="middle" font-weight="700" fill="var(--accent)">Ring-opening (ROP)</text>
+      <circle cx="225" cy="60" r="18" fill="none" stroke="currentColor" stroke-width="2"/><text x="225" y="64" text-anchor="middle">ring</text>
+      <path d="M248 60h20" stroke="currentColor"/><circle cx="285" cy="60" r="9" fill="var(--accent-2)"/><text x="285" y="88" text-anchor="middle">M–OR</text>
+      <path d="M200 120 q15 -12 30 0 t30 0 t30 0" fill="none" stroke="var(--accent)" stroke-width="3"/><circle cx="296" cy="120" r="7" fill="var(--accent-2)"/>
+      <text x="255" y="156" text-anchor="middle">strain drives it; above the</text><text x="255" y="170" text-anchor="middle">ceiling temperature, it reverses</text>
+
+      <text x="425" y="18" text-anchor="middle" font-weight="700" fill="var(--accent)">ROCOP</text>
+      <path d="M385 70l14-24 14 24z" fill="none" stroke="currentColor" stroke-width="2"/><text x="399" y="88" text-anchor="middle">epoxide</text>
+      <text x="455" y="66" text-anchor="middle">+ CO₂</text>
+      <g>{[0,1,2,3,4,5].map((i) => <rect x={372 + i * 18} y="112" width="16" height="14" rx={i % 2 ? 7 : 2} fill={i % 2 ? 'var(--surface-2)' : 'var(--accent-soft)'} stroke="currentColor"/>)}</g>
+      <text x="425" y="156" text-anchor="middle">strict alternation</text><text x="425" y="170" text-anchor="middle">gives polycarbonates</text>
+
+      <text x="595" y="18" text-anchor="middle" font-weight="700" fill="var(--accent)">Polyaddition</text>
+      <rect x="540" y="40" width="40" height="16" rx="3" fill="var(--surface-2)" stroke="currentColor"/><text x="595" y="52" text-anchor="middle">+</text><rect x="610" y="40" width="40" height="16" rx="8" fill="var(--accent-soft)" stroke="var(--accent)"/>
+      <path d="M595 64v22" stroke="currentColor"/><text x="602" y="80">no by-product</text>
+      <rect x="555" y="96" width="40" height="16" rx="3" fill="var(--surface-2)" stroke="currentColor"/><rect x="595" y="96" width="40" height="16" rx="8" fill="var(--accent-soft)" stroke="var(--accent)"/>
+      <text x="595" y="156" text-anchor="middle">isocyanate + polyol, or</text><text x="595" y="170" text-anchor="middle">cyclic carbonate + amine</text>
+    </g>
+  </svg>
+  <figcaption>Conceptual illustration, not chemical structures.</figcaption>
+</figure>

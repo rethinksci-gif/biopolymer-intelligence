@@ -1,0 +1,48 @@
+# Terms and standards. Standard titles are copied as published by the issuing body (retrieved 2026-10-20:
+# ISO open-data deliverables metadata, CEN search, ASTM product pages, ISCC website). Scopes are not
+# paraphrased; follow the link for the document itself.
+terms:
+  - {term: TRL, text: "Technology readiness level. Recorded only when a source states it (with its scope), or as an estimate labelled as such; otherwise 'Not reported'."}
+  - {term: Nameplate capacity, text: "The design capacity of a plant. It is not output: plants may be announced, under construction, commissioned or operating below capacity. This site never shows nameplate capacity as production."}
+  - {term: Mass balance, text: "A chain-of-custody model that attributes a bio-based (or recycled) share to products by bookkeeping, without physical segregation. Attributed content is recorded separately from measured bio-based carbon."}
+  - {term: Biogenic carbon, text: "Carbon that came from biomass. How an LCA accounts for it (uptake, storage, release) must be stated."}
+  - {term: Functional unit, text: "The quantified function an LCA compares (for example one bottle of a given volume), so that products are compared on the same basis."}
+  - {term: System boundary, text: "The life-cycle stages included in an LCA, for example cradle-to-gate or cradle-to-grave."}
+  - {term: Cradle-to-gate, text: "An LCA boundary from raw-material extraction to the factory gate, excluding use and end of life."}
+  - {term: ROP, text: "Ring-opening polymerisation: cyclic monomers such as lactide open and add to a growing chain."}
+  - {term: ROCOP, text: "Ring-opening copolymerisation, for example of epoxides with CO₂ or with cyclic anhydrides."}
+  - {term: Tg, text: "Glass transition temperature: above it, amorphous regions soften from glassy to rubbery."}
+  - {term: Tm, text: "Melting temperature of the crystalline regions."}
+  - {term: HDT, text: "Heat deflection temperature: the temperature at which a test bar deflects a set amount under a stated load."}
+  - {term: scPLA, text: "Stereocomplex PLA: a co-crystal of poly(L-lactide) and poly(D-lactide)."}
+  - {term: mcl-PHA, text: "Medium-chain-length polyhydroxyalkanoates, with longer side chains than PHB."}
+  - {term: Vitrimer, text: "A covalently crosslinked network whose bonds exchange at high temperature, so it can be reshaped while remaining a network."}
+  - {term: NIPU, text: "Non-isocyanate polyurethane, typically from cyclic carbonates and amines."}
+  - {term: ND, text: "Not disclosed: the source does not report the value, or no sourced value exists yet. ND never means zero."}
+labels:
+  - {term: machine-triaged, text: "A discovery record screened by DeepSeek flash. The quote is checked against the title or abstract; nothing else is verified."}
+  - {term: peer-reviewed, text: "Checked development whose main source is a peer-reviewed paper."}
+  - {term: supplier announcement, text: "Checked development based on a company release; claims are attributed, not endorsed."}
+  - {term: preprint/patent lead, text: "Not peer-reviewed; recorded as a lead only."}
+  - {term: hold, text: "Selected but not publishable yet; the reason is stated."}
+  - {term: "Watch / Data gap / Milestone to check", text: "Neutral tracking labels. They do not imply any purchasing, qualification or follow-up decision."}
+  - {term: Novelty types, text: "new-chemistry · new-route · new-formulation-or-application · scale-or-supply (one per lead)."}
+standards:
+  - {code: EN 16640:2017, title: "Bio-based products - Bio-based carbon content - Determination of the bio-based carbon content using the radiocarbon method", body: CEN (CEN/TC 411), url: "https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::", note: "Search the CEN catalogue for EN 16640. A revision (prEN 16640) is under approval."}
+  - {code: EN 16785-1:2015, title: "Bio-based products - Bio-based content - Part 1: Determination of the bio-based content using the radiocarbon analysis and elemental analysis", body: CEN (CEN/TC 411), url: "https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::", note: "Search the CEN catalogue for EN 16785-1."}
+  - {code: EN 13432:2000, title: "Packaging - Requirements for packaging recoverable through composting and biodegradation - Test scheme and evaluation criteria for the final acceptance of packaging", body: CEN (CEN/TC 261), url: "https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::", note: "Search the CEN catalogue for EN 13432. A revision (prEN 13432 rev) is at preliminary stage."}
+  - {code: ASTM D6866, title: "Standard Test Methods for Determining the Biobased Content of Solid, Liquid, and Gaseous Samples Using Radiocarbon Analysis", body: ASTM International, url: "https://www.astm.org/d6866-24.html"}
+  - {code: ASTM D6400, title: "Standard Specification for Labeling of Plastics Designed to be Aerobically Composted in Municipal or Industrial Facilities", body: ASTM International, url: "https://www.astm.org/d6400-23.html"}
+  - {code: ISO 16620-1:2015, title: "Plastics — Biobased content — Part 1: General principles", body: ISO, url: "https://www.iso.org/standard/63766.html"}
+  - {code: ISO 16620-2:2019, title: "Plastics — Biobased content — Part 2: Determination of biobased carbon content", body: ISO, url: "https://www.iso.org/standard/72474.html"}
+  - {code: ISO 16620-3:2015, title: "Plastics — Biobased content — Part 3: Determination of biobased synthetic polymer content", body: ISO, url: "https://www.iso.org/standard/63768.html"}
+  - {code: ISO 16620-4:2024, title: "Plastics — Biobased content — Part 4: Determination of biobased mass content", body: ISO, url: "https://www.iso.org/standard/83892.html"}
+  - {code: ISO 16620-5:2017, title: "Plastics — Biobased content — Part 5: Declaration of biobased carbon content, biobased synthetic polymer content and biobased mass content", body: ISO, url: "https://www.iso.org/standard/65218.html"}
+  - {code: ISO 17088:2021, title: "Plastics — Organic recycling — Specifications for compostable plastics", body: ISO, url: "https://www.iso.org/standard/74994.html"}
+  - {code: ISO 14040:2006, title: "Environmental management — Life cycle assessment — Principles and framework", body: ISO, url: "https://www.iso.org/standard/37456.html", note: "Amended by ISO 14040:2006/Amd 1:2020."}
+  - {code: ISO 14044:2006, title: "Environmental management — Life cycle assessment — Requirements and guidelines", body: ISO, url: "https://www.iso.org/standard/38498.html", note: "Amended by Amd 1:2017 and Amd 2:2020."}
+  - {code: ISO 14067:2018, title: "Greenhouse gases — Carbon footprint of products — Requirements and guidelines for quantification", body: ISO, url: "https://www.iso.org/standard/71206.html"}
+  - {code: ISO 22095:2020, title: "Chain of custody — General terminology and models", body: ISO, url: "https://www.iso.org/standard/72532.html", note: "ISO 22095-2:2026 (Requirements and guidelines for mass balance) was published on 26 January 2026."}
+  - {code: ISCC PLUS, title: "ISCC PLUS certification", body: ISCC System GmbH, url: "https://www.iscc-system.org/certification/iscc-certification-schemes/iscc-plus/", note: "A certification scheme, not a standard."}
+domain_reference:
+  source: naturvardsverket-biobaserad

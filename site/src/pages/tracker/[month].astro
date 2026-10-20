@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+import Leads from '../../components/Leads.astro';
+import DevelopmentCard from '../../components/Development.astro';
+import { routes, MONTHS, monthLabel, leadFile, devsFor, shownLeads, runsFor, issues, NOVELTY, url } from '../../lib/data';
+export function getStaticPaths() { return MONTHS.map((m) => ({ params: { month: m } })); }
+const { month } = Astro.params as { month: string };
+const lf = leadFile(month);
+const leads = shownLeads(month);
+const devs = devsFor(month);
+const runs = runsFor(month);
+const opts = (k: 'source_type' | 'region') => [...new Set(leads.map((l) => l[k]).filter((x) => x && x !== 'not stated'))].sort();
+---
+<Base title={`${monthLabel(month)} tracker`} description={`Bio-based polymer developments and leads, ${monthLabel(month)}.`}>
+  <p class="crumbs"><a href={url('')}>Overview</a> / <a href={url('tracker/')}>Monthly tracker</a> / {month}</p>
+  <h1>{monthLabel(month)}</h1>
+  <div class="chips">{MONTHS.map((m) => <a class="chip" href={url(`tracker/${m}/`)} aria-current={m === month ? 'page' : undefined} style={m === month ? 'border-color:var(--accent);color:var(--accent)' : ''}>{m}</a>)}</div>
+  {lf?.status === 'in-progress' && <p class="notice"><strong>In progress:</strong> this month is scanned through {lf.scanned_through}. Later runs add leads until the window closes.</p>}
+
+  <section>
+    <h2>Checked developments</h2>
+    {devs.length ? devs.map((d) => <DevelopmentCard d={d} />) : <p class="notice">No checked developments for this month yet.{issues.some((n) => n.id === month) && <> Candidates shortlisted for evidence checking are listed on the <a href={url(`newsletter/${month}/`)}>newsletter page</a>.</>}</p>}
+  </section>
+
+  <section>
+    <h2>Machine-triaged leads</h2>
+    {lf ? <>
+      <p class="small muted">{leads.length} leads shown out of {lf.leads.length} discovery records (Crossref, OpenAlex, Europe PMC, Google News), scanned through {lf.scanned_through}{lf.triage_model && ` and triaged with ${lf.triage_model}`}. {lf.triage_pending > 0 && <strong>{lf.triage_pending} records await triage (call budget or missing key). </strong>}{lf.note}</p>
+      <div class="filters" role="search" aria-label="Filter leads">
+        <label class="sr-skip" for="f-q">Search leads</label><input id="f-q" type="search" placeholder="Search titles and summaries" />
+        <label class="sr-skip" for="f-route">Route</label><select id="f-route"><option value="">All routes</option>{routes.map((r) => <option value={r.id}>{r.name}</option>)}</select>
+        <label class="sr-skip" for="f-nov">Novelty type</label><select id="f-nov"><option value="">All novelty types</option>{Object.entries(NOVELTY).map(([k, v]) => <option value={k}>{v}</option>)}</select>
+        <label class="sr-skip" for="f-src">Source type</label><select id="f-src"><option value="">All sources</option>{opts('source_type').map((s) => <option value={s}>{s}</option>)}</select>
+        <label class="sr-skip" for="f-reg">Region</label><select id="f-reg"><option value="">All regions</option>{opts('region').map((s) => <option value={s}>{s}</option>)}</select>
+        <span class="small muted" id="f-count" aria-live="polite"></span>
+      </div>
+      <div class="card"><Leads leads={leads} /></div>
+    </> : <p class="muted">Not yet scanned.</p>}
+  </section>
+  {runs.length > 0 && <details class="box"><summary>Scan runs ({runs.length})</summary><ul class="small">{runs.map((r) => <li><code>{r.run_id}</code>: {r.discovered} discovered, {r.sent_to_llm} sent to the model, {r.llm_calls}/{r.budget} calls, {r.usage.prompt_tokens + r.usage.completion_tokens} tokens; triage {r.triage}; {r.discovery_errors.length} discovery errors.</li>)}</ul></details>}
+  <script is:inline>
+    (() => {
+      const $ = (id) => document.getElementById(id);
+      const items = [...document.querySelectorAll('.lead-list .lead')];
+      const f = () => {
+        const q = ($('f-q')?.value || '').toLowerCase(), r = $('f-route')?.value, n = $('f-nov')?.value, s = $('f-src')?.value, g = $('f-reg')?.value;
+        let shown = 0;
+        for (const el of items) {
+          const ok = (!q || el.dataset.text.includes(q)) && (!r || el.dataset.route === r) && (!n || el.dataset.novelty === n) && (!s || el.dataset.source === s) && (!g || el.dataset.region === g);
+          el.hidden = !ok; shown += ok;
+        }
+        if ($('f-count')) $('f-count').textContent = `${shown} of ${items.length} shown`;
+      };
+      ['f-q', 'f-route', 'f-nov', 'f-src', 'f-reg'].forEach((id) => $(id)?.addEventListener('input', f));
+      f();
+    })();
+  </script>
+</Base>

@@ -1,0 +1,12 @@
+---
+import { sourceQuote, fmtDate } from '../lib/data';
+interface Props { k: string; showQuote?: boolean }
+const { k, showQuote = true } = Astro.props;
+const { source, quote } = sourceQuote(k);
+---
+{source && (
+  <span class="src-quote">
+    {showQuote && quote && <><q lang={source.language}>{quote.display ?? quote.text}</q>{quote.translation && <span class="muted"> ({quote.translation})</span>} </>}
+    <span class="small muted">— <a href={source.url}>{source.issuer}, {source.reference}</a>, retrieved {fmtDate(source.retrieved)}</span>
+  </span>
+)}

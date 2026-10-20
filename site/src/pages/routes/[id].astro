@@ -1,0 +1,71 @@
+---
+import Base from '../../layouts/Base.astro';
+import Mol from '../../components/Mol.astro';
+import Leads from '../../components/Leads.astro';
+import DevelopmentCard from '../../components/Development.astro';
+import Cite from '../../components/Cite.astro';
+import { routes, structures, challengeById, refById, refLink, devsFor, shownLeads, leadFile, MONTHS, monthLabel, url, type Route } from '../../lib/data';
+export function getStaticPaths() { return routes.map((r) => ({ params: { id: r.id }, props: { route: r } })); }
+const { route } = Astro.props as { route: Route };
+const mols = route.structures.map((id) => structures.find((s) => s.id === id)!).filter(Boolean);
+const refs = route.refs.map(refById).filter(Boolean);
+const eolNames = { bio_based_origin: 'Bio-based origin', biodegradability: 'Biodegradability', compostability: 'Compostability', recyclability: 'Recyclability' } as const;
+---
+<Base title={route.name} description={route.tagline}>
+  <p class="crumbs"><a href={url('')}>Overview</a> / <a href={url('routes/')}>Routes</a> / {route.name}</p>
+  <div class="layout">
+    <aside class="toc" aria-label="On this page">
+      <a href="#what">What it is</a><a href="#chemistry">Chemistry</a><a href="#production">Production</a><a href="#properties">Properties</a><a href="#eol">End of life</a><a href="#players">Key players</a><a href="#challenges">Open challenges</a><a href="#track">Monthly track</a><a href="#literature">References</a>
+    </aside>
+    <div>
+      <div class="family" style="margin-top:24px;color:var(--accent-2);font-weight:700;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase">{route.label}</div>
+      <h1 style="margin-top:4px">{route.name}</h1>
+      <p class="lede muted">{route.tagline}</p>
+      <p class="small"><strong>Scope:</strong> {route.scope}</p>
+      {route.id === 'scope-review' && <div class="notice"><strong>Scope review.</strong> Items here are tracked and labelled, but never presented as new bio-based polymers. A biofiller in a fossil matrix is a composite, not a bio-based polymer.</div>}
+
+      <h2 id="what">What it is</h2>
+      {route.what.map((p) => <p>{p}</p>)}
+      <h2 id="chemistry">Chemistry summary</h2>
+      {route.chemistry.map((p) => <p>{p}</p>)}
+      <div class="grid">{mols.map((m) => <Mol m={m} />)}</div>
+      <p class="small muted">Drawn from SMILES with RDKit and verified against PubChem. <a href={url('chemistry/')}>Full structure library →</a></p>
+      <h2 id="production">Synthesis and production</h2>
+      {route.production.map((p) => <p>{p}</p>)}
+      <h2 id="properties">Property profile</h2>
+      {route.properties.map((p) => <p>{p}</p>)}
+      <p class="small"><a href={url('chemistry/#structure-property')}>Sourced property table (ND where no value is quoted) →</a></p>
+      <h2 id="eol">End-of-life profile</h2>
+      <p class="small muted">Each attribute is recorded separately and never inferred from another.</p>
+      <div class="eol-fields">{Object.entries(eolNames).map(([k, label]) => <div><b>{label}</b>{route.eol[k as keyof typeof eolNames]}</div>)}</div>
+      <h2 id="players">Key players</h2>
+      {route.key_players.length ? <ul>{route.key_players.map((p) => <li>{p.name} <Cite ids={[p.ref]} /></li>)}</ul> : <p class="muted small">None listed. Organisations are named here only when a checked development or cited source names them.</p>}
+      <dl class="facts"><dt>Typical applications</dt><dd>{route.applications.join(', ')}</dd></dl>
+      <h2 id="challenges">Open challenges</h2>
+      <ul>{route.challenges.map((c) => <li>{c}</li>)}</ul>
+      <p class="small">Cross-cutting: {route.challenge_links.map((id, i) => <>{i > 0 && ' · '}<a href={url(`challenges/#${id}`)}>{challengeById(id)?.title}</a></>)}</p>
+      {route.support?.length ? (
+        <details class="box"><summary>Quoted support for this page ({route.support.length})</summary>
+          <ul class="small">{route.support.map((s) => <li><q>{s.quote}</q> <Cite ids={[s.ref]} /></li>)}</ul>
+          <p class="small muted">Each quote is re-checked against the published abstract in CI.</p>
+        </details>) : null}
+
+      <h2 id="track">Monthly track</h2>
+      {MONTHS.length === 0 && <p class="muted small">Not yet scanned.</p>}
+      {MONTHS.map((m) => {
+        const devs = devsFor(m, route.id), leads = shownLeads(m, route.id), lf = leadFile(m);
+        return (
+          <section>
+            <h3 id={`m-${m}`}>{monthLabel(m)} {lf?.status === 'in-progress' && <span class="badge warn">in progress · scanned through {lf.scanned_through}</span>}</h3>
+            {devs.length ? devs.map((d) => <DevelopmentCard d={d} showRoute={false} />) : <p class="small muted">No checked developments.</p>}
+            {lf && <details class="box" open={leads.length > 0 && leads.length <= 5}><summary>Machine-triaged leads ({leads.length})</summary><Leads leads={leads} showRoute={false} /></details>}
+          </section>
+        );
+      })}
+
+      <h2 id="literature">References</h2>
+      <ol class="refs small">{refs.map((r) => <li>{r!.authors} ({r!.year}). {r!.title}. <em>{r!.journal}</em>. <a href={refLink(r!)}>doi:{r!.doi}</a> <span class="badge">{r!.kind}</span></li>)}</ol>
+      <p class="small"><a href={url('references/')}>Full literature list →</a></p>
+    </div>
+  </div>
+</Base>

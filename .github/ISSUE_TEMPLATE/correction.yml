@@ -1,0 +1,16 @@
+name: Report a correction
+description: Something on the site is wrong, outdated or unsupported
+labels: [correction]
+body:
+  - type: input
+    id: page
+    attributes: { label: Page URL }
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes: { label: What is wrong }
+    validations: { required: true }
+  - type: textarea
+    id: source
+    attributes: { label: Supporting source, description: "Link or DOI, with the relevant passage quoted verbatim." }
+    validations: { required: true }

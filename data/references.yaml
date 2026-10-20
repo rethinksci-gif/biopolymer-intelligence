@@ -1,0 +1,542 @@
+# Every DOI below was resolved against Crossref on 2026-10-20 (title, authors, year, journal copied from Crossref).
+# `python -m scanner verify-refs` re-checks them in CI. Do not add a reference without a resolvable DOI.
+- id: auras2004
+  authors: Auras R., Harte B., Selke S.
+  year: 2004
+  title: An Overview of Polylactides as Packaging Materials
+  journal: Macromolecular Bioscience
+  doi: 10.1002/mabi.200400043
+  kind: review
+  routes:
+  - pla
+- id: auvergne2014
+  authors: Auvergne R., Caillol S., David G. et al.
+  year: 2014
+  title: 'Biobased Thermosetting Epoxy: Present and Future'
+  journal: Chemical Reviews
+  doi: 10.1021/cr3001274
+  kind: review
+  routes:
+  - thermosets
+- id: bugnicourt2014
+  authors: Bugnicourt E., Cinelli P., Lazzeri A. et al.
+  year: 2014
+  title: 'Polyhydroxyalkanoate (PHA): Review of synthesis, characteristics, processing and potential applications in packaging'
+  journal: Express Polymer Letters
+  doi: 10.3144/expresspolymlett.2014.82
+  kind: review
+  routes:
+  - pha
+- id: burgess2014
+  authors: Burgess S.K., Leisen J.E., Kraftschik B.E. et al.
+  year: 2014
+  title: Chain Mobility, Thermal, and Mechanical Properties of Poly(ethylene furanoate) Compared to Poly(ethylene terephthalate)
+  journal: Macromolecules
+  doi: 10.1021/ma5000199
+  kind: research
+  routes:
+  - pef
+- id: byrne2004
+  authors: Byrne C.M., Allen S.D., Lobkovsky E.B. et al.
+  year: 2004
+  title: Alternating Copolymerization of Limonene Oxide and Carbon Dioxide
+  journal: Journal of the American Chemical Society
+  doi: 10.1021/ja0472580
+  kind: research
+  routes:
+  - polycarbonates
+- id: chen2009
+  authors: Chen G.Q.
+  year: 2009
+  title: A microbial polyhydroxyalkanoates (PHA) based bio- and materials industry
+  journal: Chemical Society Reviews
+  doi: 10.1039/b812677c
+  kind: review
+  routes:
+  - pha
+- id: coates2020
+  authors: Coates G.W., Getzler Y.D.Y.L.
+  year: 2020
+  title: Chemical recycling to monomer for an ideal, circular polymer economy
+  journal: Nature Reviews Materials
+  doi: 10.1038/s41578-020-0190-4
+  kind: review
+  routes:
+  - general
+  - bio-polyesters
+- id: cywar2021
+  authors: Cywar R.M., Rorrer N.A., Hoyt C.B. et al.
+  year: 2021
+  title: Bio-based polymers with performance-advantaged properties
+  journal: Nature Reviews Materials
+  doi: 10.1038/s41578-021-00363-3
+  kind: review
+  routes:
+  - general
+- id: dechycabaret2004
+  authors: Dechy-Cabaret O., Martin-Vaca B., Bourissou D.
+  year: 2004
+  title: Controlled Ring-Opening Polymerization of Lactide and Glycolide
+  journal: Chemical Reviews
+  doi: 10.1021/cr040002s
+  kind: review
+  routes:
+  - pla
+- id: eerhart2012
+  authors: Eerhart A.J.J.E., Faaij A.P.C., Patel M.K.
+  year: 2012
+  title: Replacing fossil based PET with biobased PEF; process analysis, energy and GHG balance
+  journal: Energy & Environmental Science
+  doi: 10.1039/c2ee02480b
+  kind: research
+  routes:
+  - pef
+- id: fache2015
+  authors: Fache M., Boutevin B., Caillol S.
+  year: 2015
+  title: Vanillin, a key-intermediate of biobased polymers
+  journal: European Polymer Journal
+  doi: 10.1016/j.eurpolymj.2015.03.050
+  kind: review
+  routes:
+  - thermosets
+- id: farah2016
+  authors: Farah S., Anderson D.G., Langer R.
+  year: 2016
+  title: Physical and mechanical properties of PLA, and their functions in widespread applications — A comprehensive review
+  journal: Advanced Drug Delivery Reviews
+  doi: 10.1016/j.addr.2016.06.012
+  kind: review
+  routes:
+  - pla
+- id: fenouillot2010
+  authors: Fenouillot F., Rousseau A., Colomines G. et al.
+  year: 2010
+  title: 'Polymers from renewable 1,4:3,6-dianhydrohexitols (isosorbide, isomannide and isoidide): A review'
+  journal: Progress in Polymer Science
+  doi: 10.1016/j.progpolymsci.2009.10.001
+  kind: review
+  routes:
+  - polycarbonates
+  - bio-polyesters
+- id: fortman2018
+  authors: Fortman D.J., Brutman J.P., De Hoe G.X. et al.
+  year: 2018
+  title: Approaches to Sustainable and Continually Recyclable Cross-Linked Polymers
+  journal: ACS Sustainable Chemistry & Engineering
+  doi: 10.1021/acssuschemeng.8b02355
+  kind: review
+  routes:
+  - thermosets
+- id: gandini2016
+  authors: Gandini A., Lacerda T.M., Carvalho A.J.F. et al.
+  year: 2016
+  title: 'Progress of Polymers from Renewable Resources: Furans, Vegetable Oils, and Polysaccharides'
+  journal: Chemical Reviews
+  doi: 10.1021/acs.chemrev.5b00264
+  kind: review
+  routes:
+  - pef
+  - natural-polymers
+- id: garlotta2001
+  authors: Garlotta D.
+  year: 2001
+  title: A Literature Review of Poly(Lactic Acid)
+  journal: Journal of Polymers and the Environment
+  doi: 10.1023/A:1020200822435
+  kind: review
+  routes:
+  - pla
+- id: grignard2019
+  authors: Grignard B., Gennen S., Jérôme C. et al.
+  year: 2019
+  title: Advances in the use of CO 2 as a renewable feedstock for the synthesis of polymers
+  journal: Chemical Society Reviews
+  doi: 10.1039/C9CS00047J
+  kind: review
+  routes:
+  - polycarbonates
+- id: haider2019
+  authors: Haider T.P., Völker C., Kramm J. et al.
+  year: 2019
+  title: Plastics of the Future? The Impact of Biodegradable Polymers on the Environment and on Society
+  journal: Angewandte Chemie International Edition
+  doi: 10.1002/anie.201805766
+  kind: review
+  routes:
+  - general
+- id: hillmyer2017
+  authors: Hillmyer M.A.
+  year: 2017
+  title: The promise of plastics from plants
+  journal: Science
+  doi: 10.1126/science.aao6711
+  kind: review
+  routes:
+  - general
+- id: hong2016
+  authors: Hong M., Chen E.Y.X.
+  year: 2016
+  title: Completely recyclable biopolymers with linear and cyclic topologies via ring-opening polymerization of γ-butyrolactone
+  journal: Nature Chemistry
+  doi: 10.1038/nchem.2391
+  kind: research
+  routes:
+  - bio-polyesters
+- id: imre2013
+  authors: Imre B., Pukánszky B.
+  year: 2013
+  title: Compatibilization in bio-based and biodegradable polymer blends
+  journal: European Polymer Journal
+  doi: 10.1016/j.eurpolymj.2013.01.019
+  kind: review
+  routes:
+  - general
+  - pla
+- id: isikgor2015
+  authors: Isikgor F.H., Becer C.R.
+  year: 2015
+  title: 'Lignocellulosic biomass: a sustainable platform for the production of bio-based chemicals and polymers'
+  journal: Polymer Chemistry
+  doi: 10.1039/c5py00263j
+  kind: review
+  routes:
+  - general
+- id: jian2020
+  authors: Jian J., Xiangbin Z., Xianbo H.
+  year: 2020
+  title: An overview on synthesis, properties and applications of poly(butylene-adipate-co-terephthalate)–PBAT
+  journal: Advanced Industrial and Engineering Polymer Research
+  doi: 10.1016/j.aiepr.2020.01.001
+  kind: review
+  routes:
+  - bio-polyesters
+- id: jiang2006
+  authors: Jiang L., Wolcott M.P., Zhang J.
+  year: 2006
+  title: Study of Biodegradable Polylactide/Poly(butylene adipate- co -terephthalate) Blends
+  journal: Biomacromolecules
+  doi: 10.1021/bm050581q
+  kind: research
+  routes:
+  - pla
+- id: kind2011
+  authors: Kind S., Wittmann C.
+  year: 2011
+  title: Bio-based production of the platform chemical 1,5-diaminopentane
+  journal: Applied Microbiology and Biotechnology
+  doi: 10.1007/s00253-011-3457-2
+  kind: review
+  routes:
+  - polyamides
+- id: klemm2005
+  authors: Klemm D., Heublein B., Fink H. et al.
+  year: 2005
+  title: 'Cellulose: Fascinating Biopolymer and Sustainable Raw Material'
+  journal: Angewandte Chemie International Edition
+  doi: 10.1002/anie.200460587
+  kind: review
+  routes:
+  - natural-polymers
+- id: kowalski2000
+  authors: Kowalski A., Duda A., Penczek S.
+  year: 2000
+  title: Kinetics and Mechanism of Cyclic Esters Polymerization Initiated with Tin(II) Octoate. 3. Polymerization of l , l -Dilactide
+  journal: Macromolecules
+  doi: 10.1021/ma000125o
+  kind: research
+  routes:
+  - pla
+- id: lambert2017
+  authors: Lambert S., Wagner M.
+  year: 2017
+  title: 'Environmental performance of bio-based and biodegradable plastics: the road ahead'
+  journal: Chemical Society Reviews
+  doi: 10.1039/C7CS00149E
+  kind: review
+  routes:
+  - general
+- id: laycock2017
+  authors: Laycock B., Nikolić M., Colwell J.M. et al.
+  year: 2017
+  title: Lifetime prediction of biodegradable polymers
+  journal: Progress in Polymer Science
+  doi: 10.1016/j.progpolymsci.2017.02.004
+  kind: review
+  routes:
+  - general
+- id: lim2008
+  authors: Lim L.T., Auras R., Rubino M.
+  year: 2008
+  title: Processing technologies for poly(lactic acid)
+  journal: Progress in Polymer Science
+  doi: 10.1016/j.progpolymsci.2008.05.004
+  kind: review
+  routes:
+  - pla
+- id: mckeown2020
+  authors: McKeown P., Jones M.D.
+  year: 2020
+  title: 'The Chemical Recycling of PLA: A Review'
+  journal: Sustainable Chemistry
+  doi: 10.3390/suschem1010001
+  kind: review
+  routes:
+  - pla
+- id: montarnal2011
+  authors: Montarnal D., Capelot M., Tournilhac F. et al.
+  year: 2011
+  title: Silica-Like Malleable Materials from Permanent Organic Networks
+  journal: Science
+  doi: 10.1126/science.1212648
+  kind: research
+  routes:
+  - thermosets
+- id: nagarajan2016
+  authors: Nagarajan V., Mohanty A.K., Misra M.
+  year: 2016
+  title: 'Perspective on Polylactic Acid (PLA) based Sustainable Materials for Durable Applications: Focus on Toughness and Heat Resistance'
+  journal: ACS Sustainable Chemistry & Engineering
+  doi: 10.1021/acssuschemeng.6b00321
+  kind: review
+  routes:
+  - pla
+- id: nakajima2017
+  authors: Nakajima H., Dijkstra P., Loos K.
+  year: 2017
+  title: 'The Recent Developments in Biobased Polymers toward General and Engineering Applications: Polymers that are Upgraded from Biodegradable Polymers, Analogous to Petroleum-Derived Polymers, and Newly
+    Developed'
+  journal: Polymers
+  doi: 10.3390/polym9100523
+  kind: review
+  routes:
+  - general
+- id: noda2004
+  authors: Noda I., Satkowski M.M., Dowrey A.E. et al.
+  year: 2004
+  title: Polymer Alloys of Nodax Copolymers and Poly(lactic acid)
+  journal: Macromolecular Bioscience
+  doi: 10.1002/mabi.200300093
+  kind: research
+  routes:
+  - pha
+  - pla
+- id: papageorgiou2014
+  authors: Papageorgiou G.Z., Tsanaktsis V., Bikiaris D.N.
+  year: 2014
+  title: 'Synthesis of poly(ethylene furandicarboxylate) polyester using monomers derived from renewable resources: thermal behavior comparison with PET and PEN'
+  journal: Phys. Chem. Chem. Phys.
+  doi: 10.1039/c4cp00518j
+  kind: research
+  routes:
+  - pef
+- id: raquez2013
+  authors: Raquez J.M., Habibi Y., Murariu M. et al.
+  year: 2013
+  title: Polylactide (PLA)-based nanocomposites
+  journal: Progress in Polymer Science
+  doi: 10.1016/j.progpolymsci.2013.05.014
+  kind: review
+  routes:
+  - pla
+- id: rinaudo2006
+  authors: Rinaudo M.
+  year: 2006
+  title: 'Chitin and chitosan: Properties and applications'
+  journal: Progress in Polymer Science
+  doi: 10.1016/j.progpolymsci.2006.06.001
+  kind: review
+  routes:
+  - natural-polymers
+- id: robert2016
+  authors: Robert T., Friebel S.
+  year: 2016
+  title: Itaconic acid – a versatile building block for renewable polyesters with enhanced functionality
+  journal: Green Chemistry
+  doi: 10.1039/C6GC00605A
+  kind: review
+  routes:
+  - thermosets
+  - bio-polyesters
+- id: rokicki2015
+  authors: Rokicki G., Parzuchowski P.G., Mazurek M.
+  year: 2015
+  title: 'Non‐isocyanate polyurethanes: synthesis, properties, and applications'
+  journal: Polymers for Advanced Technologies
+  doi: 10.1002/pat.3522
+  kind: review
+  routes:
+  - polyurethanes
+- id: rosenboom2022
+  authors: Rosenboom J.G., Langer R., Traverso G.
+  year: 2022
+  title: Bioplastics for a circular economy
+  journal: Nature Reviews Materials
+  doi: 10.1038/s41578-021-00407-8
+  kind: review
+  routes:
+  - general
+- id: saeidlou2012
+  authors: Saeidlou S., Huneault M.A., Li H. et al.
+  year: 2012
+  title: Poly(lactic acid) crystallization
+  journal: Progress in Polymer Science
+  doi: 10.1016/j.progpolymsci.2012.07.005
+  kind: review
+  routes:
+  - pla
+- id: siracusa2020
+  authors: Siracusa V., Blanco I.
+  year: 2020
+  title: 'Bio-Polyethylene (Bio-PE), Bio-Polypropylene (Bio-PP) and Bio-Poly(ethylene terephthalate) (Bio-PET): Recent Developments in Bio-Based Polymers Analogous to Petroleum-Derived Ones for Packaging
+    and Engineering Applications'
+  journal: Polymers
+  doi: 10.3390/polym12081641
+  kind: review
+  routes:
+  - scope-review
+- id: sousa2015
+  authors: Sousa A.F., Vilela C., Fonseca A.C. et al.
+  year: 2015
+  title: 'Biobased polyesters and other polymers from 2,5-furandicarboxylic acid: a tribute to furan excellency'
+  journal: Polymer Chemistry
+  doi: 10.1039/C5PY00686D
+  kind: review
+  routes:
+  - pef
+- id: spierling2018
+  authors: Spierling S., Knüpffer E., Behnsen H. et al.
+  year: 2018
+  title: Bio-based plastics - A review of environmental, social and economic impact assessments
+  journal: Journal of Cleaner Production
+  doi: 10.1016/j.jclepro.2018.03.014
+  kind: review
+  routes:
+  - general
+- id: sudesh2000
+  authors: Sudesh K., Abe H., Doi Y.
+  year: 2000
+  title: 'Synthesis, structure and properties of polyhydroxyalkanoates: biological polyesters'
+  journal: Progress in Polymer Science
+  doi: 10.1016/S0079-6700(00)00035-6
+  kind: review
+  routes:
+  - pha
+- id: tschan2012
+  authors: Tschan M.J.L., Brulé E., Haquette P. et al.
+  year: 2012
+  title: Synthesis of biodegradable polymers from renewable resources
+  journal: Polym. Chem.
+  doi: 10.1039/c2py00452f
+  kind: review
+  routes:
+  - general
+- id: tsuji2005
+  authors: Tsuji H.
+  year: 2005
+  title: 'Poly(lactide) Stereocomplexes: Formation, Structure, Properties, Degradation, and Applications'
+  journal: Macromolecular Bioscience
+  doi: 10.1002/mabi.200500062
+  kind: review
+  routes:
+  - pla
+- id: upton2016
+  authors: Upton B.M., Kasko A.M.
+  year: 2016
+  title: 'Strategies for the Conversion of Lignin to High-Value Polymeric Materials: Review and Perspective'
+  journal: Chemical Reviews
+  doi: 10.1021/acs.chemrev.5b00345
+  kind: review
+  routes:
+  - natural-polymers
+  - thermosets
+- id: vanputten2013
+  authors: van Putten R.J., van der Waal J.C., de Jong E. et al.
+  year: 2013
+  title: Hydroxymethylfurfural, A Versatile Platform Chemical Made from Renewable Resources
+  journal: Chemical Reviews
+  doi: 10.1021/cr300182k
+  kind: review
+  routes:
+  - pef
+- id: verbeek2010
+  authors: Verbeek C.J.R., van den Berg L.E.
+  year: 2010
+  title: Extrusion Processing and Properties of Protein‐Based Thermoplastics
+  journal: Macromolecular Materials and Engineering
+  doi: 10.1002/mame.200900167
+  kind: review
+  routes:
+  - natural-polymers
+- id: walker2020
+  authors: Walker S., Rothman R.
+  year: 2020
+  title: 'Life cycle assessment of bio-based and fossil-based plastic: A review'
+  journal: Journal of Cleaner Production
+  doi: 10.1016/j.jclepro.2020.121158
+  kind: review
+  routes:
+  - general
+- id: mohanan2020
+  authors: Mohanan N., Montazer Z., Sharma P.K. et al.
+  year: 2020
+  title: Microbial and Enzymatic Degradation of Synthetic Plastics
+  journal: Frontiers in Microbiology
+  doi: 10.3389/fmicb.2020.580709
+  kind: review
+  routes:
+  - general
+- id: winnacker2016
+  authors: Winnacker M., Rieger B.
+  year: 2016
+  title: 'Biobased Polyamides: Recent Advances in Basic and Applied Research'
+  journal: Macromolecular Rapid Communications
+  doi: 10.1002/marc.201600181
+  kind: review
+  routes:
+  - polyamides
+- id: xu2010
+  authors: Xu J., Guo B.
+  year: 2010
+  title: 'Poly(butylene succinate) and its copolymers: Research, development and industrialization'
+  journal: Biotechnology Journal
+  doi: 10.1002/biot.201000136
+  kind: review
+  routes:
+  - bio-polyesters
+- id: zhang2014
+  authors: Zhang Y., Rempel C., Liu Q.
+  year: 2014
+  title: Thermoplastic Starch Processing and Characteristics—A Review
+  journal: Critical Reviews in Food Science and Nutrition
+  doi: 10.1080/10408398.2011.636156
+  kind: review
+  routes:
+  - natural-polymers
+- id: zhu2016
+  authors: Zhu Y., Romain C., Williams C.K.
+  year: 2016
+  title: Sustainable polymers from renewable resources
+  journal: Nature
+  doi: 10.1038/nature21001
+  kind: review
+  routes:
+  - general
+- id: carothers1936
+  authors: Carothers W.H.
+  year: 1936
+  title: Polymers and polyfunctionality
+  journal: Transactions of the Faraday Society
+  doi: 10.1039/tf9363200039
+  kind: research
+  routes:
+  - general
+- id: john1996
+  authors: John M.E., Keller G.
+  year: 1996
+  title: 'Metabolic pathway engineering in cotton: Biosynthesis of polyhydroxybutyrate in fiber cells'
+  journal: Proceedings of the National Academy of Sciences
+  doi: 10.1073/pnas.93.23.12768
+  kind: research
+  routes:
+  - pha

@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { issues, buildOf, monthLabel, fmtDate, url } from '../../lib/data';
+---
+<Base title="Monthly newsletter" description="BIOPOLYMER Monthly: a two-page A4 evidence brief on bio-based polymers, generated only from checked developments.">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Newsletter</p>
+  <h1>BIOPOLYMER Monthly</h1>
+  <p class="lede muted narrow">Two A4 pages, all-inclusive: what changed this month, two or three lead cards with a verified visual, a comparison strip, watchlist, follow-up questions and references. Generated only from checked developments; issues stay drafts until a named technical reviewer signs them. Nothing is emailed or posted automatically.</p>
+  {issues.length === 0 && <p class="muted">No issues yet.</p>}
+  {issues.map((n) => {
+    const b = buildOf(n.id);
+    return (
+      <article class="card" style="margin:18px 0">
+        <div class="nl-grid" style="display:grid;grid-template-columns:minmax(0,200px) minmax(0,1fr);gap:22px">
+          {b?.cover ? <a href={url(`newsletter/${n.id}/`)}><img src={url(b.cover)} alt={`Page 1 of ${n.title}`} width="200" height="283" style="width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#fff" /></a> : <div />}
+          <div>
+            <div class="meta"><span class="badge warn">{n.status}</span><span class="badge">{n.layout_status}</span></div>
+            <h2 style="margin-top:6px"><a href={url(`newsletter/${n.id}/`)}>{n.title}</a></h2>
+            <p class="small muted">Window {fmtDate(n.window[0])} – {fmtDate(n.window[1])} · cutoff {fmtDate(n.cutoff)} · reviewer: {n.review.reviewer ?? 'OPEN'}</p>
+            <p>{n.what_changed ?? 'Trial issue skeleton: candidates shortlisted for evidence checking; no development has been evidence-checked yet.'}</p>
+            <div class="cta"><a class="btn primary" href={url(`newsletter/${n.id}/`)}>Open issue</a>{b?.pdf && <a class="btn" href={url(b.pdf)}>PDF ({b.pages} page{b.pages === 1 ? '' : 's'})</a>}</div>
+          </div>
+        </div>
+      </article>
+    );
+  })}
+  <style>@media (max-width: 640px) { .nl-grid { grid-template-columns: minmax(0, 1fr) !important; } }</style>
+</Base>

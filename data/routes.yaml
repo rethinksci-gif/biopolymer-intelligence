@@ -1,0 +1,398 @@
+# Polymer routes tracked by BIOPOLYMER Intelligence.
+# Text here is general background taken from the cited references (data/references.yaml), not new evidence.
+# `support` holds verbatim quotes from a reference's published abstract; `python -m scanner verify-refs`
+# re-fetches each abstract and fails if a quote is no longer found.
+# Monthly evidence lives in data/developments/; machine-triaged leads in data/leads/.
+# `scan` holds the discovery queries the scanner runs for each route.
+
+- id: pla
+  label: Aliphatic polyester · FOCUS
+  family: Aliphatic polyester
+  focus: true
+  name: PLA, lactide copolymers & blends
+  tagline: Polylactide from fermentation-derived lactic acid, including stereocomplex PLA and PLA blends.
+  scope: L/D-lactide, stereocomplex PLA (scPLA), PLA/PBAT, PLA/PHA and PLA/PBS blends, nucleation, heat resistance and impact modification.
+  what:
+    - Polylactide (PLA) is an aliphatic polyester made from lactic acid. Auras et al. describe it as derived from renewable resources and biodegradable, and review it as a packaging material.
+    - PLA is also being developed for durable products. Nagarajan et al. describe the main obstacle as PLA's high strength but low toughness, together with limited heat resistance.
+  chemistry:
+    - Lactic acid is chiral, so PLA can be built from L- and D-lactyl units. Blending poly(L-lactide) and poly(D-lactide) gives a stereocomplex; Tsuji reports that stereocomplexation improves mechanical properties, heat resistance and hydrolysis resistance.
+    - High-molar-mass PLA is usually made by ring-opening polymerisation (ROP) of lactide, the cyclic dimer of lactic acid (see Chemistry).
+  production:
+    - Fermentation gives lactic acid, which is converted to lactide and polymerised by ROP. Tin(II) 2-ethylhexanoate (Sn(Oct)₂) is the classic catalyst; Kowalski et al. show that polymerisation proceeds by monomer insertion into a tin–alkoxide bond formed with an alcohol co-initiator.
+  properties:
+    - Jiang et al. report neat PLA as strong and stiff but brittle, and blend it with flexible PBAT to raise elongation and toughness at the cost of strength and modulus.
+    - Auras et al. report lower melting and glass transition temperatures for PLA than for PET and PS, and gas permeability lower than PS but higher than PET.
+  eol:
+    bio_based_origin: Made from renewable resources (Auras et al.). The bio-based share of a specific grade must be measured or declared separately.
+    biodegradability: Environment-dependent. Haider et al. report that PLA is basically non-degradable in seawater; McKeown and Jones report a slow biodegradation rate in the natural environment.
+    compostability: McKeown and Jones describe industrial composting of PLA as giving water and carbon dioxide. Home compostability is not assumed.
+    recyclability: Chemical recycling routes back to monomers and platform chemicals are reviewed by McKeown and Jones.
+  key_players: []
+  applications: [packaging films and containers, durable parts (research focus)]
+  challenges:
+    - Brittleness and low toughness for durable use; balancing toughness against stiffness and heat resistance.
+    - Slow crystallisation, which limits heat resistance unless nucleated or annealed.
+    - Hydrolytic sensitivity during melt processing and in humid service.
+  challenge_links: [heat, toughness, processing, moisture, eol]
+  structures: [lactic-acid, l-lactide, pla-ru, sn-oct2]
+  refs: [auras2004, tsuji2005, kowalski2000, dechycabaret2004, jiang2006, nagarajan2016, saeidlou2012, lim2008, mckeown2020, haider2019, noda2004, garlotta2001, farah2016, raquez2013]
+  support:
+    - {ref: auras2004, quote: "By being truly biodegradable, derived from renewable resources"}
+    - {ref: auras2004, quote: "PLA also has lower melting and glass transition temperatures than PET and PS."}
+    - {ref: tsuji2005, quote: "Stereocomplexation enhances the mechanical properties, the thermal‐resistance, and the hydrolysis‐resistance of PLA‐based materials."}
+    - {ref: kowalski2000, quote: "polymerization proceeds by simple monomer insertion into the"}
+    - {ref: nagarajan2016, quote: "a biobased and biodegradable polymer as polylactic acid (PLA) with its high strength but low toughness"}
+    - {ref: jiang2006, quote: "elongation and toughness were dramatically increased"}
+    - {ref: haider2019, quote: "poly(lactic acid) is basically non‐degradable in seawater"}
+    - {ref: mckeown2020, quote: "in the natural environment, PLA has a slow biodegradation rate"}
+  scan:
+    crossref: ["polylactide", "stereocomplex PLA", "PLA blend toughening", "poly(lactic acid) heat resistance", "lactide polymerization"]
+    news: ["polylactic acid PLA plant", "PLA bioplastic capacity", "lactide production"]
+    news_i18n:
+      de: ["Polymilchsäure PLA"]
+      fr: ["acide polylactique PLA usine"]
+      zh: ["聚乳酸"]
+      ja: ["ポリ乳酸"]
+
+- id: pha
+  label: Microbial polyester · FOCUS
+  family: Microbial polyester
+  focus: true
+  name: PHA family & copolymers
+  tagline: Polyhydroxyalkanoates made inside bacterial cells, from PHB to copolymers such as PHBV and PHBHHx.
+  scope: PHB, PHBV, P3HB4HB, PHBHHx (PHBH), mcl-PHA and blends; fermentation feedstocks including sugars, oils, wastes, CO₂ and methane.
+  what:
+    - Polyhydroxyalkanoates (PHAs) are polyesters produced by many bacteria. Chen reviews their use as bioplastics, fine chemicals and biomaterials and describes an industrial value chain from fermentation to materials.
+    - Bugnicourt et al. report that most commercial PHAs come from pure cultures on renewable feedstocks such as glucose, while research is moving to waste streams as growth media.
+  chemistry:
+    - The basic member is poly(3-hydroxybutyrate) (PHB). Copolymers add other hydroxyalkanoate units. Noda et al. report that medium-chain-length side groups lower crystallinity and melting temperature, which eases processing and adds ductility.
+  production:
+    - Cells polymerise (R)-3-hydroxyacyl-CoA monomers and store the polymer as intracellular granules; the polymer is then extracted and compounded (see Chemistry for the PhaA/PhaB/PhaC pathway).
+  properties:
+    - Noda et al. describe PHA thermal decomposition as starting at relatively low temperature, so a lower melting point widens the processing window.
+  eol:
+    bio_based_origin: Produced by bacterial fermentation of renewable or waste feedstocks (Bugnicourt et al.).
+    biodegradability: Bugnicourt et al. report high biodegradability in different environments, not only in composting plants. Results remain specific to grade, thickness and environment.
+    compostability: Not assessed here for specific grades; check certification against EN 13432 or ISO 17088.
+    recyclability: Not assessed here.
+  key_players: []
+  applications: [packaging, moulded goods, paper coatings, non-woven fabrics, films]
+  challenges:
+    - Narrow processing window between melting and thermal degradation for PHB-rich grades.
+    - Cost and feedstock variability of fermentation and extraction.
+    - Slow crystallisation and ageing of PHB.
+  challenge_links: [processing, toughness, feedstock, cost, scale]
+  structures: [r-3hb, phb-ru, 3hv, 4hb, 3hhx]
+  refs: [chen2009, sudesh2000, bugnicourt2014, noda2004, laycock2017]
+  support:
+    - {ref: chen2009, quote: "PHA applications as bioplastics, fine chemicals, implant biomaterials, medicines and biofuels"}
+    - {ref: bugnicourt2014, quote: "Most commercially available PHAs are obtained with pure microbial cultures grown on renewable feedstocks"}
+    - {ref: bugnicourt2014, quote: "high biodegradability in different environments, not just in composting plants"}
+    - {ref: noda2004, quote: "effectively lowers the crystallinity and the melt temperature"}
+    - {ref: noda2004, quote: "the thermal decomposition temperature of PHAs is then relatively low"}
+  scan:
+    crossref: ["polyhydroxyalkanoate", "PHBV copolymer", "PHBHHx", "poly(3-hydroxybutyrate) processing", "medium-chain-length PHA"]
+    news: ["PHA bioplastic plant", "polyhydroxyalkanoate production capacity", "PHA biopolymer fermentation"]
+    news_i18n:
+      de: ["PHA Biokunststoff"]
+      fr: ["PHA bioplastique"]
+      zh: ["聚羟基脂肪酸酯"]
+      ja: ["PHBH 生分解性"]
+
+- id: pef
+  label: Furanic polyester · FOCUS
+  family: Furanic polyester
+  focus: true
+  name: PEF and furan polyesters
+  tagline: Poly(ethylene furanoate) from 2,5-furandicarboxylic acid and ethylene glycol, and its furanoate relatives.
+  scope: FDCA/FDME + MEG; PEF copolymers and blends; also PBF, PTF and PPF.
+  what:
+    - Poly(ethylene furanoate) (PEF) is the furan analogue of PET. Burgess et al. describe it as a fully biosourced alternative to PET with greatly improved barrier properties.
+    - Nakajima et al. classify PEF as a new bio-based polymer, as opposed to upgraded biodegradable polyesters (PLA, PHA) and drop-in analogues (bio-PET).
+  chemistry:
+    - Burgess et al. attribute PEF's lower gas permeability to suppressed furan ring-flipping, which slows diffusion, rather than to lower gas solubility.
+  production:
+    - Eerhart et al. model PEF production in three units - fructose from corn starch, conversion of fructose into furanics, and oxidation to FDCA followed by polymerisation with ethylene glycol.
+  properties:
+    - Burgess et al. report greatly improved barrier and attractive thermal and mechanical properties relative to PET. Specific values belong in the property table only with a quote and DOI.
+  eol:
+    bio_based_origin: Can be fully bio-based when both FDCA and ethylene glycol are bio-based (Burgess et al.). Grade-specific content must be measured.
+    biodegradability: Not assessed here.
+    compostability: Not assessed here.
+    recyclability: Not assessed here; compatibility with PET recycling streams is an open question for the tracker.
+  key_players: []
+  applications: [bottles and films (barrier packaging, research and pilot)]
+  challenges:
+    - Scale-up of FDCA and polymer production; cost against PET.
+    - Climate footprint depends on feedstock and system boundary (Eerhart et al. model cradle-to-grave cases).
+  challenge_links: [barrier, scale, cost, lca, eol]
+  structures: [hmf, fdca, fdme, eg, pef-ru, pdo, tpa]
+  refs: [burgess2014, sousa2015, papageorgiou2014, eerhart2012, vanputten2013, nakajima2017, gandini2016]
+  support:
+    - {ref: burgess2014, quote: "can provide a fully biosourced alternative to PET with greatly improved barrier properties and attractive thermal and mechanical properties"}
+    - {ref: burgess2014, quote: "the drastic permeability reduction results from a decrease in diffusion coefficient caused by a hindrance in furan ring-flipping"}
+    - {ref: nakajima2017, quote: "new biobased polymers such as poly(ethylene 2,5-furandicarboxylate) (PEF)"}
+    - {ref: eerhart2012, quote: "the oxidation to the monomer 2,5-furandicarboxylic acid (FDCA) and polymerization with ethylene glycol (EG) into PEF"}
+  scan:
+    crossref: ["poly(ethylene furanoate)", "2,5-furandicarboxylic acid polyester", "PEF polyester barrier", "furanoate copolyester"]
+    news: ["PEF polyethylene furanoate plant", "FDCA plant", "furandicarboxylic acid production"]
+    news_i18n:
+      de: ["PEF Polyethylenfuranoat"]
+      fr: ["PEF furanoate"]
+      zh: ["呋喃二甲酸 聚酯"]
+      ja: ["PEF フランジカルボン酸"]
+
+- id: bio-polyesters
+  label: Aliphatic/semi-aromatic polyesters
+  family: Aliphatic and semi-aromatic polyesters
+  focus: false
+  name: Other bio-based polyesters
+  tagline: Bio-based PBS/PBSA, bio-content PBAT, isosorbide polyesters and chemically recyclable lactone polymers.
+  scope: bio-PBS/PBSA, bio-content PBAT, isosorbide polyesters (PEIT), poly(alkylene furanoate) relatives, chemically recyclable lactones (for example from α-methylene-γ-butyrolactone).
+  what:
+    - Poly(butylene succinate) (PBS) and its copolymers are biodegradable polyesters made from succinic acid and butanediol (Xu and Guo). Either monomer can come from fossil or bio-based routes, so the bio-based share is grade-specific.
+    - PBAT is made by polycondensation of butanediol, adipic acid and terephthalic acid (Jian et al.). It is biodegradable; bio-based content depends on which monomers are bio-sourced.
+  chemistry:
+    - Hong and Chen showed polymers from γ-butyrolactone that can be depolymerised back to monomer, a design principle for chemically recyclable polyesters.
+  production:
+    - Step-growth polycondensation of diacids and diols (see Chemistry).
+  properties:
+    - Xu and Guo report a wide thermoplastic processing window for PBS, suitable for extrusion, injection moulding, thermoforming and film blowing.
+  eol:
+    bio_based_origin: Grade-specific; depends on the origin of each monomer.
+    biodegradability: PBS and PBAT are described as biodegradable (Xu and Guo; Jian et al.). Environment matters (Haider et al.).
+    compostability: Not assessed here for specific grades.
+    recyclability: Lactone-based designs aim at chemical recycling to monomer (Hong and Chen; Coates and Getzler).
+  key_players: []
+  applications: [films, injection-moulded and thermoformed parts]
+  challenges:
+    - Separating bio-based content claims from biodegradability claims.
+    - Cost and scale of bio-succinic acid and bio-butanediol.
+  challenge_links: [claims, cost, eol]
+  structures: [succinic, bdo, adipic, isosorbide, mbl, pbs-ru]
+  refs: [xu2010, jian2020, fenouillot2010, hong2016, coates2020, robert2016, haider2019]
+  support:
+    - {ref: xu2010, quote: "production of the monomers succinic acid and butanediol"}
+    - {ref: xu2010, quote: "PBS has a wide temperature window for thermoplastic processing"}
+    - {ref: jian2020, quote: "PBAT has been commercialized by polycondensation reaction of butanediol (BDO), adipic acid (AA) and terephthalic acid (PTA)"}
+  scan:
+    crossref: ["bio-based poly(butylene succinate)", "isosorbide polyester", "chemically recyclable polyester lactone", "bio-based PBAT"]
+    news: ["bio-succinic acid plant", "bio-based PBS production", "bio-BDO plant"]
+
+- id: polyamides
+  label: Polyamides
+  family: Polyamides
+  focus: false
+  name: Bio-based polyamides
+  tagline: PA11 from castor oil, PA 5.X from bio-cadaverine, and long-chain polyamides from plant-oil diacids.
+  scope: PA11 (castor), PA 5.X (cadaverine), PA410, PA610, PA1010, new bio-diamines and diacids.
+  what:
+    - Winnacker and Rieger review bio-based polyamides and note that some, such as PA-11 (Rilsan), have been established for decades while many others remain at research stage.
+    - 1,5-Diaminopentane (cadaverine) can be produced biotechnologically as a polyamide building block (Kind and Wittmann).
+  chemistry:
+    - Polyamides form by polycondensation of diamines with diacids, or of amino acids. Bio-based building blocks can add side groups, functionality or stereochemistry (Winnacker and Rieger).
+  production:
+    - Castor-derived 11-aminoundecanoic acid gives PA11; sebacic acid from castor is a diacid for PA610 and PA1010.
+  properties:
+    - Hydrogen bonding between amide groups controls crystallinity and moisture uptake; values belong in the property table only with a quote and DOI.
+  eol:
+    bio_based_origin: Grade-specific; PA11 is built from a castor-derived monomer.
+    biodegradability: Not assessed here.
+    compostability: Not assessed here.
+    recyclability: Not assessed here.
+  key_players: []
+  applications: [engineering parts (as cited in reviews)]
+  challenges:
+    - Moisture uptake and dimensional stability.
+    - Feedstock concentration (castor) and cost.
+  challenge_links: [moisture, feedstock, cost]
+  structures: [aua, ricinoleic, sebacic, cadaverine, dmda, pa11-ru]
+  refs: [winnacker2016, kind2011, nakajima2017]
+  support:
+    - {ref: winnacker2016, quote: "While some biopolyamides are known for decades and well established (e.g., PA‐11, Rilsan)"}
+  scan:
+    crossref: ["bio-based polyamide", "polyamide 11 castor", "pentamethylenediamine polyamide", "bio-based nylon"]
+    news: ["bio-based polyamide launch", "PA11 castor capacity", "bio-based nylon plant"]
+
+- id: polycarbonates
+  label: Polycarbonates
+  family: Polycarbonates
+  focus: false
+  name: Isosorbide & CO₂-based polycarbonates
+  tagline: Polycarbonates from the sugar-derived diol isosorbide, and from epoxide/CO₂ ring-opening copolymerisation.
+  scope: Isosorbide polycarbonate; epoxide/CO₂ ROCOP (PPC, poly(limonene carbonate)).
+  what:
+    - Isosorbide is a rigid bicyclic diol derived from sugars; Fenouillot et al. review polymers made from it and its isomers.
+    - Grignard et al. review routes that use CO₂ as a C1 feedstock for polymers.
+  chemistry:
+    - Byrne et al. report alternating copolymerisation of limonene oxide and CO₂ with zinc catalysts to a regioregular polycarbonate with more than 99 % carbonate linkages.
+  production:
+    - Melt transesterification for isosorbide polycarbonates; catalytic ROCOP for CO₂-based polycarbonates (see Chemistry).
+  properties:
+    - Not summarised here; see checked developments and the property table.
+  eol:
+    bio_based_origin: Isosorbide is sugar-derived. CO₂-derived carbon is neither fossil nor biogenic by default; report it separately.
+    biodegradability: Not assessed here.
+    compostability: Not assessed here.
+    recyclability: Not assessed here.
+  key_players: []
+  applications: [not summarised here]
+  challenges:
+    - Accounting for CO₂-derived content separately from bio-based content.
+    - Catalyst cost and selectivity in ROCOP.
+  challenge_links: [claims, lca, scale]
+  structures: [isosorbide, po, limonene]
+  refs: [fenouillot2010, grignard2019, byrne2004]
+  support:
+    - {ref: byrne2004, quote: "The copolymer contains >99% carbonate linkages"}
+  scan:
+    crossref: ["isosorbide polycarbonate", "CO2-based polycarbonate", "ring-opening copolymerization epoxide CO2", "poly(limonene carbonate)"]
+    news: ["CO2-based polycarbonate plant", "isosorbide polycarbonate"]
+
+- id: polyurethanes
+  label: Urethanes
+  family: Urethanes
+  focus: false
+  name: Bio-polyurethanes & NIPU
+  tagline: Bio-based polyols and isocyanates, and non-isocyanate polyurethanes from cyclic carbonates and amines.
+  scope: Bio-polyols (castor, other plant oils, lignin), bio-isocyanates (for example PDI), cyclic carbonate + amine NIPU.
+  what:
+    - Conventional polyurethanes are made from polyisocyanates and polyols. Rokicki et al. review non-isocyanate polyurethanes (NIPU), which avoid isocyanates, and identify poly(hydroxy-urethane)s from cyclic carbonates and amines as the most developed route.
+  chemistry:
+    - Polyaddition of a polyol to an isocyanate gives urethane links. In NIPU, an amine opens a cyclic carbonate to give a hydroxyurethane (see Chemistry).
+  production:
+    - Bio-polyols from plant oils or lignin; bio-based diisocyanates such as pentamethylene diisocyanate; cyclic carbonates such as glycerol carbonate.
+  properties:
+    - Not summarised here.
+  eol:
+    bio_based_origin: Grade-specific; usually only part of the formulation is bio-based.
+    biodegradability: Not assessed here.
+    compostability: Not assessed here.
+    recyclability: Not assessed here.
+  key_players: []
+  applications: [foams, coatings, adhesives (as cited)]
+  challenges:
+    - Residual fossil components (isocyanate, amine) in "bio-based" PU.
+    - Slower cure and lower molar mass in many NIPU systems.
+  challenge_links: [claims, processing, durability]
+  structures: [glycerol-carbonate, pdi, ricinoleic, coniferyl]
+  refs: [rokicki2015, upton2016]
+  support:
+    - {ref: rokicki2015, quote: "poly(hydroxy‐urethane)s, based upon multicyclic carbonates and aliphatic amines"}
+  scan:
+    crossref: ["non-isocyanate polyurethane", "bio-based polyol polyurethane", "bio-based isocyanate", "lignin polyurethane"]
+    news: ["bio-based polyurethane launch", "non-isocyanate polyurethane"]
+
+- id: thermosets
+  label: Networks
+  family: Networks
+  focus: false
+  name: Bio-based thermosets & vitrimers
+  tagline: Epoxies from vanillin and plant oils, itaconic and furan networks, cardanol resins and dynamic covalent networks.
+  scope: Vanillin/lignin epoxies, epoxidised plant oils, itaconic and furan Diels–Alder networks, cardanol benzoxazines, dynamic covalent networks.
+  what:
+    - Auvergne et al. review bio-based thermosetting epoxies; Fache et al. describe vanillin as a key intermediate for bio-based polymers.
+    - Fortman et al. note that covalent cross-links make thermosets robust but prevent recycling into similar-value goods, and review recyclable cross-linked designs.
+  chemistry:
+    - Montarnal et al. reported networks that are stable like thermosets yet can be reshaped in the melt - the vitrimer concept based on exchangeable covalent bonds.
+    - Robert and Friebel review itaconic acid as an unsaturated building block for renewable polyesters.
+  production:
+    - Curing of bio-based epoxy monomers with hardeners; free-radical curing of unsaturated polyesters; dynamic exchange chemistry for vitrimers.
+  properties:
+    - Not summarised here.
+  eol:
+    bio_based_origin: Grade-specific; hardeners and catalysts are often fossil-based.
+    biodegradability: Not assessed here.
+    compostability: Not assessed here.
+    recyclability: Conventional thermosets cannot be remelted; vitrimers and other dynamic networks are designed to be reprocessed (Fortman et al.).
+  key_players: []
+  applications: [composites, coatings, adhesives (as cited)]
+  challenges:
+    - Long-term stability of inherently dynamic networks (Fortman et al.).
+    - Fossil hardeners and residual fossil content.
+  challenge_links: [durability, claims, eol]
+  structures: [vanillin, itaconic, furfuryl-alcohol, cardanol]
+  refs: [auvergne2014, fache2015, fortman2018, montarnal2011, robert2016]
+  support:
+    - {ref: fortman2018, quote: "they also prevent recycling of these materials into similar-value goods"}
+    - {ref: fortman2018, quote: "long-term environmental stability of inherently dynamic polymers"}
+    - {ref: montarnal2011, quote: "A polymer shows thermoset-like stability while displaying melt processability like that of a thermopolymer."}
+  scan:
+    crossref: ["vanillin epoxy", "vitrimer bio-based", "epoxidized plant oil thermoset", "itaconic acid thermoset", "cardanol benzoxazine"]
+    news: ["bio-based epoxy resin launch", "recyclable thermoset vitrimer"]
+
+- id: natural-polymers
+  label: Modified natural polymers
+  family: Modified natural polymers
+  focus: false
+  name: Cellulose, lignin, starch, protein & chitosan polymers
+  tagline: Materials made by modifying polymers that nature already builds - shown by representative units only.
+  scope: Cellulose esters, thermoplastic starch, lignin-based polymers, protein plastics, chitosan.
+  what:
+    - Klemm et al. describe cellulose as a linear homopolymer of D-glucose units with broad capacity for chemical modification, including cellulose esters and ethers.
+    - Zhang et al. report that starch becomes thermoplastic with plasticisers, heat and shear; Verbeek and van den Berg describe how proteins are extruded into thermoplastics with plasticisers.
+    - Upton and Kasko review polymers made from lignin, monolignols and lignin-derived chemicals such as vanillin.
+  chemistry:
+    - Structures on this site show a representative repeat or model unit (glucopyranose, glucosamine, coniferyl alcohol, lysine). Natural polymers are never drawn as invented full structures.
+  production:
+    - Esterification or etherification of cellulose; plasticisation of starch and proteins in extrusion; functionalisation of lignin.
+  properties:
+    - Zhang et al. report that most thermoplastic starch has a glass transition between about -75 and 10 °C and tensile strength typically below 6 MPa.
+  eol:
+    bio_based_origin: Bio-based backbone; additives and modifying reagents may not be.
+    biodegradability: Grade- and modification-specific; not assessed here.
+    compostability: Not assessed here.
+    recyclability: Not assessed here.
+  key_players: []
+  applications: [films, coatings, moulded goods (as cited)]
+  challenges:
+    - Moisture sensitivity of starch and protein materials.
+    - Low tensile strength of thermoplastic starch.
+  challenge_links: [moisture, toughness, feedstock]
+  structures: [beta-glucose, alpha-glucose, coniferyl, glucosamine, l-lysine]
+  refs: [klemm2005, zhang2014, verbeek2010, upton2016, rinaudo2006, isikgor2015]
+  support:
+    - {ref: klemm2005, quote: "Formed by the repeated connection of D ‐glucose building blocks"}
+    - {ref: zhang2014, quote: "Starch exhibits usable thermoplastic properties when plasticizers, elevated temperatures, and shear are present."}
+    - {ref: zhang2014, quote: "TPS has low tensile properties, typically below 6 MPa in tensile strength (TS)."}
+    - {ref: verbeek2010, quote: "To avoid degradation, the required chain mobility is achieved by plasticizers."}
+  scan:
+    crossref: ["cellulose ester thermoplastic", "lignin-based polymer", "thermoplastic starch", "protein-based plastic", "chitosan film"]
+    news: ["cellulose-based plastic launch", "lignin bioplastic"]
+
+- id: scope-review
+  label: Watch · scope review
+  family: Scope review
+  focus: false
+  name: Drop-ins, mass balance & biocomposites
+  tagline: Bio-PE/PP/PET/PA, mass-balance attributed products and biofilled fossil polymers - tracked, never counted as new bio-based polymers.
+  scope: Bio-PE/PP/PET/PA, ISCC PLUS mass balance, biofilled fossil polymers. Shown separately and labelled.
+  what:
+    - Drop-in polymers have the same chemical structure as their fossil counterparts. Siracusa and Blanco review bio-PE, bio-PP and bio-PET as bio-based polymers analogous to petroleum-derived ones.
+    - Mass-balance attribution assigns a bio-based share to products through chain-of-custody bookkeeping. The European Commission's policy framework states that this method is not considered suitable for confirming the actual share of bio-based content.
+    - A bio-based filler in a fossil polymer matrix is a composite, not a new bio-based polymer.
+  chemistry:
+    - Drop-ins share structures with incumbents (for example ethylene glycol and terephthalic acid in PET), so chemistry gives no new performance - the change is in feedstock.
+  production:
+    - Bio-ethanol to ethylene for bio-PE; bio-based ethylene glycol for partly bio-based PET; mass-balance allocation in shared crackers.
+  properties:
+    - Same as the fossil counterpart for true drop-ins.
+  eol:
+    bio_based_origin: Measured (radiocarbon) or attributed (mass balance) - always record which.
+    biodegradability: Bio-based plastics are not necessarily biodegradable or compostable (European Commission).
+    compostability: Not assumed.
+    recyclability: Usually the same stream as the fossil counterpart.
+  key_players: []
+  applications: [same as incumbents]
+  challenges:
+    - Claim accounting - measured bio-based carbon versus mass-balance attribution.
+    - Feedstock sustainability and land use.
+  challenge_links: [claims, feedstock, lca]
+  structures: [eg, tpa]
+  refs: [siracusa2020, nakajima2017, lambert2017]
+  support:
+    - {ref: siracusa2020, quote: "bio-based polymers analogous to petroleum-derived ones"}
+  scan:
+    crossref: ["bio-based polyethylene", "mass balance bio-based plastics", "bio-attributed polymer"]
+    news: ["bio-attributed polymer ISCC PLUS", "bio-based polyethylene plant", "mass balance bio-based plastic", "bioplastic plant closure", "bioplastic project cancelled"]

@@ -1,0 +1,51 @@
+name: CI
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e '.[dev,structures,newsletter]'
+      - name: Unit tests + data validation (JSON schemas, evidence rules)
+        run: pytest -q && python -m scanner validate
+      - name: Structures verified against PubChem (InChIKey) and rendered
+        run: python -m scanner structures
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }
+      - run: npx playwright install --with-deps chromium
+      - name: Newsletter PDFs (<= 2 A4 pages, number checks)
+        run: for f in data/newsletter/[0-9][0-9][0-9][0-9]-[0-9][0-9].yaml; do [ -e "$f" ] && python -m scanner newsletter build "$(basename "$f" .yaml)"; done
+      - name: Build site (Astro + Pagefind)
+        working-directory: site
+        run: npm ci && npm run build
+      - name: HTML validity
+        working-directory: site
+        run: npx html-validate "dist/**/*.html"
+      - name: Links, axe accessibility (light + dark), 375px layout, PDF pages
+        run: python scripts/qa.py
+  references:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e .
+      - name: DOIs on Crossref; every support quote in its abstract; official-source quotes
+        run: python -m scanner verify-refs
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - name: gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,7 @@
+---
+import { refById } from '../lib/data';
+interface Props { ids: string[] }
+const { ids } = Astro.props;
+const refs = ids.map(refById).filter(Boolean);
+---
+{refs.length > 0 && <span class="cite">[{refs.map((r, i) => <>{i > 0 && '; '}<a href={`https://doi.org/${r!.doi}`} title={r!.title}>{r!.authors.split(/[ ,]/)[0]} {r!.year}</a></>)}]</span>}

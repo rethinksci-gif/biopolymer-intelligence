@@ -1,0 +1,41 @@
+---
+import Base from '../../layouts/Base.astro';
+import Leads from '../../components/Leads.astro';
+import { issues, buildOf, leadFile, monthLabel, fmtDate, url, type Issue } from '../../lib/data';
+export function getStaticPaths() { return issues.map((n) => ({ params: { month: n.id }, props: { n } })); }
+const { n } = Astro.props as { n: Issue };
+const b = buildOf(n.id);
+const lf = leadFile(n.id);
+const short = (n.shortlist ?? []).map((s) => ({ s, lead: lf?.leads.find((l) => l.id === s.lead_id) })).filter((x) => x.lead);
+---
+<Base title={n.title} description={`BIOPOLYMER Monthly, ${monthLabel(n.id)}: ${n.status}.`}>
+  <p class="crumbs"><a href={url('')}>Overview</a> / <a href={url('newsletter/')}>Newsletter</a> / {n.id}</p>
+  <h1>{n.title}</h1>
+  <div class="meta"><span class="badge warn">status: {n.status}</span><span class="badge">{n.layout_status}</span><span>reviewer: {n.review.reviewer ?? 'OPEN (G4)'}</span><span>cutoff {fmtDate(n.cutoff)}</span></div>
+  {n.notes?.length ? <div class="notice"><ul style="margin:0">{n.notes.map((x) => <li>{x}</li>)}</ul></div> : null}
+  {b && (
+    <div class="grid two" style="margin:18px 0">
+      {b.cover && <a href={b.pdf ? url(b.pdf) : '#'}><img src={url(b.cover)} alt="Page 1 of the issue PDF" width="420" height="594" style="width:100%;height:auto;border:1px solid var(--line);border-radius:6px;background:#fff" /></a>}
+      <div class="card">
+        <h2 style="margin-top:0;font-size:1.1rem">Build checks</h2>
+        <dl class="facts">
+          <dt>Rendered pages</dt><dd>{b.pages ?? 'not rendered'} (max 2 A4)</dd>
+          <dt>Words</dt><dd>{b.words} (350–500 required once the issue is final)</dd>
+          <dt>Body text</dt><dd>{b.body_pt} pt</dd>
+          <dt>Problems</dt><dd>{b.problems.length ? b.problems.join('; ') : 'none'}</dd>
+          <dt>Built</dt><dd>{b.built}</dd>
+        </dl>
+        <div class="cta">{b.pdf && <a class="btn primary" href={url(b.pdf)}>Download PDF</a>}<a class="btn" href={url(b.html)}>Print version (HTML)</a></div>
+      </div>
+    </div>
+  )}
+  <h2>What changed this month</h2>
+  <p>{n.what_changed ?? 'Not yet written: no development has passed the evidence check for this month.'}</p>
+  {short.length > 0 && <>
+    <h2>Shortlist for evidence checking</h2>
+    <p class="small muted narrow">Up to three machine-triaged leads selected for a human evidence check. Their evidence records are empty until the primary source is read; nothing below is verified beyond the quote.</p>
+    {short.map(({ s, lead }) => <div class="card" style="margin:12px 0"><p class="small"><strong>Why shortlisted:</strong> {s.why} · <span class="badge wrap">{s.evidence_status ?? 'evidence record empty'}</span></p><Leads leads={[lead!]} /></div>)}
+  </>}
+  {n.watchlist?.length ? <><h2>Watchlist</h2><ul>{n.watchlist.map((w) => <li>{w}</li>)}</ul></> : null}
+  {n.questions?.length ? <><h2>Follow-up questions</h2><ol>{n.questions.map((w) => <li>{w}</li>)}</ol></> : null}
+</Base>

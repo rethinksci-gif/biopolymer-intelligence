@@ -1,0 +1,42 @@
+---
+// FIG. 01 — conceptual value-chain schematic. Not a chemical structure.
+const steps = [
+  { x: 52, label: 'FEEDSTOCK', sub: 'sugars · oils · residues · CO₂' },
+  { x: 136, label: 'MONOMER', sub: 'lactic acid · FDCA · diols' },
+  { x: 220, label: 'POLYMER', sub: 'PLA · PHA · PEF' },
+  { x: 304, label: 'PRODUCT', sub: 'parts · films · fibres' },
+  { x: 388, label: 'END OF LIFE', sub: 'recycle · compost · recover' },
+];
+---
+<figure class="bond-figure poly-figure">
+  <div class="figure-heading"><span>FROM MONOMER TO MARKET</span><span>FIG. 01</span></div>
+  <svg viewBox="0 0 440 330" role="img" aria-labelledby="hero-fig-title hero-fig-desc">
+    <title id="hero-fig-title">Feedstock to monomer to polymer to product to end of life</title>
+    <desc id="hero-fig-desc">A conceptual flow diagram with five stages. A dashed return arc from end of life to monomer stands for chemical recycling. It is not a chemical structure.</desc>
+    <defs><marker id="hf-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#bee2b5"/></marker></defs>
+    <path d="M52 150 H388" stroke="#a9ceac" stroke-width="1.5" stroke-dasharray="2 5"/>
+    <g fill="none" stroke="#bee2b5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <!-- feedstock: leaf -->
+      <path d="M36 160c0-22 14-34 32-36-2 20-12 34-32 36zM36 160l20-20"/>
+      <!-- monomer: generic ring with substituent (conceptual) -->
+      <path d="M136 128l14 8v16l-14 8-14-8v-16zM150 136l10-6"/>
+      <!-- polymer: bead chain -->
+      <path d="M196 158l8-14 8 14 8-14 8 14 8-14 8 14"/>
+      <!-- product: bottle -->
+      <path d="M298 126h12v8l6 6v22a4 4 0 0 1-4 4h-16a4 4 0 0 1-4-4v-22l6-6z"/>
+      <!-- end of life: loop -->
+      <path d="M376 140a14 14 0 1 1 4 20M380 160l-6 2 2-7"/>
+    </g>
+    <g fill="#e3f1cc">{[196, 204, 212, 220, 228, 236, 244].map((x, i) => <circle cx={x} cy={i % 2 ? 144 : 158} r="3.2" />)}</g>
+    <g stroke="#bee2b5" stroke-width="1.5" fill="none" marker-end="url(#hf-arrow)">
+      <path d="M78 150h28"/><path d="M164 150h20"/><path d="M256 150h26"/><path d="M332 150h26"/>
+    </g>
+    <path d="M388 182 C 360 262, 170 262, 140 182" fill="none" stroke="#e0a868" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#hf-arrow)"/>
+    <text x="264" y="258" fill="#e0c9a6" font-family="system-ui,sans-serif" font-size="10" text-anchor="middle">chemical recycling to monomer</text>
+    <g font-family="system-ui,sans-serif" text-anchor="middle">
+      {steps.map((s) => <><text x={s.x} y={96} fill="#dfe9de" font-size="10.5" letter-spacing="1">{s.label}</text><text x={s.x} y={112} fill="#b4c8b8" font-size="8.5">{s.sub.split(' · ')[0]}</text></>)}
+    </g>
+    <text x="220" y="40" fill="#c2d2bf" font-family="ui-monospace,monospace" font-size="9" text-anchor="middle" letter-spacing="1.5">EVERY STAGE IS A SEPARATE CLAIM</text>
+  </svg>
+  <figcaption><span>Feedstock → monomer → polymer → product → end of life</span><span>Conceptual illustration, not a chemical structure</span></figcaption>
+</figure>

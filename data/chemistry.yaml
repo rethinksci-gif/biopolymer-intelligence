@@ -1,0 +1,171 @@
+# Chemistry explainers. Every paragraph lists the references it rests on (`refs`); `support` quotes are
+# verbatim from those references' abstracts and are re-checked by `python -m scanner verify-refs`.
+# `sources` points at official documents in data/sources.yaml (quote ids). Figures are original SVG
+# schematics; `figure_kind` says whether a figure is conceptual or shows verified structures.
+
+sections:
+  - id: how-made
+    number: "01"
+    title: How bio-based polymers are made
+    lede: Four production logics cover almost every polymer on this site. They differ in where the chemistry happens - in a fermenter, inside a cell, over a catalyst, or on a polymer nature already built.
+    figure: routes4
+    figure_kind: conceptual
+    blocks:
+      - heading: Fermentation-derived monomer, chemical polymerisation
+        text: Microbes ferment sugars to lactic acid. Lactic acid is converted to lactide, its cyclic dimer, and lactide is polymerised by ring-opening polymerisation (ROP) to high-molar-mass PLA. Most PLA chemistry - stereochemistry, molar mass, end groups - is set in this chemical step, not in the fermenter.
+        structures: [lactic-acid, l-lactide, pla-ru]
+        refs: [auras2004, dechycabaret2004, kowalski2000]
+      - heading: Polymer made inside the cell
+        text: In PHB biosynthesis, β-ketothiolase (PhaA) joins two acetyl-CoA into acetoacetyl-CoA, acetoacetyl-CoA reductase (PhaB) reduces it to (R)-3-hydroxybutyryl-CoA, and PHA synthase (PhaC) polymerises that monomer. The cell stores the polyester as intracellular granules, which are extracted after fermentation. Feeding different substrates or engineered pathways gives copolymers.
+        structures: [r-3hb, phb-ru]
+        refs: [john1996, sudesh2000, chen2009, bugnicourt2014]
+      - heading: Chemocatalytic monomer, polycondensation
+        text: Sugars are dehydrated to 5-hydroxymethylfurfural (HMF), which is oxidised to 2,5-furandicarboxylic acid (FDCA) or its dimethyl ester (FDME). FDCA or FDME is then esterified or transesterified with ethylene glycol and polycondensed to PEF; solid-state polymerisation is often used afterwards to raise molar mass.
+        structures: [hmf, fdca, fdme, eg, pef-ru]
+        refs: [vanputten2013, eerhart2012, sousa2015, papageorgiou2014]
+      - heading: Modification of natural polymers
+        text: Cellulose is esterified or etherified; starch is plasticised into thermoplastic starch; lignin is functionalised or broken into monomers such as vanillin. The backbone is built by the plant - the process changes its side groups or its physical state.
+        structures: [beta-glucose, alpha-glucose, coniferyl]
+        refs: [klemm2005, zhang2014, upton2016]
+    support:
+      - {ref: john1996, quote: "beta-ketothiolase (phaA), acetoacetyl-CoA reductase (phaB), and polyhydroxyalkanoate synthase (phaC) catalyze the production of aliphatic polyester poly-d-(-)-3-hydroxybutyrate (PHB) from acetyl-CoA"}
+      - {ref: eerhart2012, quote: "the conversion of fructose into Furanics and subsequent recovery and upgrading"}
+      - {ref: klemm2005, quote: "innovative cellulose esters and ethers"}
+      - {ref: zhang2014, quote: "Starch exhibits usable thermoplastic properties when plasticizers, elevated temperatures, and shear are present."}
+      - {ref: upton2016, quote: "polymers from lignin-derived chemicals, such as vanillin"}
+
+  - id: mechanisms
+    number: "02"
+    title: Polymerisation mechanisms
+    lede: How chains grow decides what molar mass is reachable, what catalyst residues remain, and whether the polymer can be taken back to monomer.
+    figure: mechanisms
+    figure_kind: conceptual
+    blocks:
+      - heading: Step-growth polycondensation
+        text: Diacids (or diesters) react with diols or diamines, releasing water or methanol. The reaction is an equilibrium, so the by-product must be removed to drive it forward. Carothers showed that chain length depends steeply on conversion - long chains only form at very high conversion - which is why PEF, PBS and polyamides need long, hot, vacuum-driven finishing steps.
+        refs: [carothers1936, xu2010, papageorgiou2014]
+      - heading: Ring-opening polymerisation (ROP)
+        text: Strained cyclic monomers such as lactide and lactones open and add to a growing chain. With Sn(Oct)₂, the active species is a tin alkoxide formed with an alcohol co-initiator, and the monomer inserts into the Sn–O bond (coordination–insertion). Ring strain drives the reaction; if strain is low, a ceiling temperature exists above which depolymerisation wins. That equilibrium is what makes chemical recycling to monomer possible, as shown for γ-butyrolactone polymers.
+        structures: [l-lactide, sn-oct2, mbl]
+        refs: [kowalski2000, dechycabaret2004, hong2016, coates2020]
+      - heading: Ring-opening copolymerisation (ROCOP)
+        text: Epoxides alternate with CO₂ (giving polycarbonates) or with cyclic anhydrides (giving polyesters) on metal catalysts. Byrne et al. made poly(limonene carbonate) from limonene oxide and CO₂ with more than 99 % carbonate linkages.
+        structures: [limonene, po]
+        refs: [byrne2004, grignard2019]
+      - heading: Polyaddition
+        text: Polyols add to isocyanates to form urethanes without by-products. In non-isocyanate polyurethanes (NIPU), amines open cyclic carbonates to give hydroxyurethanes.
+        structures: [pdi, glycerol-carbonate]
+        refs: [rokicki2015]
+      - heading: Dynamic covalent networks
+        text: In vitrimers, covalent bonds in the network exchange at high temperature, so a crosslinked material can be reshaped while staying a network.
+        refs: [montarnal2011, fortman2018]
+    support:
+      - {ref: kowalski2000, quote: "Sn(Oct) 2 itself does not play an active role in the polymerization"}
+      - {ref: byrne2004, quote: "The copolymer contains >99% carbonate linkages"}
+      - {ref: rokicki2015, quote: "poly(hydroxy‐urethane)s, based upon multicyclic carbonates and aliphatic amines"}
+      - {ref: montarnal2011, quote: "A polymer shows thermoset-like stability while displaying melt processability like that of a thermopolymer."}
+
+  - id: structure-property
+    number: "03"
+    title: Structure → property
+    lede: A few structural features explain most of the differences between bio-based polymers - and between them and the fossil polymers they replace.
+    figure: null
+    blocks:
+      - heading: Stereochemistry and crystallinity
+        text: PLA made mostly from L-lactide can crystallise; adding D-units lowers crystallinity. Blending poly(L-lactide) with poly(D-lactide) forms a stereocomplex with improved mechanical properties, heat resistance and hydrolysis resistance.
+        structures: [pla-ru, lactic-acid]
+        refs: [tsuji2005, saeidlou2012]
+      - heading: Furan versus benzene ring
+        text: PEF swaps PET's benzene ring for a furan ring. Burgess et al. found that furan ring-flipping is suppressed, which slows gas diffusion and explains PEF's much lower permeability despite similar gas solubility.
+        structures: [fdca, tpa, pef-ru]
+        refs: [burgess2014]
+      - heading: Side-chain length in PHA copolymers
+        text: Adding 3-hydroxyhexanoate or longer side-chain units to PHB lowers crystallinity and melting temperature, which widens the processing window and adds ductility. HV and 4HB units are used to similar ends.
+        structures: [phb-ru, 3hv, 4hb, 3hhx]
+        refs: [noda2004, bugnicourt2014]
+      - heading: Hydrogen bonding in polyamides
+        text: Amide groups hydrogen-bond between chains, raising melting point and stiffness - and attracting water. The spacing of amide groups (PA11 versus PA6, for example) therefore sets the balance between thermal performance and moisture uptake.
+        structures: [pa11-ru]
+        refs: [winnacker2016]
+      - heading: Ester hydrolysis
+        text: Ester bonds can be cleaved by water. This one reaction governs both service durability in humid or hot conditions and the first step of biodegradation, which is why lifetime prediction for polyesters needs conditions, not just a material name.
+        refs: [laycock2017, haider2019]
+    support:
+      - {ref: tsuji2005, quote: "Stereocomplexation enhances the mechanical properties, the thermal‐resistance, and the hydrolysis‐resistance of PLA‐based materials."}
+      - {ref: burgess2014, quote: "Unlike the active phenyl ring-flipping mechanism in PET, furan ring-flipping is greatly suppressed"}
+      - {ref: noda2004, quote: "The reduced crystallinity provides the ductility and toughness required for many plastics applications."}
+    table: properties
+
+  - id: blends
+    number: "04"
+    title: Blends and copolymers
+    lede: Most commercial bio-based grades are formulations. Blending trades one property against another; compatibilisation decides whether the trade works.
+    figure: null
+    blocks:
+      - heading: Why PLA/PBAT and PLA/PHA blends exist
+        text: PLA is stiff and strong but brittle. Jiang et al. blended it with flexible PBAT and found an immiscible two-phase system in which elongation and toughness rose sharply while strength and modulus fell. Noda et al. found that a small amount of ductile PHA copolymer substantially toughens PLA without losing optical clarity.
+        structures: [pla-ru, phb-ru]
+        refs: [jiang2006, noda2004, nagarajan2016]
+      - heading: Miscibility and compatibilisation
+        text: Most polymer pairs are immiscible. Copolymerisation, grafting, transesterification and reactive coupling agents (including chain extenders in reactive extrusion) are used to bind the phases and control morphology. Nucleating agents and plasticisers tune crystallisation and flexibility.
+        refs: [imre2013, raquez2013]
+    support:
+      - {ref: jiang2006, quote: "The blend comprised an immiscible, two-phase system"}
+      - {ref: jiang2006, quote: "the blend showed decreased tensile strength and modulus; however, elongation and toughness were dramatically increased"}
+      - {ref: noda2004, quote: "The toughness of PLA is substantially increased without a reduction in the optical clarity of the blend."}
+      - {ref: imre2013, quote: "Copolymerization, grafting, trans-esterification, the use of reactive coupling agents have all been utilized with success"}
+      - {ref: imre2013, quote: "blending which allows considerable improvement in the impact resistance of brittle polymers"}
+
+  - id: processing
+    number: "05"
+    title: The processing window
+    lede: Several bio-based polyesters are sensitive in the melt. Lab results only transfer to production if drying, residence time and crystallisation are controlled.
+    figure: null
+    blocks:
+      - heading: Thermal and hydrolytic degradation in the melt
+        text: Residual moisture hydrolyses ester bonds at melt temperature, cutting molar mass, so polyesters such as PLA are dried before processing and residence time is kept short. For PHB-rich PHAs, melting and thermal decomposition are close together; lowering the melting point by copolymerisation widens the window.
+        refs: [lim2008, noda2004]
+      - heading: Slow crystallisation and annealing
+        text: PLA crystallises slowly, so moulded parts are often largely amorphous and soften near the glass transition. Nucleating agents, mould temperature and annealing raise crystallinity and heat resistance.
+        refs: [saeidlou2012, nagarajan2016, lim2008]
+    support:
+      - {ref: noda2004, quote: "The lower T m makes the material easier to process, as the thermal decomposition temperature of PHAs is then relatively low."}
+      - {ref: nagarajan2016, quote: "Morphology and crystallinity that individually contribute to toughness and heat resistance have also been elucidated."}
+
+  - id: end-of-life
+    number: "06"
+    title: End of life is not one attribute
+    lede: Bio-based origin, biodegradability, compostability and recyclability are separate properties. None can be inferred from another, and this site records each one separately.
+    figure: eol-matrix
+    figure_kind: examples placed only where a cited source supports them
+    blocks:
+      - heading: Bio-based is not biodegradable
+        text: The European Commission states that bio-based plastics are not necessarily biodegradable or compostable, and that biodegradable and compostable plastics may be made from biological or fossil raw materials. Naturvårdsverket adds that bio-based plastic may be designed to be as durable as any other plastic.
+        sources: [ec-bioplastics-page#not-necessarily, ec-bioplastics-page#either-origin, naturvardsverket-biobaserad#not-degradable]
+        refs: []
+      - heading: Biodegradation depends on the environment
+        text: Haider et al. report that PLA is basically non-degradable in seawater and that biodegradation rates depend on the environment the material ends up in. McKeown and Jones describe industrial composting of PLA as giving water and carbon dioxide, but a slow biodegradation rate in the natural environment.
+        refs: [haider2019, mckeown2020]
+      - heading: Industrial versus home compost
+        text: Compliance with industrial composting standards does not imply decomposition in home composting. The Commission notes a European standard for industrially compostable packaging but none for home composting.
+        sources: [ppwr#home-vs-industrial, com2022-682#home-compost, naturvardsverket-biobaserad#home-compost]
+        refs: []
+      - heading: Recycling streams
+        text: Mechanical recycling keeps the polymer; chemical recycling takes it back to monomers or platform chemicals. For PLA, McKeown and Jones review chemical recycling to lactide, lactic acid and esters as a way to keep material value.
+        refs: [mckeown2020, coates2020]
+    support:
+      - {ref: haider2019, quote: "poly(lactic acid) is basically non‐degradable in seawater"}
+      - {ref: mckeown2020, quote: "industrial composting of PLA affords water and carbon dioxide only"}
+      - {ref: mckeown2020, quote: "chemical recycling, which affords monomers and useful platform chemicals"}
+
+eol_matrix:
+  axes: {x: [Bio-based, Fossil-based], y: [Biodegradable, Not biodegradable]}
+  examples:
+    - {polymer: PLA, cell: [Bio-based, Biodegradable], note: "industrial compost; slow in nature, not in seawater", ref: auras2004, quote: "By being truly biodegradable, derived from renewable resources"}
+    - {polymer: PHA, cell: [Bio-based, Biodegradable], note: "grade- and environment-specific", ref: bugnicourt2014, quote: "high biodegradability in different environments, not just in composting plants"}
+    - {polymer: "bio-PE (drop-in)", cell: [Bio-based, Not biodegradable], note: "same polymer as fossil PE (Siracusa & Blanco); PE is recalcitrant to biodegradation (Mohanan et al.)", ref: siracusa2020, quote: "bio-based polymers analogous to petroleum-derived ones", also: {ref: mohanan2020, quote: "Petroleum-derived (petro-)polymers such as polyethylene (PE), polyethylene terephthalate (PET)"}}
+    - {polymer: "PET, PE", cell: [Fossil-based, Not biodegradable], note: "recalcitrant to natural biodegradation", ref: mohanan2020, quote: "are extremely recalcitrant to natural biodegradation pathways"}
+  empty_cells:
+    - cell: [Fossil-based, Biodegradable]
+      text: "This quadrant exists - the Commission states that plastics designed to biodegrade can be fossil-based - but no cited source yet names a specific fossil-based biodegradable polymer, so none is placed."
+      source: com2022-682#both-origins

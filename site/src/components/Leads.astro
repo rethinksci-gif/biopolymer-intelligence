@@ -1,0 +1,29 @@
+---
+import { fmtDate, routeById, url, NOVELTY, type Lead } from '../lib/data';
+interface Props { leads: Lead[]; showRoute?: boolean; limit?: number; filterable?: boolean }
+const { leads, showRoute = true, limit, filterable = false } = Astro.props;
+const shown = limit ? leads.slice(0, limit) : leads;
+---
+{shown.length === 0 ? <p class="muted small">No machine-triaged leads above the relevance threshold.</p> : (
+  <div class="lead-list">
+    {shown.map((c) => (
+      <article class="lead" data-route={c.route} data-novelty={c.novelty_type} data-source={c.source_type} data-region={c.region} data-text={`${c.title} ${c.summary} ${c.venue}`.toLowerCase()}>
+        <div class="meta">
+          <span class="badge warn">machine-triaged</span>
+          {showRoute && <a class="chip" href={url(`routes/${c.route}/`)}>{routeById(c.route)?.name}</a>}
+          <span class={`badge nov nov-${c.novelty_type}`}>{NOVELTY[c.novelty_type] ?? c.novelty_type}</span>
+          <span>{c.date_precision === 'month' ? fmtDate(c.published_date).replace(/^\d+ /, '') : fmtDate(c.published_date)}</span>
+          {c.venue && <span>· {c.venue}</span>}
+          <span class="badge">{c.source_type}</span>
+          {c.region && c.region !== 'not stated' && <span class="badge">{c.region}</span>}
+          {c.language && c.language !== 'en' && <span class="badge" title="Original-language source">{c.language}</span>}
+          {c.flags?.includes('title-only') && <span class="badge" title="No abstract in the discovery record">title only</span>}
+        </div>
+        <h4><a href={c.url} rel="noopener">{c.title}</a></h4>
+        <div class="small">{c.summary}</div>
+        {c.quote && c.quote !== c.title && <blockquote>“{c.quote}” <span class="muted small">({c.quote_location})</span></blockquote>}
+        {c.doi && <div class="small muted">doi:{c.doi}</div>}
+      </article>
+    ))}
+  </div>
+)}

@@ -1,0 +1,23 @@
+---
+import Base from '../layouts/Base.astro';
+import Cite from '../components/Cite.astro';
+import SourceQuote from '../components/SourceQuote.astro';
+import { challenges, routeById, url } from '../lib/data';
+---
+<Base title="Challenges" description="Cross-cutting technical and commercial challenges for bio-based polymers, how each is measured, and what evidence the tracker looks for.">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Challenges</p>
+  <h1>Challenges</h1>
+  <p class="lede muted narrow">Twelve constraints decide whether a bio-based polymer moves from paper to product. For each: why it matters, how it is measured, and what evidence the tracker looks for. No numerical pass/fail limits are set.</p>
+  <div class="chips">{challenges.map((c) => <a class="chip" href={`#${c.id}`}>{c.title}</a>)}</div>
+  {challenges.map((c) => (
+    <section class="card" style="margin:14px 0" id={c.id}>
+      <h2 style="margin-top:0;font-size:1.2rem">{c.title}</h2>
+      <dl class="facts">
+        <dt>Why it matters</dt><dd>{c.why} <Cite ids={c.refs} />{c.sources?.map((k) => <> <SourceQuote k={k} showQuote={k.includes('#')} /></>)}</dd>
+        <dt>How it is measured</dt><dd>{c.measured} <a class="small" href={url('glossary/#standards')}>Standards →</a></dd>
+        <dt>Evidence we look for</dt><dd>{c.evidence}</dd>
+      </dl>
+      <div class="meta">Most relevant to: {c.routes.map((r) => <a class="chip" href={url(`routes/${r}/`)}>{routeById(r)?.name}</a>)}</div>
+    </section>
+  ))}
+</Base>

@@ -1,0 +1,52 @@
+name: Monthly scan (DeepSeek flash)
+on:
+  schedule:
+    - cron: "37 5 3 * *"   # 05:37 UTC on the 3rd: scans the previous calendar month
+  workflow_dispatch:
+    inputs:
+      month:
+        description: "Month to scan (YYYY-MM); blank = previous calendar month"
+        required: false
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: monthly-scan
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    env:
+      DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      DEEPSEEK_TRIAGE_MODEL: ${{ vars.DEEPSEEK_TRIAGE_MODEL || 'deepseek-flash' }}
+      MAX_LLM_CALLS_PER_RUN: ${{ vars.MAX_LLM_CALLS_PER_RUN || '60' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -e .
+      - name: Key check (discovery still runs without it)
+        run: test -n "$DEEPSEEK_API_KEY" || echo "::warning::DEEPSEEK_API_KEY is not set - discovery will run, triage is skipped and the site shows 'triage pending'."
+      - name: Discover, dedupe, triage (budgeted)
+        id: scan
+        run: |
+          MONTH="${{ inputs.month }}"
+          python -m scanner scan ${MONTH:+--month $MONTH}
+          echo "month=$(ls -t data/runs/*.json | head -1 | xargs basename | cut -c1-7)" >> "$GITHUB_OUTPUT"
+      - name: Validate
+        run: python -m scanner validate
+      - name: Open a pull request (a human merges)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          M="${{ steps.scan.outputs.month }}"
+          BR="scan/$M-$(date -u +%Y%m%d%H%M)"
+          git config user.name "biopolymer-bot"
+          git config user.email "biopolymer-bot@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add data/leads data/runs data/cache/triaged.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Scan $M: machine-triaged leads"
+          git push origin "$BR"
+          gh pr create --base main --head "$BR" --title "Monthly scan $M: machine-triaged leads" \
+            --body "Automated discovery + DeepSeek-flash triage for $M. Leads are discovery only, not evidence. Review the run log in data/runs/$M.json, then merge to publish. Nothing is emailed or posted."

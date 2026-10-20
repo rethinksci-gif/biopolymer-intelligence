@@ -1,0 +1,38 @@
+# Editorial scope and status. Source: topic owner's input sheet, 6 Oct 2026. OPEN items are shown on the
+# Methods page and are never resolved silently.
+input_sheet_date: 2026-10-06
+readers: Material Innovation team; possibly the Raw Material team.
+purpose: Follow the development of bio-based polymers.
+not_for: The site does not support purchasing or qualification decisions.
+cadence: monthly
+default_window: previous calendar month
+language: English
+decided:
+  - {code: G2, text: "Global scan; no region excluded."}
+  - {code: G3, text: "Keep both early research and pilot/industrial items; no cost or LCA required for significant early research."}
+  - {code: P1, text: "PHA, PLA and PEF are in scope and the core focus, including their blends and copolymers."}
+  - {code: P2, text: "Prioritise genuinely new chemistry; label other novelty types separately."}
+  - {code: P3, text: "Modified natural polymers qualify. Drop-ins, mass-balanced products and biofilled fossil-matrix composites go to a labelled scope-review route."}
+  - {code: P4, text: "No numerical pass/fail limits."}
+  - {code: P5, text: "Newsletter: two A4 pages all-inclusive (visuals and references), plain English, at least one verified structure."}
+open:
+  - {code: G4, item: "Technical reviewer name", status: OPEN}
+  - {code: G4, item: "Issue delivery date", status: OPEN}
+  - {code: G4, item: "Distribution channel", status: OPEN}
+tracking_labels:
+  - {id: watch, label: Watch, text: "Worth following; no action implied."}
+  - {id: data-gap, label: Data gap, text: "A key attribute is not disclosed or not yet verified."}
+  - {id: milestone, label: Milestone to check, text: "A dated claim (plant start, launch, result) to verify when it falls due."}
+novelty_types:
+  - {id: new-chemistry, label: New chemistry, text: "New backbone or monomer. A new brand name is not new chemistry."}
+  - {id: new-route, label: New route, text: "New production route for a known polymer or monomer."}
+  - {id: new-formulation-or-application, label: Formulation / application, text: "Blends, copolymers, composites, additives, processing or a new use."}
+  - {id: scale-or-supply, label: Scale or supply, text: "Scale-up, plant, adoption, supply change, delay, cancellation or closure."}
+separate_attributes:
+  - bio-based origin
+  - measured bio-based carbon content
+  - mass-balance attribution
+  - biodegradability (and in which environment)
+  - industrial or home compostability
+  - mechanical or chemical recyclability
+  - climate footprint

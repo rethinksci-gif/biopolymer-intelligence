@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Structures",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "role_label",
+      "role",
+      "smiles",
+      "routes",
+      "ref"
+    ],
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "role_label": {
+        "enum": [
+          "monomer",
+          "repeat unit",
+          "representative unit",
+          "feedstock",
+          "catalyst"
+        ]
+      },
+      "role": {
+        "type": "string"
+      },
+      "smiles": {
+        "type": "string"
+      },
+      "cid": {
+        "type": "integer"
+      },
+      "inchikey": {
+        "type": "string",
+        "pattern": "^[A-Z]{14}-[A-Z]{10}-[A-Z]$"
+      },
+      "hydrolysis": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "routes": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "ref": {
+        "type": "string"
+      },
+      "benchmark": {
+        "type": "boolean"
+      }
+    },
+    "oneOf": [
+      {
+        "required": [
+          "cid",
+          "inchikey"
+        ]
+      },
+      {
+        "required": [
+          "hydrolysis"
+        ]
+      }
+    ],
+    "additionalProperties": false
+  }
+}

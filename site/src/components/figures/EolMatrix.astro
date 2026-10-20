@@ -1,0 +1,28 @@
+---
+import { chemistry, refById } from '../../lib/data';
+import SourceQuote from '../SourceQuote.astro';
+const m = chemistry.eol_matrix;
+const cell = (x: string, y: string) => m.examples.filter((e: any) => e.cell[0] === x && e.cell[1] === y);
+const empty = (x: string, y: string) => m.empty_cells.find((e: any) => e.cell[0] === x && e.cell[1] === y);
+---
+<figure class="fig">
+  <div class="eol-grid" role="table" aria-label="Origin versus biodegradability, with examples placed only where a cited source supports them">
+    <div role="row" class="eol-row head"><span role="columnheader"></span>{m.axes.x.map((x: string) => <span role="columnheader">{x}</span>)}</div>
+    {m.axes.y.map((y: string) => (
+      <div role="row" class="eol-row">
+        <span role="rowheader">{y}</span>
+        {m.axes.x.map((x: string) => (
+          <div role="cell" class="eol-cell">
+            {cell(x, y).map((e: any) => {
+              const r = refById(e.ref);
+              const r2 = e.also ? refById(e.also.ref) : null;
+              return <div class="eol-ex"><strong>{e.polymer}</strong><span class="small muted">{e.note}</span><span class="small"><q>{e.quote}</q> <a href={`https://doi.org/${r?.doi}`}>{r?.authors.split(/[ ,]/)[0]} {r?.year}</a>{r2 && <> · <q>{e.also.quote}</q> <a href={`https://doi.org/${r2.doi}`}>{r2.authors.split(/[ ,]/)[0]} {r2.year}</a></>}</span></div>;
+            })}
+            {empty(x, y) && <div class="eol-ex empty"><span class="small">{empty(x, y).text}</span> <SourceQuote k={empty(x, y).source} showQuote={false} /></div>}
+          </div>
+        ))}
+      </div>
+    ))}
+  </div>
+  <figcaption>Origin and biodegradability are independent. Examples are placed only where a cited source supports the placement; biodegradation also depends on the environment.</figcaption>
+</figure>

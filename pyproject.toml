@@ -1,0 +1,21 @@
+[project]
+name = "biopolymer-intelligence"
+version = "0.1.0"
+description = "Discovery, DeepSeek triage, verification and data builds for the BIOPOLYMER Intelligence site"
+requires-python = ">=3.12"
+dependencies = ["pyyaml>=6", "pydantic>=2", "openai>=1.40", "jsonschema>=4.21"]
+
+[project.optional-dependencies]
+structures = ["rdkit>=2024.3"]
+newsletter = ["playwright>=1.45", "pypdf>=4"]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["scanner"]

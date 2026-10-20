@@ -1,0 +1,31 @@
+name: Suggest a structure
+description: Add or fix a chemical structure in the library (SMILES + citable source required)
+labels: [structure]
+body:
+  - type: input
+    id: name
+    attributes: { label: Compound or repeat-unit name }
+    validations: { required: true }
+  - type: dropdown
+    id: role
+    attributes:
+      label: Role label
+      options: [monomer, repeat unit, representative unit, feedstock, catalyst]
+    validations: { required: true }
+  - type: input
+    id: smiles
+    attributes: { label: SMILES, description: "Isomeric SMILES. Repeat units use * for the two attachment points." }
+    validations: { required: true }
+  - type: input
+    id: cid
+    attributes: { label: PubChem CID (monomers, feedstocks, catalysts), description: "The build checks the InChIKey against PubChem; repeat units are checked by hydrolysis to library monomers." }
+  - type: input
+    id: source
+    attributes: { label: Citable source (DOI), description: "A paper or review that uses this structure in a bio-based polymer context." }
+    validations: { required: true }
+  - type: dropdown
+    id: route
+    attributes:
+      label: Route
+      options: [pla, pha, pef, bio-polyesters, polyamides, polycarbonates, polyurethanes, thermosets, natural-polymers, scope-review]
+    validations: { required: true }

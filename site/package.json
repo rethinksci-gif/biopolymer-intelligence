@@ -1,0 +1,19 @@
+{
+  "name": "biopolymer-intelligence-site",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "7.3.8",
+    "js-yaml": "5.4.3"
+  },
+  "devDependencies": {
+    "axe-core": "^4.10.2",
+    "html-validate": "^9.4.0",
+    "pagefind": "1.5.2"
+  }
+}

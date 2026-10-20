@@ -1,0 +1,89 @@
+# Official documents without a DOI. Each was fetched from the issuing body on `retrieved`.
+# `quotes` are verbatim (whitespace-normalised) passages; `python -m scanner verify-refs` re-fetches
+# `fetch_url` and fails if a quote is no longer present. Nothing on the site paraphrases these
+# documents beyond what the quotes say, and no number is taken from memory.
+
+- id: com2022-682
+  issuer: European Commission
+  title: EU policy framework on biobased, biodegradable and compostable plastics
+  reference: COM(2022) 682 final
+  date: 2022-11-30
+  url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52022DC0682
+  fetch_url: https://publications.europa.eu/resource/celex/52022DC0682
+  fetch_accept: application/xhtml+xml
+  retrieved: 2026-10-20
+  language: en
+  quotes:
+    - id: mass-balance
+      text: "attributing a share to end-products through mass balance accounting is a method which is not considered suitable for confirming the actual share of biobased content"
+    - id: radiocarbon
+      text: "Radiocarbon-based methods 21 should be preferred as their results are robust and their use is widely accepted."
+      display: "Radiocarbon-based methods should be preferred as their results are robust and their use is widely accepted."
+    - id: both-origins
+      text: "plastics designed to biodegrade can be b oth biobased and fossil-based"
+      display: "plastics designed to biodegrade can be both biobased and fossil-based"
+    - id: home-compost
+      text: "There is a E uropean standard for industrially compostable packagi ng 12 but not for home composting as the conditions for the latter can differ significantly"
+      display: "There is a European standard for industrially compostable packaging but not for home composting as the conditions for the latter can differ significantly"
+
+- id: ec-bioplastics-page
+  issuer: European Commission, DG Environment
+  title: Bio-based, biodegradable and compostable plastics
+  reference: Commission web page
+  date: null
+  url: https://environment.ec.europa.eu/topics/plastics/biobased-biodegradable-and-compostable-plastics_en
+  fetch_url: https://environment.ec.europa.eu/topics/plastics/biobased-biodegradable-and-compostable-plastics_en
+  retrieved: 2026-10-20
+  language: en
+  quotes:
+    - id: not-necessarily
+      text: "Bio-based plastics are fully or partially made from biological resources, rather than fossil raw materials. They are not necessarily biodegradable or compostable."
+    - id: either-origin
+      text: "Biodegradable and compostable plastics may be made from biological resources or fossil raw materials."
+    - id: ppwr-link
+      text: "It directly informs criteria within the Packaging and Packaging Waste Regulation (PPWR) , which regulates industrial compostability for specific packaging items"
+      display: "It directly informs criteria within the Packaging and Packaging Waste Regulation (PPWR), which regulates industrial compostability for specific packaging items"
+
+- id: ppwr
+  issuer: European Parliament and Council
+  title: Regulation (EU) 2025/40 on packaging and packaging waste
+  reference: Regulation (EU) 2025/40 (OJ L, 2025/40, 22.1.2025)
+  date: 2024-12-19
+  url: https://eur-lex.europa.eu/eli/reg/2025/40/oj
+  fetch_url: https://publications.europa.eu/resource/celex/32025R0040
+  fetch_accept: application/xhtml+xml
+  retrieved: 2026-10-20
+  language: en
+  quotes:
+    - id: biobased-review
+      text: "the Commission should publish, no later than 3 years after the entry into force of this Regulation, a review of the state of technological development and environmental performance of biobased plastic packaging"
+    - id: home-vs-industrial
+      text: "compliance with standards for industrial composting does not imply decomposition in home composting"
+    - id: biobased-label
+      text: "Labelling of biobased plastic content in packaging should also not be mandatory"
+
+- id: naturvardsverket-biobaserad
+  issuer: Naturvårdsverket (Swedish Environmental Protection Agency)
+  title: Vad är biobaserad plast?
+  reference: Web page, reviewed 24 June 2026
+  date: 2026-06-24
+  url: https://www.naturvardsverket.se/amnesomraden/plast/vanliga-begrepp-inom-plast/vad-ar-biobaserad-plast/
+  fetch_url: https://www.naturvardsverket.se/amnesomraden/plast/vanliga-begrepp-inom-plast/vad-ar-biobaserad-plast/
+  retrieved: 2026-10-20
+  language: sv
+  quotes:
+    - id: definition
+      text: "En biobaserad plast är helt eller delvis tillverkad av förnybar råvara som exempelvis trä, majs och sockerbetor."
+      translation: "A bio-based plastic is wholly or partly made from renewable raw material such as wood, maize and sugar beet."
+    - id: drop-in
+      text: "Det finns biobaserade plaster som består av samma polymerer som fossilbaserade motsvarigheter av exempelvis polypropen. De kallas drop-in plaster."
+      translation: "There are bio-based plastics made of the same polymers as fossil-based counterparts, for example polypropylene. They are called drop-in plastics."
+    - id: no-minimum
+      text: "I dagsläget finns inte någon minimigräns för att en plast ska få kallas biobaserad."
+      translation: "At present there is no minimum threshold for a plastic to be called bio-based."
+    - id: not-degradable
+      text: "Den biobaserade plasten behöver inte vara nedbrytbar utan kan ha designats för att vara lika beständig som annan plast."
+      translation: "Bio-based plastic need not be degradable; it may have been designed to be as durable as other plastic."
+    - id: home-compost
+      text: "De allra flesta komposterbara plasterna på marknaden bryts inte heller ner i miljön som råder i en hemkompost, utan det krävs i regel industriell kompostering."
+      translation: "The great majority of compostable plastics on the market do not break down in the conditions of a home compost either; industrial composting is usually required."

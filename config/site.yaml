@@ -1,0 +1,25 @@
+site:
+  name: BIOPOLYMER Intelligence
+  url: https://rethinksci-gif.github.io
+  base: /biopolymer-intelligence
+  repo: rethinksci-gif/biopolymer-intelligence
+  sister: {name: BIOGLUE Intelligence, url: "https://rethinksci-gif.github.io/bioglue-intelligence/"}
+scan:
+  crossref_rows: 20          # per route query per month
+  openalex_rows: 20
+  europepmc_rows: 15
+  news_items: 25             # per news query (Google News RSS, date-bounded)
+  min_relevance: 0.6         # below this a lead is kept in data but hidden on the site
+  mailto: biopolymer-intelligence@users.noreply.github.com
+  news_locales:              # Google News RSS editions used for non-English queries
+    en: {hl: en-US, gl: US, ceid: "US:en"}
+    de: {hl: de, gl: DE, ceid: "DE:de"}
+    fr: {hl: fr, gl: FR, ceid: "FR:fr"}
+    zh: {hl: zh-CN, gl: CN, ceid: "CN:zh-Hans"}
+    ja: {hl: ja, gl: JP, ceid: "JP:ja"}
+  # Code-side pre-filter before LLM triage: a record must mention at least one of these (regex, case-insensitive)
+  # in its title or abstract. Rejected records are kept hidden with flag `keyword-gate`.
+  keyword_gate: ["polymer", "plastic", "polyester", "polyamide", "polycarbonate", "polyurethane", "resin", "thermoset", "vitrimer",
+                 "\\bPLA\\b", "\\bPHA", "\\bPHB", "\\bPEF\\b", "\\bPBS", "\\bPBAT\\b", "\\bPA ?\\d", "nylon", "lactide", "lactic acid",
+                 "furan", "FDCA", "hydroxyalkanoate", "hydroxybutyrate", "biocomposite", "bio-?based", "biodegrad", "compost",
+                 "cellulose", "lignin", "starch", "chitosan", "monomer", "epoxy", "Kunststoff", "plastique", "聚", "樹脂", "プラスチック", "ポリ", "塑料"]

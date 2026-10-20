@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { REPO, leadFiles, developments, issues, url } from '../../lib/data';
+const files: [string, string, boolean][] = [
+  ['routes', 'Polymer routes (scope, background, end-of-life profile)', true],
+  ['structures', 'Verified structures: SMILES, InChIKey, PubChem CID, role label', true],
+  ['challenges', 'Cross-cutting challenges', false],
+  ['references', 'Crossref-verified references', true],
+  ...leadFiles.map((l) => [`leads/${l.month}`, `${l.month} machine-triaged leads (shown only)`, true] as [string, string, boolean]),
+  ...Object.keys(developments).map((m) => [`developments/${m}`, `${m} checked developments (evidence records)`, true] as [string, string, boolean]),
+  ...issues.map((n) => [`newsletter/${n.id}`, `${n.id} newsletter issue data`, false] as [string, string, boolean]),
+];
+---
+<Base title="Open data">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Open data</p>
+  <h1>Open data</h1>
+  <p class="muted narrow">All site content is generated from version-controlled files in the <a href={`${REPO}/tree/main/data`}>repository</a>, validated against JSON schemas in <a href={`${REPO}/tree/main/schemas`}><code>schemas/</code></a>. Exports are CC BY 4.0. Publisher abstracts are never republished.</p>
+  <ul>{files.map(([f, d, csv]) => <li><a href={url(`data/${f}.json`)}><code>{f}.json</code></a>{csv && <> · <a href={url(`data/${f}.csv`)}><code>.csv</code></a></>} — {d}</li>)}</ul>
+  <p class="small"><a href={url('references.bib')}>references.bib</a> · <a href={url('rss.xml')}>rss.xml</a></p>
+</Base>

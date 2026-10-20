@@ -1,0 +1,90 @@
+# Cross-cutting challenges. `why` is background from the cited references; `measured` names standards or
+# test families (titles on the Glossary page come from the issuing bodies); `evidence` is what the tracker
+# looks for before a development is recorded as progress. No numerical pass/fail limits (editorial P4).
+- id: heat
+  title: Heat resistance & HDT
+  why: PLA in particular softens near its glass transition unless crystallised, which limits use in warm environments and durable parts. Stereocomplex PLA and nucleation are the main levers.
+  measured: Heat deflection temperature (HDT) and Vicat softening under a stated load; DSC for Tg, Tm and crystallinity; DMA.
+  evidence: HDT or Vicat with load and specimen state (annealed or not), measured on the same grade as the claim, ideally next to the incumbent.
+  refs: [nagarajan2016, tsuji2005, saeidlou2012]
+  routes: [pla, pha]
+- id: toughness
+  title: Brittleness, impact & ageing
+  why: Several bio-based polyesters are stiff but brittle, and blending or copolymerisation trades stiffness for toughness. Physical ageing can change properties over time.
+  measured: Notched impact (Izod or Charpy), elongation at break, tensile tests before and after conditioning.
+  evidence: Impact and elongation with notch type and conditioning; results after ageing, not only as-moulded.
+  refs: [jiang2006, noda2004, nagarajan2016, imre2013]
+  routes: [pla, pha, natural-polymers]
+- id: moisture
+  title: Moisture & hydrolytic stability
+  why: Ester bonds hydrolyse and amide groups absorb water; both change properties in humid service and during processing.
+  measured: Water uptake, property retention after humidity or hot-water ageing, molar-mass loss.
+  evidence: Retention of a named property after a stated humidity/temperature exposure and duration.
+  refs: [laycock2017, winnacker2016, lim2008]
+  routes: [pla, pha, polyamides, natural-polymers]
+- id: processing
+  title: Processing window & crystallisation speed
+  why: Thermal and hydrolytic degradation in the melt and slow crystallisation lengthen cycle times and narrow the window between melting and degradation.
+  measured: Melt flow before and after processing, molar mass, crystallisation half-time, cycle time.
+  evidence: Processing on industrial-type equipment with drying conditions, residence time and cycle time reported.
+  refs: [lim2008, saeidlou2012, noda2004]
+  routes: [pla, pha, pef]
+- id: barrier
+  title: Barrier properties
+  why: Gas and water-vapour barrier decide packaging use. PEF's barrier advantage over PET comes from suppressed furan ring motion.
+  measured: Oxygen, CO₂ and water-vapour transmission rates at stated temperature, humidity and thickness.
+  evidence: Permeability with test conditions and thickness, compared with the incumbent measured the same way.
+  refs: [burgess2014, auras2004]
+  routes: [pef, pla]
+- id: durability
+  title: Durability in long-life products
+  why: Durable products need property retention over years; inherently dynamic or hydrolysable chemistries must show long-term stability.
+  measured: Accelerated ageing (heat, humidity, UV) with property retention; creep.
+  evidence: Retention data over stated ageing protocols; real-time data where available.
+  refs: [nagarajan2016, fortman2018, laycock2017]
+  routes: [pla, thermosets, polyurethanes]
+- id: feedstock
+  title: Feedstock availability, land use & variability
+  why: The Commission notes that unsustainably harvested feedstocks can drive deforestation, biodiversity loss or land-use competition with food crops. Waste and residue feedstocks vary in composition.
+  measured: Feedstock type and origin, certification, batch-to-batch variability.
+  evidence: Named feedstock and origin; certification scheme; variability data for waste-based feedstocks.
+  refs: [bugnicourt2014, isikgor2015]
+  sources: [com2022-682]
+  routes: [pha, pla, scope-review, polyamides]
+- id: scale
+  title: Scale-up, capacity vs real output
+  why: Announced or nameplate capacity is not output. Plants can be delayed, run below capacity or close.
+  measured: Demonstrated stage (lab, pilot, demo, industrial); capacity status (announced, under construction, commissioned, operating, actual output).
+  evidence: Capacity with its status and facility; operating evidence such as commissioning dates or reported production.
+  refs: []
+  routes: [pla, pha, pef, bio-polyesters]
+- id: cost
+  title: Cost per kg resin and per finished part
+  why: A price per kg says little without date, volume, grade and basis (selling price, production cost or target); part cost also depends on processing.
+  measured: Price or cost with currency, date, region, volume, grade and basis.
+  evidence: A cost figure with all of its basis fields; otherwise recorded as ND (not disclosed).
+  refs: []
+  routes: [pla, pha, pef]
+- id: lca
+  title: Comparable climate footprint
+  why: Footprints are only comparable with the same functional unit, system boundary, data year, energy mix and allocation. Eerhart et al., for example, report PEF versus PET for a cradle-to-grave system.
+  measured: ISO 14040/14044 LCA; ISO 14067 carbon footprint.
+  evidence: Value with functional unit, boundary, geography, data year, comparator, allocation, biogenic-carbon treatment and review type. No reduction is computed across different boundaries.
+  refs: [eerhart2012, walker2020, spierling2018, lambert2017]
+  routes: [pef, pla, pha, scope-review]
+- id: claims
+  title: Bio-based content & claim accounting (C14 vs mass balance)
+  why: Measured bio-based carbon (radiocarbon) and mass-balance attribution answer different questions. The Commission states that mass-balance accounting is not considered suitable for confirming the actual share of bio-based content, and that radiocarbon methods should be preferred.
+  measured: EN 16640 / ASTM D6866 / ISO 16620 (measured content); ISO 22095 and schemes such as ISCC PLUS (chain of custody).
+  evidence: Whether a claim is measured or attributed, the method, and the share.
+  refs: []
+  sources: [com2022-682#mass-balance, com2022-682#radiocarbon]
+  routes: [scope-review, polyurethanes, bio-polyesters, polycarbonates]
+- id: eol
+  title: End of life & recyclability streams
+  why: Biodegradability depends on the environment; industrial compostability does not imply home compostability; compostable plastics in recycling streams contaminate them.
+  measured: EN 13432, ISO 17088, ASTM D6400 (industrial composting); environment-specific biodegradation tests.
+  evidence: Which environment and standard; certification; recycling route (mechanical, chemical) with demonstrated scale.
+  refs: [haider2019, mckeown2020]
+  sources: [ppwr#home-vs-industrial, com2022-682#home-compost]
+  routes: [pla, pha, bio-polyesters, thermosets]

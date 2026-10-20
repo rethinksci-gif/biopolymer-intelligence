@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { routes, devsFor, shownLeads, MONTHS, monthLabel, url } from '../../lib/data';
+const months = MONTHS.slice(0, 4).reverse();
+---
+<Base title="Polymer routes" description="Ten polymer routes tracked by BIOPOLYMER Intelligence, with core focus on PLA, PHA and PEF.">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Routes</p>
+  <h1>Polymer routes</h1>
+  <p class="lede muted narrow">Routes group polymers by chemistry. PLA, PHA and PEF — with their blends and copolymers — are the core focus. Drop-ins, mass-balance products and biofilled fossil polymers sit in a separate scope-review route and are never counted as new bio-based polymers. The grouping is an editorial tool, not a claim about any product.</p>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Route</th><th scope="col">Scope</th>{months.map((m) => <th scope="col" class="num">{m}</th>)}</tr></thead>
+      <tbody>
+        {routes.map((r) => (
+          <tr>
+            <td><a href={url(`routes/${r.id}/`)}><strong>{r.name}</strong></a><br /><span class="small muted">{r.label}</span></td>
+            <td class="small">{r.scope}</td>
+            {months.map((m) => {
+              const e = devsFor(m, r.id).length, l = shownLeads(m, r.id).length;
+              return <td class="num"><span class="cell">{e > 0 && <span class="badge ok" title="evidence-checked">{e}</span>}<span class="badge warn" title="machine-triaged leads">{l}</span></span></td>;
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="small muted">Badges per month: <span class="badge ok">checked developments</span> <span class="badge warn">machine-triaged leads</span>. {months.length === 0 && 'No month scanned yet.'}</p>
+</Base>

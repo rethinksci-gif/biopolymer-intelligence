@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import { REPO, editorial, lastRun, runFiles, leadFiles, verification, fmtDate, url } from '../lib/data';
+const run = lastRun();
+const totalCalls = runFiles.flatMap((r) => r.runs).reduce((n, r) => n + r.llm_calls, 0);
+const langs = [...new Set(leadFiles.flatMap((l) => l.leads.map((c) => c.language)))].sort();
+---
+<Base title="Methods" description="How BIOPOLYMER Intelligence discovers, screens and verifies developments, and how DeepSeek flash is used.">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Methods</p>
+  <div class="narrow">
+    <h1>How we verify</h1>
+    <p class="lede muted">Four stages, each a different evidence level. The site labels which level an item has reached. This site follows development; it does not support purchasing or qualification decisions.</p>
+
+    <section class="status-box" aria-labelledby="ed-status">
+      <h2 id="ed-status">Editorial status</h2>
+      <p class="small">From the topic owner's input sheet ({fmtDate(editorial.input_sheet_date)}). Readers: {editorial.readers} Cadence: monthly; default window: {editorial.default_window}; language: {editorial.language}.</p>
+      <ul class="small">{editorial.open.map((o: any) => <li><span class="open-tag">{o.status}</span> {o.code} — {o.item}</li>)}</ul>
+      <details class="small"><summary>Decided scope ({editorial.decided.length})</summary><ul>{editorial.decided.map((d: any) => <li><strong>{d.code}</strong> {d.text}</li>)}</ul></details>
+    </section>
+
+    <h2>1 · Discovery</h2>
+    <p>A monthly GitHub Actions job (3rd of each month, for the previous calendar month) queries Crossref, OpenAlex and Europe PMC (filtered by publication date) and date-bounded Google News RSS in English, German, French, Chinese and Japanese, with route-specific queries from <code>data/routes.yaml</code> — including searches for delays, cancellations and closures. Preprints and patents are only ever leads. A keyword gate in code drops records that do not mention polymer terms before any model call. Discovery records are not evidence.</p>
+    <h2>2 · Machine triage (DeepSeek flash)</h2>
+    <p>Records go in batches to <strong>DeepSeek flash</strong> (<code>deepseek-flash</code>) with a versioned prompt (<a href={`${REPO}/blob/main/prompts/triage.md`}><code>prompts/triage.md</code></a>). The model assigns a route, a novelty type, relevance, signal type, region, a one-sentence summary and a supporting quote. The code then decides:</p>
+    <ul>
+      <li>the quote must appear verbatim (whitespace-normalised) in the title or abstract, or the summary is discarded;</li>
+      <li>route and novelty type must be defined ids;</li>
+      <li>every number in the summary must appear in the quote as a whole number (so “12” does not match inside “2012”);</li>
+      <li>records dated after the cutoff are rejected;</li>
+      <li>leads below relevance 0.6 are kept in the data but hidden.</li>
+    </ul>
+    <p>Each run first checks that the configured model is listed by the API and stops otherwise — there is no silent fallback to another model. Each run has a call budget (<code>MAX_LLM_CALLS_PER_RUN</code>, default 60). Each record is hashed (DOI or normalised URL + title) and never re-sent once triaged. Records the budget did not reach stay “triage pending”. Token use is logged per run in <code>data/runs/</code>.</p>
+    {run ? <p class="small notice info"><strong>Last run</strong> {run.run_id}: {run.discovered} records discovered, {run.keyword_gate_rejected ?? 0} dropped by the keyword gate, {run.sent_to_llm} sent to the model, {run.llm_calls}/{run.budget} calls ({run.usage.prompt_tokens.toLocaleString('en-GB')} input + {run.usage.completion_tokens.toLocaleString('en-GB')} output tokens), {run.shown} leads shown, {run.triage_pending} pending. Cost: {run.cost_usd == null ? 'not estimated (no price configured)' : `$${run.cost_usd}`}. Total calls to date: {totalCalls}.</p> : <p class="small muted">No scan has run yet.</p>}
+    <p class="small">An optional draft model (<code>DEEPSEEK_DRAFT_MODEL</code>) may draft newsletter text from evidence-record fields only (max 3 calls per issue); code re-checks that every number in a draft exists in the record. It is unset by default, so drafting also uses flash.</p>
+    <h2>3 · Evidence check</h2>
+    <p>An editor shortlists leads and fills a 12-point evidence record from the primary source: polymer and route, event and dates, actors, locations, demonstrated stage, TRL, capacity, performance, cost, climate footprint, residual fossil content and constraints, and open questions. Every value needs a verbatim quote that contains it. The validator rejects values without quotes, capacity without a status (nameplate is never shown as output), climate reductions across different system boundaries, sources after the cutoff, and repeats of the same technology + organisation + facility + event across months unless there is a new milestone, correction or reversal. These attributes are separate fields and are never inferred from each other: {editorial.separate_attributes.join(' · ')}.</p>
+    <h2>4 · Technical review</h2>
+    <p>Only a named reviewer's signature (name and date in the issue YAML) moves an issue to <em>signed</em>. Until then items say “Evidence-checked, not yet signed”. The technical reviewer is still <strong>OPEN</strong>.</p>
+    <h2>Labels</h2>
+    <p><span class="badge warn">machine-triaged</span> <span class="badge ok">peer-reviewed</span> <span class="badge warn">supplier announcement</span> <span class="badge warn">preprint/patent lead</span> <span class="badge hold">hold</span>. Tracking labels: {editorial.tracking_labels.map((t: any) => <><strong>{t.label}</strong> ({t.text}) </>)} Novelty types: {editorial.novelty_types.map((t: any) => t.label).join(' · ')}.</p>
+    <h2>Gaps and limits</h2>
+    <ul>
+      <li>Absence of news is not absence of activity. Many developments are never published, or only in sources we cannot reach.</li>
+      <li>Language coverage: discovery queries run in English, German, French, Chinese and Japanese news; scholarly indexes are mostly English. Languages seen in the data so far: {langs.join(', ') || '—'}. Non-English quotes are kept in the original language.</li>
+      <li>Access: paywalled full texts are not read at discovery; triage uses titles and abstracts only. Patents are not yet searched automatically.</li>
+      <li>References: {verification ? `${verification.references_ok}/${verification.references_total} DOIs and ${verification.support_quotes_ok}/${verification.support_quotes_total} supporting abstract quotes verified on ${fmtDate(verification.checked.slice(0, 10))}` : 'not yet verified'}.</li>
+    </ul>
+    <h2>Contribute</h2>
+    <p>Submit a lead, a correction or a structure through <a href={`${REPO}/issues/new/choose`}>GitHub issues</a>. Content lives in plain YAML under <code>data/</code>; every new reference needs a resolvable DOI and every new structure a SMILES and a citable source.</p>
+  </div>
+</Base>

@@ -1,0 +1,19 @@
+---
+import Base from '../layouts/Base.astro';
+import { references, routes, routeById, refLink, verification, fmtDate, url } from '../lib/data';
+const groups = [...routes.map((r) => ({ id: r.id, name: r.name })), { id: 'general', name: 'General and cross-cutting' }];
+---
+<Base title="Literature" description="Crossref-verified literature on bio-based polymers, grouped by route.">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Literature</p>
+  <h1>Literature</h1>
+  <p class="lede muted narrow">The references the route and chemistry pages rest on. Every DOI is resolved against Crossref in CI (<code>python -m scanner verify-refs</code>){verification && <>, last on {fmtDate(verification.checked.slice(0, 10))}: {verification.references_ok}/{verification.references_total} DOIs and {verification.support_quotes_ok}/{verification.support_quotes_total} supporting quotes verified</>}. Download as <a href={url('references.bib')}>BibTeX</a>, <a href={url('data/references.json')}>JSON</a> or <a href={url('data/references.csv')}>CSV</a>.</p>
+  {groups.map((g) => {
+    const refs = references.filter((r) => r.routes.includes(g.id)).sort((a, b) => b.year - a.year);
+    return refs.length ? (
+      <section>
+        <h2 id={g.id}>{g.id !== 'general' ? <a href={url(`routes/${g.id}/`)}>{g.name}</a> : g.name}</h2>
+        <ol class="refs">{refs.map((r) => <li>{r.authors} ({r.year}). <strong>{r.title}</strong>. <em>{r.journal}</em>. <a href={refLink(r)}>doi:{r.doi}</a> <span class="badge">{r.kind}</span>
+          {r.routes.length > 1 && <div class="meta">{r.routes.filter((x) => x !== g.id).map((x) => x === 'general' ? <span class="badge">general</span> : <a class="chip" href={url(`routes/${x}/`)}>{routeById(x)?.name}</a>)}</div>}</li>)}</ol>
+      </section>) : null;
+  })}
+</Base>

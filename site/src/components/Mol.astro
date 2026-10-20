@@ -1,0 +1,19 @@
+---
+import { structureSvg, refById, type Structure } from '../lib/data';
+interface Props { m: Structure; smiles?: boolean; compact?: boolean; anchor?: boolean }
+const { m, smiles = true, compact = false, anchor = !compact } = Astro.props;
+const ref = refById(m.ref);
+---
+<figure class={`mol${compact ? ' compact' : ''}`} id={anchor ? `mol-${m.id}` : undefined} style="margin:0">
+  <div class="art" set:html={structureSvg(m.id)} />
+  <div class="mol-meta"><span class={`badge role-${m.role_label.replace(/\s+/g, '-')}`}>{m.role_label}</span>{m.benchmark && <span class="badge">fossil/drop-in benchmark</span>}</div>
+  <h4>{m.name}</h4>
+  {!compact && <p>{m.role}</p>}
+  {smiles && <code title="SMILES">{m.smiles}</code>}
+  {!compact && (
+    <p class="mol-links">
+      {m.cid ? <a href={`https://pubchem.ncbi.nlm.nih.gov/compound/${m.cid}`}>PubChem CID {m.cid}</a> : <span title="Verified by hydrolysis to library monomers">verified via {m.hydrolysis?.join(' + ')}</span>}
+      {ref && <> · <a href={`https://doi.org/${ref.doi}`} title={ref.title}>source</a></>}
+    </p>
+  )}
+</figure>

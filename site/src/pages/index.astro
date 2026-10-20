@@ -1,0 +1,71 @@
+---
+import Base from '../layouts/Base.astro';
+import Leads from '../components/Leads.astro';
+import HeroFig from '../components/figures/HeroFig.astro';
+import SourceQuote from '../components/SourceQuote.astro';
+import Cite from '../components/Cite.astro';
+import '../styles/home.css';
+import { routes, challenges, references, LATEST, leadFile, shownLeads, devsFor, leadsYTD, monthLabel, url } from '../lib/data';
+const lf = leadFile(LATEST);
+const leads = shownLeads(LATEST);
+const year = LATEST?.slice(0, 4) ?? '';
+const checked = devsFor(LATEST).length;
+---
+<Base>
+<div class="home">
+  <section class="research-hero" aria-labelledby="hero-title">
+    <div class="hero-copy">
+      <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> OPEN KNOWLEDGE · MATERIALS RESEARCH</div>
+      <h1 id="hero-title">Better polymers.<br /><em>Built on evidence.</em></h1>
+      <p class="hero-subtitle">Bio-based polymers for durable products — from monomer to market.</p>
+      <p class="hero-description">Follow PLA, PHA and PEF — and the new chemistry around them — through verified structures, cited background and a monthly, source-checked tracker. Discovery and evidence are always labelled apart.</p>
+      <div class="cta"><a class="btn primary" href="#technology-routes">Explore the routes <span aria-hidden="true">↗</span></a><a class="hero-link" href={url('tracker/')}>Follow the evidence <span aria-hidden="true">→</span></a></div>
+      <p class="hero-footnote">PLA <span>·</span> PHA <span>·</span> PEF <span>·</span> new bio-based chemistry</p>
+    </div>
+    <HeroFig />
+  </section>
+
+  <div class="research-stats" role="group" aria-label="Knowledge base coverage">
+    <a href={url('routes/')}><strong>{routes.length.toString().padStart(2, '0')}</strong><span>Polymer routes<small>3 focus routes: PLA, PHA, PEF</small></span></a>
+    <a href={url(`tracker/${LATEST}/`)}><strong>{checked}</strong><span>Checked developments<small>{LATEST ? monthLabel(LATEST) : '—'} · evidence-checked</small></span></a>
+    <a href={url('tracker/')}><strong>{leadsYTD(year)}</strong><span>Research leads<small>{year} to date · machine-triaged</small></span></a>
+    <a href={url('references/')}><strong>{references.length}</strong><span>Verified references<small>Every DOI checked on Crossref</small></span></a>
+  </div>
+
+  <section class="home-section" id="technology-routes" aria-labelledby="routes-title">
+    <div class="section-heading"><div><span class="eyebrow">01 / THE TECHNOLOGY LANDSCAPE</span><h2 id="routes-title">Many chemistries. One standard of evidence.</h2><p>Three focus routes, six further families and a scope-review watchlist.</p></div><a class="text-link" href={url('routes/')}>Compare all routes <span aria-hidden="true">↗</span></a></div>
+    <div class="route-grid">
+      {routes.map((r, i) => {
+        const n = devsFor(LATEST, r.id).length;
+        const m = shownLeads(LATEST, r.id).length;
+        return <a class={`route-card${r.focus ? ' focus' : ''}${r.id === 'scope-review' ? ' review' : ''}`} href={url(`routes/${r.id}/`)}>
+          <div class="route-top"><span class="route-number">{String(i + 1).padStart(2, '0')}</span><span class="route-arrow" aria-hidden="true">↗</span></div>
+          <div class="family">{r.label}</div><h3>{r.name}</h3><p>{r.tagline}</p>
+          <div class="route-bottom"><span><i class="evidence-dot" aria-hidden="true"></i>{n} checked</span><span>{m} leads <small>{LATEST}</small></span></div>
+        </a>;
+      })}
+    </div>
+    <p class="section-note">Checked developments and machine-triaged leads are separate evidence categories. <a href={url('methods/')}>How we verify →</a></p>
+  </section>
+
+  <section class="home-section context-section" aria-labelledby="context-title"><div class="section-heading"><div><span class="eyebrow">02 / THE ENGINEERING QUESTION</span><h2 id="context-title">Bio-based is only the beginning.</h2><p>Origin, performance and end of life are separate questions.</p></div></div>
+  <div class="why-grid">
+    <div class="card"><h3>Regulation &amp; claims</h3>
+      <p class="small">The EU Packaging and Packaging Waste Regulation (EU) 2025/40 asks the Commission for a review of bio-based plastic packaging: <SourceQuote k="ppwr#biobased-review" /></p>
+      <p class="small">The Commission's policy framework on bio-based, biodegradable and compostable plastics (COM(2022) 682) warns on claim accounting: <SourceQuote k="com2022-682#mass-balance" /></p>
+    </div>
+    <div class="card"><h3>Carbon &amp; circularity</h3><p class="small">Bio-based origin does not settle end of life: <SourceQuote k="ec-bioplastics-page#not-necessarily" /> A footprint claim needs its functional unit, boundary and comparator before it means anything <Cite ids={['walker2020', 'spierling2018']} />.</p></div>
+    <div class="card"><h3>The gap</h3><p class="small">Bio-based polymers must still meet the stiffness, toughness, heat and barrier demands of the parts they replace — and do it at scale. PLA's high strength but low toughness is the textbook case <Cite ids={['nagarajan2016']} />. This site tracks progress on those constraints rather than headline claims.</p></div>
+  </div>
+    <div class="challenge-strip"><span>Explore the constraints</span><div class="chips">{challenges.map((c) => <a class="chip" href={url(`challenges/#${c.id}`)}>{c.title} <span aria-hidden="true">↗</span></a>)}</div></div>
+  </section>
+
+  <section class="home-section" aria-labelledby="leads-title">
+    <div class="section-heading"><div><span class="eyebrow">03 / ON THE RESEARCH RADAR</span><h2 id="leads-title">New signals. Open questions.</h2><p>{LATEST && monthLabel(LATEST)}{lf?.scanned_through && ` · scanned through ${lf.scanned_through}`}{lf?.triage_pending ? ` · ${lf.triage_pending} records awaiting triage` : ''}</p></div><a class="text-link" href={url(`tracker/${LATEST}/`)}>All leads this month <span aria-hidden="true">↗</span></a></div>
+    <div class="radar-layout"><aside class="radar-note"><span class="badge warn">Discovery, not verified evidence</span><h3>A starting point for investigation.</h3><p>These records are machine-triaged by DeepSeek flash. Quotes are checked verbatim against the source title or abstract; the findings themselves still need an evidence check.</p><a class="text-link" href={url('methods/')}>Read our method →</a></aside>
+      <div class="radar-feed">{lf ? <Leads leads={leads} limit={4} /> : <p class="muted">No scan has run yet. The first leads appear after the monthly discovery run.</p>}</div></div>
+  </section>
+
+  <section class="explore-band" aria-labelledby="explore-title"><div><span class="eyebrow">KEEP EXPLORING</span><h2 id="explore-title">Go from the route to the molecule.</h2><p>Explore verified structures, read the monthly newsletter, or follow new research leads.</p></div><div class="explore-links"><a href={url('chemistry/')}>Chemical structures <span aria-hidden="true">↗</span></a><a href={url('newsletter/')}>Monthly newsletter <span aria-hidden="true">↗</span></a><a href={url('rss.xml')}>Subscribe via RSS <span aria-hidden="true">↗</span></a></div></section>
+</div>
+</Base>

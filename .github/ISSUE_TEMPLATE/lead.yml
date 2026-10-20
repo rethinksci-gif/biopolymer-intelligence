@@ -1,0 +1,33 @@
+name: Submit a lead
+description: Suggest a development (paper, preprint, patent, plant, product) for the monthly tracker
+labels: [lead]
+body:
+  - type: input
+    id: link
+    attributes: { label: Primary source link or DOI, description: "The original paper, company release or patent - not a news summary if avoidable." }
+    validations: { required: true }
+  - type: dropdown
+    id: route
+    attributes:
+      label: Route
+      options: ["PLA, lactide copolymers & blends", "PHA family & copolymers", "PEF and furan polyesters", "Other bio-based polyesters", "Bio-based polyamides", "Isosorbide & CO2-based polycarbonates", "Bio-polyurethanes & NIPU", "Bio-based thermosets & vitrimers", "Modified natural polymers", "Drop-ins, mass balance & biocomposites (scope review)", "Not sure"]
+    validations: { required: true }
+  - type: dropdown
+    id: novelty
+    attributes:
+      label: Novelty type
+      options: ["new-chemistry (new backbone or monomer)", "new-route (new production route for a known polymer)", "new-formulation-or-application (incl. blends/copolymers)", "scale-or-supply (plant, adoption, supply change, cancellation)", "Not sure"]
+  - type: input
+    id: date
+    attributes: { label: First publication or event date }
+  - type: textarea
+    id: what
+    attributes: { label: What changed, description: "Quote the key sentence from the source. Do not infer biodegradability, compostability, bio-based content or climate benefit from each other." }
+    validations: { required: true }
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I have read the evidence policy on the Methods page.
+          required: true

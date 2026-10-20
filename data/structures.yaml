@@ -1,0 +1,390 @@
+# Chemical structure library. Rendered to SVG by `python -m scanner structures` (RDKit, build time).
+# Verification (the build fails on any mismatch):
+#  - `cid`: the SMILES's InChIKey must equal PubChem's InChIKey for that CID (cached in data/cache/pubchem.json)
+#    and the stored `inchikey`.
+#  - `hydrolysis`: repeat units (polymer SMILES with * attachment points) are capped (-O*/-N* -> H, C(*)=O -> COOH),
+#    hydrolysed at every ester/amide bond, and the fragments must be exactly the listed library structures,
+#    each of which is PubChem-verified. This catches stereochemistry or connectivity errors in repeat units.
+# role_label is one of: monomer, repeat unit, representative unit, feedstock, catalyst.
+# Natural polymers are shown by a representative unit, never an invented full structure.
+
+# --- PLA ---------------------------------------------------------------
+- id: lactic-acid
+  name: L-Lactic acid
+  role_label: monomer
+  role: Fermentation product and parent hydroxy acid of PLA; the (S)-enantiomer.
+  smiles: C[C@H](O)C(=O)O
+  cid: 107689
+  inchikey: JVTAAEKCZFNVCJ-REOHCLBHSA-N
+  routes: [pla]
+  ref: auras2004
+- id: l-lactide
+  name: L-Lactide
+  role_label: monomer
+  role: Cyclic dimer of L-lactic acid; ring-opening polymerisation of lactide gives high-molar-mass PLA.
+  smiles: C[C@H]1C(=O)O[C@H](C(=O)O1)C
+  cid: 107983
+  inchikey: JJTUDXZGHPGLLC-IMJSIDKUSA-N
+  routes: [pla]
+  ref: dechycabaret2004
+- id: pla-ru
+  name: Poly(L-lactide)
+  role_label: repeat unit
+  role: Repeat unit of PLLA. Hydrolysis returns L-lactic acid, which fixes the stereocentre as (S).
+  smiles: "*O[C@@H](C)C(*)=O"
+  hydrolysis: [lactic-acid]
+  routes: [pla]
+  ref: tsuji2005
+- id: sn-oct2
+  name: Tin(II) 2-ethylhexanoate (Sn(Oct)₂)
+  role_label: catalyst
+  role: Classic catalyst for lactide ROP; forms the active tin alkoxide with an alcohol co-initiator.
+  smiles: CCCCC(CC)C(=O)[O-].CCCCC(CC)C(=O)[O-].[Sn+2]
+  cid: 9318
+  inchikey: KSBAEPSJVUENNK-UHFFFAOYSA-L
+  routes: [pla]
+  ref: kowalski2000
+
+# --- PHA ---------------------------------------------------------------
+- id: r-3hb
+  name: (R)-3-Hydroxybutanoic acid
+  role_label: monomer
+  role: Hydroxy acid of PHB; bacteria polymerise it from (R)-3-hydroxybutyryl-CoA.
+  smiles: C[C@@H](O)CC(=O)O
+  cid: 92135
+  inchikey: WHBMMWSBFZVSSR-GSVOUGTGSA-N
+  routes: [pha]
+  ref: sudesh2000
+- id: phb-ru
+  name: Poly[(R)-3-hydroxybutyrate] (PHB)
+  role_label: repeat unit
+  role: Repeat unit of PHB. Hydrolysis returns (R)-3-hydroxybutanoic acid.
+  smiles: "*O[C@H](C)CC(*)=O"
+  hydrolysis: [r-3hb]
+  routes: [pha]
+  ref: sudesh2000
+- id: 3hv
+  name: 3-Hydroxyvaleric acid
+  role_label: monomer
+  role: Hydroxy acid of the HV comonomer unit in PHBV (stereocentre not specified here).
+  smiles: CCC(O)CC(=O)O
+  cid: 107802
+  inchikey: REKYPYSUBKSCAT-UHFFFAOYSA-N
+  routes: [pha]
+  ref: bugnicourt2014
+- id: 4hb
+  name: 4-Hydroxybutanoic acid
+  role_label: monomer
+  role: Hydroxy acid of the 4HB unit in P3HB4HB copolymers.
+  smiles: OCCCC(=O)O
+  cid: 10413
+  inchikey: SJZRECIVHVDYJC-UHFFFAOYSA-N
+  routes: [pha]
+  ref: chen2009
+- id: 3hhx
+  name: 3-Hydroxyhexanoic acid
+  role_label: monomer
+  role: Hydroxy acid of the HHx unit in PHBHHx; its propyl side chain lowers crystallinity.
+  smiles: CCCC(O)CC(=O)O
+  cid: 151492
+  inchikey: HPMGFDVTYHWBAG-UHFFFAOYSA-N
+  routes: [pha]
+  ref: noda2004
+
+# --- PEF and furanics ----------------------------------------------------
+- id: hmf
+  name: 5-Hydroxymethylfurfural (HMF)
+  role_label: feedstock
+  role: Sugar-derived platform chemical; oxidation gives FDCA.
+  smiles: O=Cc1ccc(CO)o1
+  cid: 237332
+  inchikey: NOEGNKMFWQHSLB-UHFFFAOYSA-N
+  routes: [pef]
+  ref: vanputten2013
+- id: fdca
+  name: 2,5-Furandicarboxylic acid (FDCA)
+  role_label: monomer
+  role: Diacid of PEF and other furanoate polyesters.
+  smiles: OC(=O)c1ccc(o1)C(=O)O
+  cid: 76720
+  inchikey: CHTHALBTIRVDBM-UHFFFAOYSA-N
+  routes: [pef]
+  ref: sousa2015
+- id: fdme
+  name: Dimethyl 2,5-furandicarboxylate (FDME)
+  role_label: monomer
+  role: Diester alternative to FDCA for transesterification routes to PEF.
+  smiles: COC(=O)c1ccc(o1)C(=O)OC
+  cid: 303530
+  inchikey: UWQOPFRNDNVUOA-UHFFFAOYSA-N
+  routes: [pef]
+  ref: sousa2015
+- id: eg
+  name: Ethylene glycol (MEG)
+  role_label: monomer
+  role: Diol of PEF and PET; can be fossil- or bio-based.
+  smiles: OCCO
+  cid: 174
+  inchikey: LYCAIKOWRPUZTN-UHFFFAOYSA-N
+  routes: [pef, scope-review]
+  ref: eerhart2012
+- id: pdo
+  name: 1,3-Propanediol
+  role_label: monomer
+  role: Diol of poly(trimethylene furanoate) (PTF).
+  smiles: OCCCO
+  cid: 10442
+  inchikey: YPFDHNVEDLHUCE-UHFFFAOYSA-N
+  routes: [pef]
+  ref: sousa2015
+- id: pef-ru
+  name: Poly(ethylene 2,5-furandicarboxylate) (PEF)
+  role_label: repeat unit
+  role: Repeat unit of PEF. Hydrolysis gives ethylene glycol and FDCA.
+  smiles: "*OCCOC(=O)c1ccc(o1)C(*)=O"
+  hydrolysis: [eg, fdca]
+  routes: [pef]
+  ref: burgess2014
+- id: tpa
+  name: Terephthalic acid
+  role_label: monomer
+  role: "Fossil/drop-in benchmark: the PET diacid that FDCA replaces in PEF."
+  benchmark: true
+  smiles: OC(=O)c1ccc(cc1)C(=O)O
+  cid: 7489
+  inchikey: KKEYFWRCBNTPAC-UHFFFAOYSA-N
+  routes: [pef, scope-review]
+  ref: burgess2014
+
+# --- Other polyesters ------------------------------------------------------
+- id: succinic
+  name: Succinic acid
+  role_label: monomer
+  role: Diacid of PBS and PBSA; available from fermentation or fossil routes.
+  smiles: OC(=O)CCC(=O)O
+  cid: 1110
+  inchikey: KDYFGRWQOYBRFD-UHFFFAOYSA-N
+  routes: [bio-polyesters]
+  ref: xu2010
+- id: bdo
+  name: 1,4-Butanediol
+  role_label: monomer
+  role: Diol of PBS and PBAT.
+  smiles: OCCCCO
+  cid: 8064
+  inchikey: WERYXYBDKMZEQL-UHFFFAOYSA-N
+  routes: [bio-polyesters]
+  ref: xu2010
+- id: adipic
+  name: Adipic acid
+  role_label: monomer
+  role: Aliphatic diacid of PBAT and PBSA.
+  smiles: OC(=O)CCCCC(=O)O
+  cid: 196
+  inchikey: WNLRTRBMVRJNCN-UHFFFAOYSA-N
+  routes: [bio-polyesters]
+  ref: jian2020
+- id: pbs-ru
+  name: Poly(butylene succinate) (PBS)
+  role_label: repeat unit
+  role: Repeat unit of PBS. Hydrolysis gives 1,4-butanediol and succinic acid.
+  smiles: "*OCCCCOC(=O)CCC(*)=O"
+  hydrolysis: [bdo, succinic]
+  routes: [bio-polyesters]
+  ref: xu2010
+- id: isosorbide
+  name: Isosorbide
+  role_label: monomer
+  role: Rigid, sugar-derived bicyclic diol (1,4:3,6-dianhydro-D-glucitol) for polycarbonates and polyesters.
+  smiles: O[C@@H]1CO[C@@H]2[C@@H](O)CO[C@H]12
+  cid: 12597
+  inchikey: KLDXJTOLSGUMSJ-JGWLITMVSA-N
+  routes: [bio-polyesters, polycarbonates]
+  ref: fenouillot2010
+- id: mbl
+  name: α-Methylene-γ-butyrolactone
+  role_label: monomer
+  role: Exo-methylene lactone studied as a monomer for chemically recyclable polymers.
+  smiles: C=C1CCOC1=O
+  cid: 68352
+  inchikey: GSLDEZOOOSBFGP-UHFFFAOYSA-N
+  routes: [bio-polyesters]
+  ref: coates2020
+
+# --- Polyamides ------------------------------------------------------------
+- id: aua
+  name: 11-Aminoundecanoic acid
+  role_label: monomer
+  role: Castor-derived amino acid monomer of PA11.
+  smiles: NCCCCCCCCCCC(=O)O
+  cid: 17083
+  inchikey: GUOSQNAUYHMCRU-UHFFFAOYSA-N
+  routes: [polyamides]
+  ref: winnacker2016
+- id: pa11-ru
+  name: Polyamide 11
+  role_label: repeat unit
+  role: Repeat unit of PA11. Hydrolysis returns 11-aminoundecanoic acid.
+  smiles: "*NCCCCCCCCCCC(*)=O"
+  hydrolysis: [aua]
+  routes: [polyamides]
+  ref: winnacker2016
+- id: ricinoleic
+  name: Ricinoleic acid
+  role_label: feedstock
+  role: Main fatty acid of castor oil; source of PA11 and sebacic-acid chemistry and of bio-polyols.
+  smiles: CCCCCC[C@@H](O)C/C=C\CCCCCCCC(=O)O
+  cid: 643684
+  inchikey: WBHHMMIMDMUBKC-QJWNTBNXSA-N
+  routes: [polyamides, polyurethanes]
+  ref: winnacker2016
+- id: sebacic
+  name: Sebacic acid
+  role_label: monomer
+  role: C10 diacid for PA610 and PA1010.
+  smiles: OC(=O)CCCCCCCCC(=O)O
+  cid: 5192
+  inchikey: CXMXRPHRNRROMY-UHFFFAOYSA-N
+  routes: [polyamides]
+  ref: winnacker2016
+- id: cadaverine
+  name: Cadaverine (1,5-diaminopentane)
+  role_label: monomer
+  role: Bio-produced diamine for PA 5.X polyamides.
+  smiles: NCCCCCN
+  cid: 273
+  inchikey: VHRGRCVQAFMJIZ-UHFFFAOYSA-N
+  routes: [polyamides]
+  ref: kind2011
+- id: dmda
+  name: 1,10-Decanediamine
+  role_label: monomer
+  role: C10 diamine for PA1010 and PA10.X polyamides.
+  smiles: NCCCCCCCCCCN
+  cid: 1317
+  inchikey: YQLZOAVZWJBZSY-UHFFFAOYSA-N
+  routes: [polyamides]
+  ref: winnacker2016
+
+# --- Polycarbonates, urethanes ----------------------------------------------
+- id: po
+  name: Propylene oxide
+  role_label: monomer
+  role: Epoxide comonomer with CO₂ for poly(propylene carbonate) (stereocentre not specified).
+  smiles: CC1CO1
+  cid: 6378
+  inchikey: GOOHAUXETOMSMM-UHFFFAOYSA-N
+  routes: [polycarbonates]
+  ref: grignard2019
+- id: limonene
+  name: (R)-Limonene
+  role_label: feedstock
+  role: Citrus terpene; its oxide copolymerises with CO₂ to poly(limonene carbonate).
+  smiles: CC1=CC[C@@H](CC1)C(=C)C
+  cid: 440917
+  inchikey: XMGQYMWWDOXHJM-JTQLQIEISA-N
+  routes: [polycarbonates]
+  ref: byrne2004
+- id: glycerol-carbonate
+  name: Glycerol carbonate
+  role_label: monomer
+  role: Five-membered cyclic carbonate; amines open it to hydroxyurethanes (NIPU).
+  smiles: O=C1OCC(CO)O1
+  cid: 97944
+  inchikey: JFMGYULNQJPJCY-UHFFFAOYSA-N
+  routes: [polyurethanes]
+  ref: rokicki2015
+- id: pdi
+  name: Pentamethylene diisocyanate (PDI)
+  role_label: monomer
+  role: Aliphatic diisocyanate that can be made from bio-based cadaverine.
+  smiles: O=C=NCCCCCN=C=O
+  cid: 11948526
+  inchikey: DFPJRUKWEPYFJT-UHFFFAOYSA-N
+  routes: [polyurethanes]
+  ref: rokicki2015
+
+# --- Thermosets ------------------------------------------------------------
+- id: vanillin
+  name: Vanillin
+  role_label: feedstock
+  role: Lignin-derivable aromatic aldehyde; precursor of bio-based epoxy monomers.
+  smiles: COc1cc(C=O)ccc1O
+  cid: 1183
+  inchikey: MWOOGOJBHIARFG-UHFFFAOYSA-N
+  routes: [thermosets]
+  ref: fache2015
+- id: itaconic
+  name: Itaconic acid
+  role_label: monomer
+  role: Fermentation-derived unsaturated diacid for curable polyesters.
+  smiles: C=C(CC(=O)O)C(=O)O
+  cid: 811
+  inchikey: LVHBHZANLOWSRM-UHFFFAOYSA-N
+  routes: [thermosets]
+  ref: robert2016
+- id: furfuryl-alcohol
+  name: Furfuryl alcohol
+  role_label: monomer
+  role: Furan monomer for furan resins and Diels–Alder networks.
+  smiles: OCc1ccco1
+  cid: 7361
+  inchikey: XPFVYQJUAUNWIW-UHFFFAOYSA-N
+  routes: [thermosets]
+  ref: gandini2016
+- id: cardanol
+  name: Cardanol (triene component)
+  role_label: representative unit
+  role: "Representative: cardanol from cashew nut shell liquid is a mixture; shown is the C15 triene component."
+  smiles: C=CC/C=C\C/C=C\CCCCCCCC1=CC(=CC=C1)O
+  cid: 11266523
+  inchikey: JOLVYUIAMRUBRK-UTOQUPLUSA-N
+  routes: [thermosets]
+  ref: auvergne2014
+
+# --- Natural polymers (representative units) -------------------------------
+- id: beta-glucose
+  name: β-D-Glucopyranose
+  role_label: representative unit
+  role: "Representative unit of cellulose (β-1,4-linked D-glucose); not the polymer itself."
+  smiles: OC[C@H]1O[C@@H](O)[C@H](O)[C@@H](O)[C@@H]1O
+  cid: 64689
+  inchikey: WQZGKKKJIJFFOK-VFUOTHLCSA-N
+  routes: [natural-polymers]
+  ref: klemm2005
+- id: alpha-glucose
+  name: α-D-Glucopyranose
+  role_label: representative unit
+  role: "Representative unit of starch (α-linked D-glucose); not the polymer itself."
+  smiles: OC[C@H]1O[C@H](O)[C@H](O)[C@@H](O)[C@@H]1O
+  cid: 79025
+  inchikey: WQZGKKKJIJFFOK-DVKNGEFBSA-N
+  routes: [natural-polymers]
+  ref: zhang2014
+- id: coniferyl
+  name: Coniferyl alcohol
+  role_label: representative unit
+  role: "Representative lignin monolignol (G unit); lignin itself has no single defined structure."
+  smiles: OC/C=C/c1ccc(O)c(OC)c1
+  cid: 1549095
+  inchikey: JMFRWRFFLBVWSI-NSCUHMNNSA-N
+  routes: [natural-polymers, polyurethanes]
+  ref: upton2016
+- id: glucosamine
+  name: D-Glucosamine
+  role_label: representative unit
+  role: "Representative unit of chitosan (anomeric centre unspecified); not the polymer itself."
+  smiles: OC[C@H]1OC(O)[C@H](N)[C@@H](O)[C@@H]1O
+  cid: 439213
+  inchikey: MSWZFWKMSRAUBD-IVMDWMLBSA-N
+  routes: [natural-polymers]
+  ref: rinaudo2006
+- id: l-lysine
+  name: L-Lysine
+  role_label: representative unit
+  role: "Representative amino acid for protein-based plastics; proteins are not drawn as full structures."
+  smiles: NCCCC[C@H](N)C(=O)O
+  cid: 5962
+  inchikey: KDXKERNSBIXSRK-YFKPBYRVSA-N
+  routes: [natural-polymers]
+  ref: verbeek2010

@@ -1,0 +1,27 @@
+# Typical property table (Chemistry page). A cell holds a value ONLY when it is quoted verbatim from a cited
+# reference's abstract ({value, unit, ref, quote, conditions}); `verify-refs` re-checks every quote and
+# `validate` checks that the value appears in its quote. Every other cell is ND (no sourced value yet).
+# Values are not filled from memory or handbooks. Contributions: open an issue with DOI + quoted passage.
+columns:
+  - {id: tg, label: Tg, unit: "°C"}
+  - {id: tm, label: Tm, unit: "°C"}
+  - {id: tensile, label: Tensile strength, unit: MPa}
+  - {id: modulus, label: Modulus, unit: GPa}
+  - {id: elongation, label: Elongation at break, unit: "%"}
+  - {id: hdt, label: HDT, unit: "°C"}
+rows:
+  - id: pla
+    polymer: PLA
+    route: pla
+    values:
+      tg: ND
+      tm: ND
+      tensile: {value: "63", unit: MPa, ref: jiang2006, quote: "PLA is high in strength and modulus (63 MPa and 3.4 GPa, respectively) but brittle (strain at break 3.8%)", conditions: "neat PLA in a blend study; grade and test method in the paper"}
+      modulus: {value: "3.4", unit: GPa, ref: jiang2006, quote: "PLA is high in strength and modulus (63 MPa and 3.4 GPa, respectively) but brittle (strain at break 3.8%)", conditions: "as above"}
+      elongation: {value: "3.8", unit: "%", ref: jiang2006, quote: "PLA is high in strength and modulus (63 MPa and 3.4 GPa, respectively) but brittle (strain at break 3.8%)", conditions: "as above"}
+      hdt: ND
+  - {id: phb, polymer: PHB, route: pha, values: {tg: ND, tm: ND, tensile: ND, modulus: ND, elongation: ND, hdt: ND}}
+  - {id: phbv, polymer: PHBV, route: pha, values: {tg: ND, tm: ND, tensile: ND, modulus: ND, elongation: ND, hdt: ND}}
+  - {id: pef, polymer: PEF, route: pef, values: {tg: ND, tm: ND, tensile: ND, modulus: ND, elongation: ND, hdt: ND}}
+  - {id: pa11, polymer: PA11, route: polyamides, values: {tg: ND, tm: ND, tensile: ND, modulus: ND, elongation: ND, hdt: ND}}
+  - {id: pbs, polymer: bio-PBS, route: bio-polyesters, values: {tg: ND, tm: ND, tensile: ND, modulus: ND, elongation: ND, hdt: ND}}

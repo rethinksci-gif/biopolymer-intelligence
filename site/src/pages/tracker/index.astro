@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import { routes, MONTHS, monthLabel, leadFile, devsFor, shownLeads, url } from '../../lib/data';
+const order = MONTHS.slice(0, 6).reverse();
+---
+<Base title="Monthly tracker" description="Route × month tracker for bio-based polymers: checked developments and machine-triaged leads.">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Monthly tracker</p>
+  <h1>Monthly tracker</h1>
+  <p class="lede muted narrow">Each route, month by month. <strong>Checked developments</strong> carry a full evidence record quoted from primary sources. <strong>Machine-triaged leads</strong> are discovery only: screened by DeepSeek flash with code-side checks, waiting for a human evidence check. Absence of news is not absence of activity.</p>
+  {order.length === 0 ? <p class="notice">No month has been scanned yet.</p> : (
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Route</th>{order.map((m) => <th scope="col" class="num"><a href={url(`tracker/${m}/`)}>{m}</a><br /><span style="text-transform:none;font-weight:400">{leadFile(m)?.status === 'in-progress' ? `to ${leadFile(m)?.scanned_through.slice(5)}` : monthLabel(m).split(' ')[0]}</span></th>)}</tr></thead>
+      <tbody>
+        {routes.map((r) => (
+          <tr>
+            <td><a href={url(`routes/${r.id}/#track`)}>{r.name}</a></td>
+            {order.map((m) => {
+              const e = devsFor(m, r.id).length, l = shownLeads(m, r.id).length;
+              return <td class="num"><span class="cell">{e > 0 && <span class="badge ok">{e} checked</span>}{leadFile(m) ? <span class="badge warn">{l} leads</span> : <span class="muted small">—</span>}</span></td>;
+            })}
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>)}
+  <h2>Months</h2>
+  <div class="grid">
+    {MONTHS.map((m) => {
+      const lf = leadFile(m);
+      return (
+        <a class="card" href={url(`tracker/${m}/`)}>
+          <div class="family">{lf?.status === 'in-progress' ? `In progress · scanned through ${lf.scanned_through}` : 'Complete window'}</div>
+          <h3>{monthLabel(m)}</h3>
+          <div class="meta">
+            <span class="badge ok">{devsFor(m).length} checked</span>
+            {lf && <span class="badge warn">{shownLeads(m).length} leads</span>}
+            {lf?.triage_pending ? <span class="badge">{lf.triage_pending} triage pending</span> : null}
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</Base>

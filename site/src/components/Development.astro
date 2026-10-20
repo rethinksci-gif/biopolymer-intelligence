@@ -1,0 +1,31 @@
+---
+import { fmtDate, routeById, url, NOVELTY, type Development } from '../lib/data';
+interface Props { d: Development; showRoute?: boolean }
+const { d, showRoute = true } = Astro.props;
+const labelClass: Record<string, string> = { 'peer-reviewed': 'ok', 'supplier announcement': 'warn', 'preprint/patent lead': 'warn', hold: 'hold' };
+const attrNames: Record<string, string> = { bio_based_origin: 'Bio-based origin', biobased_carbon_measured: 'Measured bio-based carbon', mass_balance: 'Mass-balance attribution', biodegradable_env: 'Biodegradability (environment)', compostable: 'Compostability', recyclable: 'Recyclability' };
+const fact = (f: any) => (f && f.value != null && f.value !== '' ? f : null);
+const reviewText = d.review.status === 'signed' ? `Signed by ${d.review.reviewer}, ${fmtDate(d.review.date)}` : d.review.status === 'evidence-checked' ? 'Evidence-checked, not yet signed' : 'Draft: evidence check in progress';
+---
+<article class="evidence" id={d.id}>
+  <div class="meta">
+    <span class={`badge ${labelClass[d.label] ?? ''}`}>{d.label}</span>
+    <span class={`badge nov nov-${d.novelty_type}`}>{NOVELTY[d.novelty_type]}</span>
+    <span class="badge">{reviewText}</span>
+    <span>{fmtDate(d.published_date)}</span>
+    {showRoute && <a class="chip" href={url(`routes/${d.route}/`)}>{routeById(d.route)?.name}</a>}
+  </div>
+  <h3>{d.title}</h3>
+  <p>{d.event}</p>
+  <details class="box">
+    <summary>Evidence record</summary>
+    <dl class="facts">
+      {['polymer_family', 'feedstock', 'synthesis_route', 'research_location', 'production_site', 'target_region', 'demonstrated_stage', 'plans', 'residual_fossil', 'feedstock_availability', 'eol_constraints', 'main_barrier', 'missing_evidence', 'next_question'].filter((k) => d[k]).map((k) => <><dt>{k.replace(/_/g, ' ')}</dt><dd>{d[k]}</dd></>)}
+      {['trl', 'capacity', 'cost', 'climate'].map((k) => fact(d[k]) && <><dt>{k}</dt><dd><strong>{d[k].value}</strong> {d[k].unit} {k === 'capacity' && <span class="badge warn">{d[k].status ?? 'status unknown'}{d[k].status !== 'actual_output' && ' · nameplate, not output'}</span>}{d[k].quote && <><br /><q>{d[k].quote}</q></>}</dd></>)}
+      {(d.performance ?? []).map((p: any) => <><dt>{p.property}</dt><dd><strong>{p.value} {p.unit}</strong> <span class="muted">({p.measured_or_claimed}; {p.method}; {p.conditions})</span><br /><q>{p.quote}</q></dd></>)}
+      {Object.entries(attrNames).map(([k, label]) => <><dt>{label}</dt><dd>{d.attributes?.[k]?.value ?? 'Not disclosed'}{d.attributes?.[k]?.quote && <><br /><q>{d.attributes[k].quote}</q></>}</dd></>)}
+    </dl>
+    <h4>Sources</h4>
+    <ul class="small">{d.sources.map((s) => <li><a href={s.url}>{s.doi ? `doi:${s.doi}` : s.url}</a>{s.locator && ` · ${s.locator}`}{s.quote && <><br /><q>{s.quote}</q></>}</li>)}</ul>
+  </details>
+</article>

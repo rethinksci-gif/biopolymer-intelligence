@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import { url } from '../lib/data';
+---
+<Base title="Search" description="Search BIOPOLYMER Intelligence.">
+  <h1>Search</h1>
+  <p class="small muted">Searches routes, chemistry, challenges, tracker leads and methods. Machine-triaged leads stay labelled in results.</p>
+  <link href={url('pagefind/pagefind-ui.css')} rel="stylesheet" />
+  <label for="pf-input" class="small" id="pf-label" hidden>Search the site</label>
+  <div id="search"></div>
+  <script is:inline define:vars={{ base: url('') }}>
+    const s = document.createElement('script');
+    s.src = base + 'pagefind/pagefind-ui.js';
+    s.onload = () => {
+      new PagefindUI({ element: '#search', showSubResults: true, showImages: false });
+      const input = document.querySelector('#search input');
+      if (input) { input.id = 'pf-input'; input.setAttribute('aria-labelledby', 'pf-label'); document.getElementById('pf-label').hidden = false; }
+    };
+    document.head.appendChild(s);
+  </script>
+</Base>

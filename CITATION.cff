@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this knowledge base or its data, please cite it as below."
+title: "BIOPOLYMER Intelligence: an open knowledge base and monthly evidence tracker for bio-based polymers"
+type: dataset
+authors:
+  - name: "rethinksci-gif"
+repository-code: "https://github.com/rethinksci-gif/biopolymer-intelligence"
+url: "https://rethinksci-gif.github.io/biopolymer-intelligence/"
+license: CC-BY-4.0
+keywords: [bio-based polymers, PLA, polylactide, PHA, polyhydroxyalkanoates, PEF, furandicarboxylic acid, bioplastics, NIPU, vitrimers]

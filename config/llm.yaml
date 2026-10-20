@@ -1,0 +1,19 @@
+# DeepSeek (OpenAI-compatible) settings. The only secret is DEEPSEEK_API_KEY (GitHub Actions secret or
+# local env); it is never committed or logged. Model names can be overridden by env:
+#   DEEPSEEK_TRIAGE_MODEL  (default below)  - all batch triage
+#   DEEPSEEK_DRAFT_MODEL   (unset = triage model) - optional newsletter drafting from verified evidence only
+# Each run first calls GET /models and stops if a configured model is not listed. There is no silent
+# fallback to another (possibly retired) model name.
+base_url: https://api.deepseek.com
+triage_model: deepseek-flash
+draft_model: null            # deliberately unset: drafting uses flash unless the owner sets DEEPSEEK_DRAFT_MODEL
+max_draft_calls: 3
+max_calls_per_run: 60        # overridden by env MAX_LLM_CALLS_PER_RUN
+batch_size: 10               # records per triage call
+max_retries: 2
+backoff_seconds: 4
+reasoning_headroom: 6000     # DeepSeek reasoning tokens count against max_tokens
+timeout_seconds: 180
+temperature: 0
+# USD per million tokens, used only for the cost estimate in data/runs/. null = not estimated.
+price_per_mtok: {input: null, output: null}

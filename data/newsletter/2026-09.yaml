@@ -1,0 +1,30 @@
+# BIOPOLYMER Monthly - trial issue skeleton for September 2026.
+# Status `draft`: no development has been evidence-checked yet, so there are no lead cards, no
+# "what changed" text and no comparison strip. The shortlist names machine-triaged leads chosen for a
+# human evidence check; their evidence records (data/developments/2026-09.yaml) are empty on purpose.
+id: 2026-09
+title: BIOPOLYMER Monthly — September 2026 (trial issue skeleton)
+window: [2026-09-01, 2026-09-30]
+cutoff: 2026-09-30
+status: draft
+layout_status: skeleton
+review: {reviewer: null, date: null}
+what_changed: null
+notes:
+  - "Trial issue skeleton. Nothing here is evidence-checked or signed; the technical reviewer, delivery date and distribution channel are still OPEN (G4)."
+  - "Cross-issue novelty could not be checked — first issue."
+  - "Shortlist chosen by the build editor from the highest-relevance shown lead in each focus route (PLA, PHA, PEF). Three syndicated reports of the same Avantium FDCA start-up were collapsed onto the company's own release."
+  - "September triage stopped at the 60-call budget: records still marked 'triage pending' may contain further candidates."
+cards: []
+watchlist: []
+questions: []
+shortlist:
+  - lead_id: "news:0d419f66b6646320"
+    why: "PEF route, scale-or-supply: company release on the start-up of an FDCA flagship plant. Syndicated versions (ChemAnalyst, Indian Chemical News) point to the same event."
+    evidence_status: evidence record empty — capacity status, output and dates not yet checked
+  - lead_id: "doi:10.1021/acs.iecr.6c03874"
+    why: "PLA route, formulation: peer-reviewed PLA/PA11 blend with a bio-based compatibiliser; relevant to toughness for durable parts."
+    evidence_status: evidence record empty — full text not yet read
+  - lead_id: "doi:10.1016/j.ijbiomac.2026.153504"
+    why: "PHA route, new production route: peer-reviewed strain work on raising 3-hydroxyvalerate content in PHBV."
+    evidence_status: evidence record empty — full text not yet read

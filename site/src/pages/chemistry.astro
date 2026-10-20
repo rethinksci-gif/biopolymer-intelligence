@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import Mol from '../components/Mol.astro';
+import Cite from '../components/Cite.astro';
+import SourceQuote from '../components/SourceQuote.astro';
+import Routes4Fig from '../components/figures/Routes4Fig.astro';
+import MechFig from '../components/figures/MechFig.astro';
+import EolMatrix from '../components/figures/EolMatrix.astro';
+import { routes, structures, chemistry, properties, molById, refById, url } from '../lib/data';
+const figures: Record<string, any> = { routes4: Routes4Fig, mechanisms: MechFig, 'eol-matrix': EolMatrix };
+const anchored = new Set<string>();
+const firstTime = (id: string) => (anchored.has(id) ? false : (anchored.add(id), true));
+const roles = ['monomer', 'repeat unit', 'representative unit', 'feedstock', 'catalyst'];
+---
+<Base title="Chemistry" description="Verified chemical structures of bio-based monomers, repeat units and representative units, and how bio-based polymers are made.">
+  <p class="crumbs"><a href={url('')}>Overview</a> / Chemistry</p>
+  <h1>Chemistry of bio-based polymers</h1>
+  <p class="lede muted narrow">Drawn from SMILES with RDKit at build time; stereochemistry checked against InChIKeys. Natural polymers are shown by a representative unit, never an invented full structure.</p>
+  <div class="notice info narrow small">Every monomer, feedstock and catalyst below matches its PubChem record (InChIKey). Repeat units carry <code>*</code> attachment points and repeat brackets; the build caps and hydrolyses each one and checks that the products are exactly the listed monomers — so a repeat unit can never silently carry the wrong stereocentre. A structure that fails verification is not published.</div>
+  <nav class="chips" aria-label="Sections">
+    {chemistry.sections.map((s) => <a class="chip" href={`#${s.id}`}>{s.number} · {s.title}</a>)}
+    <a class="chip" href="#library">Structure library</a>
+  </nav>
+
+  {chemistry.sections.map((s) => {
+    const Fig = s.figure ? figures[s.figure] : null;
+    return (
+      <section class="explainer" id={s.id}>
+        <span class="eyebrow">{s.number} / {s.title.toUpperCase()}</span>
+        <h2 style="margin-top:6px">{s.title}</h2>
+        <p class="lede muted narrow">{s.lede}</p>
+        {Fig && <Fig />}
+        {s.blocks.map((b) => (
+          <div class="narrow-wide">
+            <h3>{b.heading}</h3>
+            <p>{b.text} <Cite ids={b.refs} /></p>
+            {b.sources?.length ? <ul class="small">{b.sources.map((k) => <li><SourceQuote k={k} /></li>)}</ul> : null}
+            {b.structures?.length ? <div class="block-structs">{b.structures.map((id) => molById(id)).filter(Boolean).map((m) => <Mol m={m!} compact smiles={false} />)}</div> : null}
+          </div>
+        ))}
+        {s.table === 'properties' && (
+          <>
+            <h3 id="property-table">Typical property values — sourced only</h3>
+            <p class="small muted narrow">A value appears only when it is quoted verbatim from a cited reference (hover or read the quote under it). Every other cell is <strong>ND</strong> — no sourced value yet. Values are never filled from memory or handbooks; grades, processing and test methods differ, so compare like with like.</p>
+            <div class="table-wrap">
+              <table class="prop-table">
+                <thead><tr><th scope="col">Polymer</th>{properties.columns.map((c) => <th scope="col">{c.label} ({c.unit})</th>)}</tr></thead>
+                <tbody>{properties.rows.map((r) => (
+                  <tr><td><a href={url(`routes/${r.route}/`)}>{r.polymer}</a></td>
+                    {properties.columns.map((c) => {
+                      const v = r.values[c.id];
+                      if (v === 'ND') return <td class="nd">ND</td>;
+                      const ref = refById(v.ref);
+                      return <td><strong>{v.value}</strong><span class="q">“{v.quote}” — <a href={`https://doi.org/${ref?.doi}`}>{ref?.authors.split(/[ ,]/)[0]} {ref?.year}</a>; {v.conditions}</span></td>;
+                    })}
+                  </tr>))}
+                </tbody>
+              </table>
+            </div>
+            <p class="small muted">ND = no sourced value (not disclosed in the references held). Contribute a value by opening a <a href="https://github.com/rethinksci-gif/biopolymer-intelligence/issues/new?template=correction.yml">correction</a> with a DOI and the quoted passage.</p>
+          </>
+        )}
+        {s.support?.length ? (
+          <details class="box"><summary>Quoted support ({s.support.length})</summary>
+            <ul class="small">{s.support.map((q) => <li><q>{q.quote}</q> <Cite ids={[q.ref]} /></li>)}</ul>
+          </details>) : null}
+      </section>
+    );
+  })}
+
+  <section class="explainer" id="library">
+    <span class="eyebrow">STRUCTURE LIBRARY</span>
+    <h2 style="margin-top:6px">Structure cards by route</h2>
+    <p class="small muted">Role labels: {roles.map((r) => <span class={`badge role-${r.replace(/\s+/g, '-')}`} style="margin-right:4px">{r}</span>)}. A monomer is not its repeat unit: the repeat unit is what the chain is made of after polymerisation.</p>
+    {routes.map((r) => {
+      const mols = structures.filter((s) => s.routes.includes(r.id));
+      if (!mols.length) return null;
+      return (
+        <section>
+          <h3 id={`lib-${r.id}`}><a href={url(`routes/${r.id}/`)}>{r.name}</a></h3>
+          <div class="grid">{mols.map((m) => <Mol m={m} anchor={firstTime(m.id)} />)}</div>
+        </section>
+      );
+    })}
+  </section>
+  <p class="small muted">Structure data: <a href={url('data/structures.json')}>structures.json</a> · <a href={url('data/structures.csv')}>CSV</a>. Suggest a molecule via the <a href="https://github.com/rethinksci-gif/biopolymer-intelligence/issues/new?template=structure.yml">structure template</a> (SMILES and a citable source required).</p>
+</Base>
