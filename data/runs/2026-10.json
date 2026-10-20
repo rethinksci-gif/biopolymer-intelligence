@@ -1,0 +1,36 @@
+{
+  "month": "2026-10",
+  "runs": [
+    {
+      "run_id": "2026-10-20261020T183350Z-d30b0f",
+      "month": "2026-10",
+      "started": "2026-10-20T18:33:50+00:00",
+      "finished": "2026-10-20T18:48:40+00:00",
+      "scanned_through": "2026-10-20",
+      "triage": "ran",
+      "triage_note": null,
+      "triage_model": "deepseek-flash",
+      "prompt_version": "1",
+      "budget": 60,
+      "llm_calls": 60,
+      "usage": {
+        "prompt_tokens": 222553,
+        "completion_tokens": 196922
+      },
+      "by_model": {
+        "deepseek-flash": {
+          "calls": 60,
+          "prompt_tokens": 222553,
+          "completion_tokens": 196922
+        }
+      },
+      "cost_usd": null,
+      "discovered": 1229,
+      "keyword_gate_rejected": 337,
+      "sent_to_llm": 887,
+      "shown": 168,
+      "triage_pending": 292,
+      "discovery_errors": []
+    }
+  ]
+}
