@@ -1,1 +1,78 @@
-[]
+# Checked developments, September 2026 (window 1-30 Sep, cutoff 30 Sep).
+# Evidence check by the build editor on 2026-10-20 from Avantium's own releases (retrieved 2026-10-20).
+# Not signed: the technical reviewer is still OPEN (G4).
+- id: avantium-fdca-flagship-first-batch
+  month: 2026-09
+  title: Avantium produces first FDCA batch at its Delfzijl Flagship Plant
+  route: pef
+  lead_id: "news:0d419f66b6646320"
+  dedupe_key: {technology: YXY FDCA, organization: Avantium, facility: FDCA Flagship Plant Delfzijl, event: first FDCA batch / start-up}
+  repeat_reason: null
+  polymer_family: PEF (FDCA monomer for poly(ethylene furanoate))
+  feedstock: Plant-based sugars (supplier statement; crop and region not stated in the September releases)
+  monomers: [FDCA]
+  synthesis_route: YXY Technology - catalytic conversion of plant-based sugars into FDCA (supplier description)
+  novelty_type: scale-or-supply
+  novelty_note: Start-up milestone of a first commercial-scale FDCA plant; not new chemistry.
+  event: >-
+    Avantium reported that all major process units were commissioned (7 Sep) and that the first batch of FDCA was produced
+    at its FDCA Flagship Plant in Delfzijl (28 Sep). Commercial sales are expected toward the end of 2026, subject to
+    start-up and product qualification.
+  published_date: 2026-09-28
+  event_date: 2026-09-28
+  sources:
+    - url: https://newsroom.avantium.com/avantium-announces-the-start-up-of-its-flagship-plant-with-the-first-batch-of-fdca-produced/
+      locator: press release, paragraph 1
+      published: 2026-09-28
+      kind: supplier announcement
+      quote: "today announces that it has successfully produced the first batch of furandicarboxylic acid (FDCA) at its FDCA Flagship Plant in Delfzijl, the world's first commercial-scale plant for the production of FDCA"
+    - url: https://newsroom.avantium.com/avantium-completes-commissioning-of-purification-unit-at-fdca-flagship-plant/
+      locator: press release, paragraph 1
+      published: 2026-09-07
+      kind: supplier announcement
+      quote: "With the purification unit now commissioned, all major process units of the Plant have been successfully commissioned"
+    - url: https://newsroom.avantium.com/avantium-publishes-half-year-2026-financial-statements-and-completes-worley-contractual-close-out-for-fdca-flagship-plant/
+      locator: half-year release, operational update
+      published: 2026-09-30
+      kind: supplier announcement
+      quote: "Avantium has currently secured 23 offtake agreements for material to be produced in the FDCA Flagship Plant, and 17 capacity reservation agreements representing more than 150 kilotonnes of potential annual production capacity from future licensed facilities."
+  actors:
+    - {name: Avantium N.V., role: producer}
+  research_location: Not disclosed
+  production_site: Delfzijl, the Netherlands
+  target_region: Not disclosed
+  demonstrated_stage: industrial
+  plans: >-
+    Ramp-up toward commercial sales expected at the end of 2026; Avantium "continues to expect ramp-up to full design
+    capacity to take place over a period of 12-24 months following plant start-up" (28 Sep). The 7 Sep release said
+    "approximately 24 months". Licensing: 17 capacity reservation agreements for future licensed facilities (30 Sep);
+    these are potential capacity, not production.
+  trl: {value: Not reported}
+  capacity: {value: Not disclosed, status: commissioned, facility: FDCA Flagship Plant, Delfzijl}
+  performance: []
+  cost: {value: Not disclosed}
+  climate: {value: Not disclosed}
+  residual_fossil: Not disclosed
+  feedstock_availability: Not disclosed
+  eol_constraints: Not disclosed in the September releases
+  main_barrier: Product qualification and ramp-up from batch to continuous operation.
+  missing_evidence: >-
+    Design capacity (an undated Avantium product page says "thousands of tons of FDCA annually", retrieved after the
+    cutoff - not recorded as a value); actual output; FDCA quality vs customer specification; feedstock origin and
+    certification; LCA boundary for the 88 % GHG claim on Avantium's product page (retrieved after cutoff, boundary not
+    stated); third-party verification of PET-stream recyclability claims.
+  next_question: Has the plant moved from batch to continuous operation, and have first commercial deliveries started by end-2026?
+  attributes:
+    bio_based_origin:
+      value: Plant-based sugars (supplier statement)
+      quote: "the YXY ® Technology that catalytically converts plant-based sugars into FDCA (furandicarboxylic acid)"
+      source: https://newsroom.avantium.com/avantium-announces-the-start-up-of-its-flagship-plant-with-the-first-batch-of-fdca-produced/
+    biobased_carbon_measured: {value: Not disclosed}
+    mass_balance: {value: Not disclosed}
+    biodegradable_env: {value: Not disclosed}
+    compostable: {value: Not disclosed}
+    recyclable: {value: Not disclosed}
+  label: supplier announcement
+  tracking: milestone
+  selection_score: {relevance: 2, novelty: 1, evidence: 1, consequence: 2, learning: 1}
+  review: {status: evidence-checked, reviewer: null, date: null}

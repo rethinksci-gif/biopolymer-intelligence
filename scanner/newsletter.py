@@ -53,7 +53,7 @@ def render_html(month: str, issue: dict, devs: dict, leads: dict) -> str:
     routes = {r["id"]: r for r in load("routes")}
     site = config()["site"]
     status = issue["status"]
-    stamp = {"draft": "DRAFT · not evidence-checked · not signed", "evidence-checked": "Evidence-checked · not yet signed",
+    stamp = {"draft": "DRAFT · not signed · item status varies", "evidence-checked": "Evidence-checked · not yet signed",
              "signed": f"Signed by {issue['review'].get('reviewer')} on {issue['review'].get('date')}"}[status]
     refs: list[str] = []
 
@@ -94,8 +94,8 @@ def render_html(month: str, issue: dict, devs: dict, leads: dict) -> str:
                      " ".join(x for x in [str(g("cost") or "ND"), str(g("cost", "basis") or "")] if x),
                      " ".join(x for x in [str(g("climate") or "ND"), str(g("climate", "boundary") or "")] if x)]
             rows.append("<tr>" + "".join(f"<td>{_e(x)}</td>" for x in cells) + "</tr>")
-        comp = ('<table class="strip"><thead><tr><th>Entity / polymer</th><th>Production geography</th><th>Demonstrated scale</th><th>TRL</th>'
-                '<th>Capacity / status</th><th>Cost / basis</th><th>Climate / boundary</th></tr></thead><tbody>' + "".join(rows) +
+        comp = ('<table class="strip"><thead><tr><th scope="col">Entity / polymer</th><th scope="col">Production geography</th><th scope="col">Demonstrated scale</th><th scope="col">TRL</th>'
+                '<th scope="col">Capacity / status</th><th scope="col">Cost / basis</th><th scope="col">Climate / boundary</th></tr></thead><tbody>' + "".join(rows) +
                 '</tbody></table><p class="fn">ND = not disclosed. Capacity is nameplate unless the status says actual output.</p>')
     notes = "".join(f"<li>{_e(x)}</li>" for x in issue.get("notes") or [])
     watch = "".join(f"<li>{_e(x)}</li>" for x in issue.get("watchlist") or [])
