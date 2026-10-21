@@ -8,7 +8,7 @@
   lead_id: "news:0d419f66b6646320"
   dedupe_key: {technology: YXY FDCA, organization: Avantium, facility: FDCA Flagship Plant Delfzijl, event: first FDCA batch / start-up}
   repeat_reason: null
-  polymer_family: PEF (FDCA monomer for poly(ethylene furanoate))
+  polymer_family: FDCA (PEF monomer)
   feedstock: Plant-based sugars (supplier statement; crop and region not stated in the September releases)
   monomers: [FDCA]
   synthesis_route: YXY Technology - catalytic conversion of plant-based sugars into FDCA (supplier description)
@@ -81,12 +81,12 @@
 # heat-resistance numbers are therefore not recorded. Not signed (G4).
 - id: pla-pa11-nanosilica-elastomer-toughening
   month: 2026-09
-  title: PLA/PA11 blend toughened and compatibilised with a bio-based nanosilica/epoxy elastomer hybrid
+  title: PLA/PA11 blend toughened by a bio-based nanosilica/epoxy elastomer
   route: pla
   lead_id: "doi:10.1021/acs.iecr.6c03874"
   dedupe_key: {technology: PLA/PA11 blend + amino-functionalised nanosilica/epoxy elastomer, organization: Tianjin University / PetroChina, facility: lab, event: journal article}
   repeat_reason: null
-  polymer_family: PLA blend (PLA/PA11) with an elastomer/nanosilica hybrid
+  polymer_family: PLA/PA11 blend
   feedstock: Not disclosed in the abstract
   monomers: []  # not named in the abstract
   synthesis_route: Melt blending of PLA and PA11 with a modified elastomer carrying amino-functionalised nanosilica (abstract; processing details not read)
@@ -250,4 +250,82 @@
   label: hold
   tracking: watch
   selection_score: {relevance: 2, novelty: 1, evidence: 0, consequence: 2, learning: 1}
+  review: {status: evidence-checked, reviewer: null, date: null}
+# Evidence check by the build editor on 2026-10-21 from the company's press release as filed with NSE/BSE.
+- id: balrampur-bioe3-pla-copolymer-rd-grant
+  month: 2026-09
+  title: Balrampur Chini wins BioE3 grant for a PLA co-polymer R&D facility
+  route: pla
+  lead_id: "news:4a0aae47a98f11ef"
+  dedupe_key: {technology: PLA and PLA co-polymers, organization: Balrampur Chini Mills, facility: PLA Co-Polymer R&D Facility Kumbhi, event: government grant}
+  repeat_reason: null
+  polymer_family: PLA and PLA co-polymers
+  feedstock: Not disclosed in the release (the company is a sugar producer; feedstock of the PLA plant not stated)
+  monomers: []
+  synthesis_route: Not disclosed
+  novelty_type: scale-or-supply
+  novelty_note: Public funding for a pilot-scale PLA grade and co-polymer facility next to India's first commercial PLA plant under construction.
+  event: >-
+    DBT-BIRAC awarded Balrampur Chini Mills ₹75 crore under the BioE3 initiative for a 100 TPA PLA co-polymer R&D
+    facility at its Kumbhi complex in Uttar Pradesh, where the company is setting up an 80,000 TPA commercial PLA plant.
+  published_date: 2026-09-24
+  event_date: 2026-09-24
+  sources:
+    - url: https://nsearchives.nseindia.com/corporate/BALRAMPURC_24092026110943_SE_Intimation__Press_Release_24092026.pdf
+      locator: press release filed with NSE/BSE under SEBI LODR Reg. 30, paragraph 1
+      published: 2026-09-24
+      kind: company announcement (exchange filing)
+      quote: "has been awarded ₹75 crore in grant assistance by the Biotechnology Industry Research Assistance Council (BIRAC) under the Department of Biotechnology (DBT), Government of India"
+    - url: https://nsearchives.nseindia.com/corporate/BALRAMPURC_24092026110943_SE_Intimation__Press_Release_24092026.pdf
+      locator: press release, paragraph 1 (continued; "Co-Polymer" is hyphenated across a line in the PDF)
+      published: 2026-09-24
+      kind: company announcement (exchange filing)
+      quote: "for establishing a 100 TPA PLA Co-Polymer R&D Facility under the Government's flagship BioE3 (Biotechnology for Economy, Environment & Employment) initiative"
+    - url: https://nsearchives.nseindia.com/corporate/BALRAMPURC_24092026110943_SE_Intimation__Press_Release_24092026.pdf
+      locator: press release, paragraph 2
+      published: 2026-09-24
+      kind: company announcement (exchange filing)
+      quote: "The pilot-scale R&D facility will be established at BCML's integrated manufacturing complex in Kumbhi, Uttar Pradesh, where the company is also setting up India's first integrated commercial PLA manufacturing facility."
+  actors:
+    - {name: Balrampur Chini Mills Limited, role: producer}
+    - {name: "BIRAC, Department of Biotechnology, Government of India", role: partner}
+  research_location: Kumbhi, Uttar Pradesh, India
+  production_site: Kumbhi, Uttar Pradesh, India
+  target_region: India
+  demonstrated_stage: Not disclosed
+  plans: >-
+    The R&D facility is to develop PLA grades and co-polymers, generate techno-economic data and produce pilot samples
+    (company release). Start dates for the R&D facility and the commercial plant are not given in the release.
+  trl: {value: Not reported}
+  capacity:
+    value: "80,000"
+    unit: t/yr PLA
+    facility: commercial PLA plant, Kumbhi (being set up)
+    status: under_construction
+    quote: "We are also in process of setting up India’s 1st Poly Lactic Acid (PLA) plant of 80,000 TPA capacity."
+    source: https://nsearchives.nseindia.com/corporate/BALRAMPURC_24092026110943_SE_Intimation__Press_Release_24092026.pdf
+    locator: press release, About section
+  performance: []
+  cost: {value: Not disclosed}  # the ₹75 crore is a grant, not a production cost or price
+  climate: {value: Not disclosed}
+  residual_fossil: Not disclosed
+  feedstock_availability: Not disclosed
+  eol_constraints: Not disclosed
+  main_barrier: Not disclosed
+  missing_evidence: >-
+    Commissioning date of the 80,000 TPA plant (press reports say October 2026; not in the company's release),
+    feedstock and lactide route, technology licensor, total project cost, which co-polymers are targeted, and the
+    R&D facility's timeline. Press reports of equipment arriving from Belgium (ChiniMandi, 30 Sep) were not checked
+    against a company source.
+  next_question: Does Balrampur report commissioning of the Kumbhi PLA plant in its Q2 FY27 results?
+  attributes:
+    bio_based_origin: {value: Not disclosed}
+    biobased_carbon_measured: {value: Not disclosed}
+    mass_balance: {value: Not disclosed}
+    biodegradable_env: {value: Not disclosed}
+    compostable: {value: Not disclosed}
+    recyclable: {value: Not disclosed}
+  label: supplier announcement
+  tracking: milestone
+  selection_score: {relevance: 2, novelty: 1, evidence: 2, consequence: 2, learning: 1}
   review: {status: evidence-checked, reviewer: null, date: null}

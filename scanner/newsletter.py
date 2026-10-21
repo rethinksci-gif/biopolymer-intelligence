@@ -90,7 +90,8 @@ def render_html(month: str, issue: dict, devs: dict, leads: dict) -> str:
             d = devs[c["development"]]
             g = lambda k, f="value": (d.get(k) or {}).get(f) if isinstance(d.get(k), dict) else d.get(k)
             cells = [d.get("polymer_family") or d["title"], d.get("production_site") or "ND", d.get("demonstrated_stage") or "ND",
-                     g("trl") or "ND", " ".join(x for x in [str(g("capacity") or "ND"), str(g("capacity", "status") or "")] if x),
+                     g("trl") or "ND", " ".join(x for x in [str(g("capacity") or "ND"), str(g("capacity", "unit") or "") if g("capacity") not in (None, "Not disclosed") else "",
+                                         "· " + str(g("capacity", "status")).replace("_", " ") if g("capacity", "status") else ""] if x),
                      " ".join(x for x in [str(g("cost") or "ND"), str(g("cost", "basis") or "")] if x),
                      " ".join(x for x in [str(g("climate") or "ND"), str(g("climate", "boundary") or "")] if x)]
             rows.append("<tr>" + "".join(f"<td>{_e(x)}</td>" for x in cells) + "</tr>")
