@@ -15,14 +15,15 @@ review:
 what_changed: 'Two developments passed the evidence check: Avantium''s first FDCA batch at a commercial-scale plant, a supply milestone for PEF,
   and a lab-scale PLA/PA11 blend toughened with a bio-based elastomer hybrid, checked from its abstract only.'
 notes:
-- Trial issue. Two items are evidence-checked; nothing is signed. The technical reviewer, delivery date and distribution channel are still OPEN
+- Trial issue. Both cards are evidence-checked; nothing is signed. The technical reviewer, delivery date and distribution channel are still OPEN
   (G4).
 - Cross-issue novelty could not be checked — first issue.
 - 'September triage stopped at the 60-call budget: records still marked ''triage pending'' may contain further candidates.'
 - Evidence-checked by the build editor on 2026-10-20 from Avantium's own releases; three syndicated news reports of the same start-up were collapsed
   onto them. Not signed.
 - 'PLA/PA11 item checked from the abstract only (full text paywalled): no test standards, baselines or heat-resistance numbers.'
-- 'PHBV strain lead dropped: online since 12 July 2026; September is only its issue date.'
+- 'PHBV lead dropped: online since 12 July 2026.'
+- 'L-lactide lead on hold: only an equipment supplier''s release, no named producer.'
 - Issue stays 'draft' until a reviewer signs.
 cards:
 - development: avantium-fdca-flagship-first-batch
@@ -43,7 +44,7 @@ cards:
   gap: Abstract only - blend ratio, test standards, neat-PLA baseline, heat-resistance data and bio-based content are not reported there.
 watchlist:
 - 'Avantium FDCA plant: batch-to-continuous operation and first commercial deliveries (company expects end of 2026).'
-- 'PLA/PA11 blend: heat-resistance data and bio-based content once the full text is read.'
+- 'Dancheng (Henan) L-lactide line reported started on 18 Sep: producer and capacity unconfirmed (hold).'
 questions:
 - What design capacity and actual output will Avantium report once the plant runs continuously?
 - Which system boundary and functional unit underlie Avantium's PEF footprint claims?

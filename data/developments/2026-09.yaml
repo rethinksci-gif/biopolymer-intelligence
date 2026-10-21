@@ -173,3 +173,81 @@
   tracking: data-gap
   selection_score: {relevance: 2, novelty: 1, evidence: 1, consequence: 1, learning: 2}
   review: {status: evidence-checked, reviewer: null, date: null}
+# Evidence check by the build editor on 2026-10-21. Label `hold`: the only text source is an equipment supplier's
+# paid press release; the producer is not named anywhere and the capacity is not confirmed by an owner.
+- id: dancheng-l-lactide-line-start-up
+  month: 2026-09
+  title: Large L-lactide line reported started in Dancheng, Henan (producer and capacity unconfirmed)
+  route: pla
+  lead_id: "news:b9949e45f79cc61e"
+  dedupe_key: {technology: L-lactide, organization: Not disclosed, facility: L-lactide line Dancheng County, event: start-up}
+  repeat_reason: null
+  polymer_family: L-lactide (PLA monomer)
+  feedstock: Not disclosed
+  monomers: [L-lactide]
+  synthesis_route: Not disclosed
+  novelty_type: scale-or-supply
+  novelty_note: Reported start-up of a lactide line; not new chemistry. Size claim is second-hand.
+  event: >-
+    An equipment supplier (SuTong Technology) says it delivered the tower internals for a newly commissioned L-lactide
+    line in Dancheng County, Zhoukou, Henan, and relays a CCTV report of 18 September calling it China's largest
+    single-unit L-lactide line. A Tencent News video of the same day is titled "国内最大左旋丙交酯生产线投产使用".
+    No producer is named.
+  published_date: 2026-09-23
+  event_date: 2026-09-18
+  sources:
+    - url: https://www.einpresswire.com/article/943925009/china-s-largest-single-unit-l-lactide-line-starts-production-with-key-tower-internals-from-sutong
+      locator: press release (EIN Presswire, provided by Nantong Chengxin Overseas Network Technology), paragraph 1
+      published: 2026-09-23
+      kind: supplier announcement (equipment supplier, not the producer)
+      quote: "SuTong Technology has designed and delivered the complete tower-internals package for a newly commissioned L‑lactide production line in Dancheng County, Zhoukou, Henan Province, China. With an annual capacity of 100,000 metric tons"
+    - url: https://www.einpresswire.com/article/943925009/china-s-largest-single-unit-l-lactide-line-starts-production-with-key-tower-internals-from-sutong
+      locator: press release, paragraph 3 (relaying CCTV, 18 Sep 2026; CCTV text not found)
+      published: 2026-09-23
+      kind: supplier announcement relaying broadcaster report
+      quote: "CCTV identified the installation as China's largest single-unit L‑lactide production line"
+    - url: https://news.qq.com/rain/a/20260918V07O8E00
+      locator: video title (no text body)
+      published: 2026-09-18
+      kind: news video
+      quote: "河南郸城：国内最大左旋丙交酯生产线投产使用"
+    - url: http://static.cninfo.com.cn/finalpage/2026-09-21/1225575671.PDF
+      locator: Henan Jindan Lactic Acid Technology (300829), announcement 2026-041, section 4 item 2 (context, not confirmation)
+      published: 2026-09-21
+      kind: exchange filing
+      quote: "公司年产7.5万吨聚乳酸生物降解新材料项目尚处于试车阶段，项目投产及产能释放时间均具有不确定性，公司亦未接收聚乳酸相关订单"
+  actors:
+    - {name: Nantong SuTong Separation Technology Co. (SuTong Technology), role: supplier}
+  research_location: Not disclosed
+  production_site: Dancheng County, Zhoukou, Henan, China (supplier statement)
+  target_region: Not disclosed
+  demonstrated_stage: Not disclosed
+  plans: Not disclosed
+  trl: {value: Not reported}
+  capacity: {value: Not disclosed, facility: L-lactide line, Dancheng County}
+  performance: []
+  cost: {value: Not disclosed}
+  climate: {value: Not disclosed}
+  residual_fossil: Not disclosed
+  feedstock_availability: Not disclosed
+  eol_constraints: Not applicable (monomer)
+  main_barrier: Not disclosed
+  missing_evidence: >-
+    Producer not named in any source found. The 100,000 t/yr figure appears only in the equipment supplier's paid
+    release and is not recorded as a value; "largest single-unit" is attributed to a CCTV report whose text was not
+    found (the Tencent item is a video with a title only). Henan Jindan Lactic Acid Technology, which is based in
+    Dancheng, did not mention a lactide line in its September filings; on 21 Sep it said its PLA project is still in
+    trial operation with uncertain start-up timing. Whether the line belongs to Jindan is not established. Actual
+    output, product grade and feedstock are not disclosed.
+  next_question: Does Jindan's Q3 2026 report (due 27 Oct) or any producer statement identify this line and its capacity?
+  attributes:
+    bio_based_origin: {value: Not disclosed}
+    biobased_carbon_measured: {value: Not disclosed}
+    mass_balance: {value: Not disclosed}
+    biodegradable_env: {value: Not disclosed}
+    compostable: {value: Not disclosed}
+    recyclable: {value: Not disclosed}
+  label: hold
+  tracking: watch
+  selection_score: {relevance: 2, novelty: 1, evidence: 0, consequence: 2, learning: 1}
+  review: {status: evidence-checked, reviewer: null, date: null}
