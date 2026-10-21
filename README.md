@@ -43,7 +43,7 @@ data/newsletter/*.yaml ──────┘──► scanner newsletter build �
 - `python -m scanner scan --month YYYY-MM` — discovery + triage. Needs `DEEPSEEK_API_KEY` for triage; without it, discovery runs and leads stay "triage pending".
 - `python -m scanner structures` — PubChem InChIKey verification (cached in `data/cache/pubchem.json`) + RDKit SVGs. Fails the build on any mismatch.
 - `python -m scanner verify-refs` — DOIs on Crossref; every supporting quote re-found in its abstract; official-document quotes re-found on the issuing body's page.
-- `python -m scanner recheck-dates YYYY-MM` — re-dates issue-dated (month-precision) leads by Crossref first availability and hides, with a `pre-window` flag, those online before the month began. Runs after every monthly scan.
+- `python -m scanner recheck-dates YYYY-MM` — checks each DOI lead's Crossref first availability (once) and hides, with a `pre-window` flag, those online before the month began. Runs after every monthly scan.
 - `python -m scanner validate` — JSON schemas + evidence rules.
 - `python -m scanner newsletter build YYYY-MM` — HTML + PDF + page/word/number checks.
 - `scripts/qa.py` — internal links/anchors, axe-core (light + dark), no horizontal scroll at 375 px, PDF page count.

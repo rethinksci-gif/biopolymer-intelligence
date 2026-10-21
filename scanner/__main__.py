@@ -116,8 +116,8 @@ def cmd_scan(args):
 
 
 def cmd_recheck_dates(args):
-    """Re-date leads that only carry a month-precision (issue) date: look up the Crossref record's first
-    availability and hide, with a `pre-window` flag, any lead that was online before the month began."""
+    """Look up each DOI lead's first availability on Crossref (once) and hide, with a `pre-window` flag, any lead
+    that was online before the month began."""
     from .http import get_json
     from .months import window
     from .sources import first_available
@@ -129,7 +129,9 @@ def cmd_recheck_dates(args):
         sys.exit(f"no leads file for {args.month}")
     checked = moved = failed = 0
     for c in doc["leads"]:
-        if c.get("date_precision") != "month" or not c.get("doi") or "pre-window" in c.get("flags", []):
+        # Every DOI lead is checked once (`first_available` marks it): OpenAlex and Europe PMC can also report
+        # an issue date as a day-precision date. Keyword-gated records are never shown, so they are skipped.
+        if not c.get("doi") or "first_available" in c or {"pre-window", "keyword-gate"} & set(c.get("flags", [])):
             continue
         try:
             m = get_json("https://api.crossref.org/works/" + c["doi"])["message"]
@@ -140,7 +142,7 @@ def cmd_recheck_dates(args):
         checked += 1
         first, exact = first_available(m) or (c["published_date"], False)
         c["first_available"] = first
-        if exact:
+        if exact and c.get("date_precision") == "month":
             c["date_precision"] = "day"
         if first < start.isoformat():
             c["hidden"] = True
@@ -149,7 +151,7 @@ def cmd_recheck_dates(args):
     doc["triage_pending"] = sum(c.get("route") == "untriaged" and "pre-window" not in c.get("flags", []) for c in doc["leads"])
     doc["updated"] = _now()
     _write(path, doc)
-    print(f"{args.month}: {checked} issue-dated leads checked, {moved} online before {start} hidden as pre-window, {failed} lookups failed")
+    print(f"{args.month}: {checked} DOI leads checked, {moved} online before {start} hidden as pre-window, {failed} lookups failed")
 
 
 def cmd_structures(args):
