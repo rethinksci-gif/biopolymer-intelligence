@@ -116,3 +116,14 @@ def test_flash_is_default_and_drafting_unset():
     assert cfg["triage_model"] == "deepseek-flash"
     assert cfg["draft_model"] is None and cfg["max_draft_calls"] <= 3
     assert cfg["max_calls_per_run"] == 60
+
+
+def test_first_available_prefers_online_over_issue_date():
+    from scanner.sources import first_available
+
+    # Online-first article: registered in July, issue dated September (the PHBV case, 2026-09).
+    m = {"created": {"date-parts": [[2026, 7, 13]]}, "published-print": {"date-parts": [[2026, 9]]}, "issued": {"date-parts": [[2026, 9]]}}
+    assert first_available(m) == ("2026-07-13", True)
+    m = {"published-online": {"date-parts": [[2026, 9, 21]]}, "created": {"date-parts": [[2026, 9, 22]]}}
+    assert first_available(m) == ("2026-09-21", True)
+    assert first_available({"issued": {"date-parts": [[2026, 9]]}}) == ("2026-09-01", False)

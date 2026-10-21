@@ -32,7 +32,9 @@ jobs:
         run: |
           MONTH="${{ inputs.month }}"
           python -m scanner scan ${MONTH:+--month $MONTH}
-          echo "month=$(ls -t data/runs/*.json | head -1 | xargs basename | cut -c1-7)" >> "$GITHUB_OUTPUT"
+          M=$(ls -t data/runs/*.json | head -1 | xargs basename | cut -c1-7)
+          python -m scanner recheck-dates "$M"
+          echo "month=$M" >> "$GITHUB_OUTPUT"
       - name: Validate
         run: python -m scanner validate
       - name: Open a pull request (a human merges)

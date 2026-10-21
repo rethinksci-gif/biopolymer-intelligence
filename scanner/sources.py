@@ -42,12 +42,22 @@ def _cr_date(parts):
         return None
 
 
+def first_available(m: dict):
+    """Earliest Crossref date at which a work was available: online, posted or DOI registration (`created`).
+    Issue dates (`published-print`, `issued`) are a fallback only; an issue date alone made a July
+    online-first article look like a September one."""
+    exact = sorted(d for d in (_cr_date(m.get(k)) for k in ("published-online", "posted", "created")) if d and d[1])
+    if exact:
+        return exact[0]
+    return _cr_date(m.get("published-print")) or _cr_date(m.get("issued"))
+
+
 def crossref(query: str, start: date, end: date, rows: int) -> list[dict]:
     params = {
         "query.bibliographic": query,
         "filter": f"from-pub-date:{start},until-pub-date:{end},type:journal-article,type:posted-content",
         "rows": rows,
-        "select": "DOI,title,author,container-title,published-online,published-print,posted,issued,abstract,URL,publisher,type",
+        "select": "DOI,title,author,container-title,published-online,published-print,posted,issued,created,abstract,URL,publisher,type",
         "mailto": config()["scan"]["mailto"],
     }
     data = get_json("https://api.crossref.org/works?" + urllib.parse.urlencode(params))
@@ -55,11 +65,12 @@ def crossref(query: str, start: date, end: date, rows: int) -> list[dict]:
     for m in data["message"]["items"]:
         if not m.get("title"):
             continue
-        dated = _cr_date(m.get("published-online")) or _cr_date(m.get("posted")) or _cr_date(m.get("published-print")) or _cr_date(m.get("issued"))
+        dated = first_available(m)
         if not dated:
             continue
         published, exact = dated
-        # Crossref filters on any of its dates; keep only items whose first date is inside the window.
+        # Crossref filters on any of its dates (including the issue date of an article that went online months
+        # earlier); keep only items whose first availability is inside the window.
         if not (start.isoformat() <= published <= end.isoformat()):
             continue
         preprint = m.get("type") == "posted-content"

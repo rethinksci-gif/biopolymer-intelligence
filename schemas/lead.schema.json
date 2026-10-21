@@ -131,6 +131,11 @@
     },
     "region": {
       "type": "string"
+    },
+    "first_available": {
+      "type": "string",
+      "format": "date",
+      "description": "Earliest online/posted/DOI-registration date (recheck-dates); set when the discovery date was an issue date"
     }
   },
   "if": {

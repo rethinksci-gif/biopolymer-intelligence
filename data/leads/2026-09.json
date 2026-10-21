@@ -6,7 +6,7 @@
   ],
   "scanned_through": "2026-09-30",
   "status": "complete",
-  "updated": "2026-10-20T18:33:28+00:00",
+  "updated": "2026-10-21T05:39:03+00:00",
   "triage_model": "deepseek-flash",
   "prompt_version": "1",
   "triage_pending": 433,
@@ -253,7 +253,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Song, Zhang, Li et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178499",
       "language": "en",
       "via": "crossref",
@@ -273,13 +273,15 @@
       "quote": "Non-isocyanate polyurethanes from bio-based isosorbide with enhanced thermal, mechanical and adhesive properties",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-17"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153379",
@@ -289,7 +291,7 @@
       "venue": "International Journal of Biological Macromolecules",
       "authors": "Bharathan, Guthige, Kumar et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijbiomac.2026.153379",
       "language": "en",
       "via": "crossref",
@@ -308,13 +310,15 @@
       "quote": "Engineering crystalline architecture in PLA/PBAT-based blend films through PDLA and talc",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-06"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153504",
@@ -324,7 +328,7 @@
       "venue": "International Journal of Biological Macromolecules",
       "authors": "Kumar, Lohith Kumar, Choudhury",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijbiomac.2026.153504",
       "language": "en",
       "via": "crossref",
@@ -342,13 +346,15 @@
       "quote": "Enhancing 3-hydroxyvalerate concentration in poly(3-hydroxybutyrate-co-3-hydroxyvalerate) by Pseudomonas aeruginosa strain 78B",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-13"
     },
     {
       "id": "doi:10.1016/j.susmat.2026.e02234",
@@ -1384,7 +1390,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Luo, Wang, Zhao et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178664",
       "language": "en",
       "via": "crossref",
@@ -1402,13 +1408,15 @@
       "quote": "Mechanically robust, environment resistant, and reprocessable lignin-derived polyurethane vitrimer",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-22"
     },
     {
       "id": "doi:10.1016/j.cej.2026.182596",
@@ -1418,7 +1426,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Nayal, Sharma, Sangmuanliana et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.182596",
       "language": "en",
       "via": "crossref",
@@ -1442,7 +1450,8 @@
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-30"
     },
     {
       "id": "doi:10.1016/j.eti.2026.105022",
@@ -1452,7 +1461,7 @@
       "venue": "Environmental Technology & Innovation",
       "authors": "Kim, Kang, Kim et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eti.2026.105022",
       "language": "en",
       "via": "crossref",
@@ -1471,13 +1480,15 @@
       "quote_location": "title",
       "flags": [
         "number-not-in-quote",
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-06"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.114960",
@@ -1487,7 +1498,7 @@
       "venue": "European Polymer Journal",
       "authors": "Perez, Mija",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.114960",
       "language": "en",
       "via": "crossref",
@@ -1509,13 +1520,15 @@
       "quote": "Structure-property relationships in bio-based polybenzoxazines: a comparative study of lignin-derived and flavonoid-based polymers",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-25"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.115055",
@@ -1594,7 +1607,7 @@
       "venue": "International Journal of Lightweight Materials and Manufacture",
       "authors": "Andrzejewski, Zdanowicz, Piasecki et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijlmm.2026.01.004",
       "language": "en",
       "via": "crossref",
@@ -1613,13 +1626,15 @@
       "quote": "The use of poly(lactic acid)/poly(butylene succinate) blends modified with natural fillers",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-01-13"
     },
     {
       "id": "doi:10.1016/j.indcrop.2026.124155",
@@ -1629,7 +1644,7 @@
       "venue": "Industrial Crops and Products",
       "authors": "Lu, Ou, Lin et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.indcrop.2026.124155",
       "language": "en",
       "via": "crossref",
@@ -1647,13 +1662,15 @@
       "quote": "Interfacial enhancement of bamboo flour/poly(3-hydroxybutyrate-co-3-hydroxyvalerate) biocomposites",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-14"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112228",
@@ -1663,7 +1680,7 @@
       "venue": "Polymer Degradation and Stability",
       "authors": "Jiang, Yang, Jin et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymdegradstab.2026.112228",
       "language": "en",
       "via": "crossref",
@@ -1681,13 +1698,15 @@
       "quote": "Lignin-derived epoxy covalent adaptable networks with dynamic silyl ether exchange",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-20"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112259",
@@ -1697,7 +1716,7 @@
       "venue": "Polymer Degradation and Stability",
       "authors": "Cai, Wu, Tan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymdegradstab.2026.112259",
       "language": "en",
       "via": "crossref",
@@ -1715,13 +1734,15 @@
       "quote": "Breaking the trade-off between thermal properties and degradability in CO₂-based polycarbonates via a bio-based rigid cyclic ethers",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-02"
     },
     {
       "id": "doi:10.1016/j.supmat.2026.100143",
@@ -3193,7 +3214,7 @@
       "venue": "Composites Part B: Engineering",
       "authors": "Liu, Guo, Zhu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.compositesb.2026.113878",
       "language": "en",
       "via": "crossref",
@@ -3211,13 +3232,15 @@
       "quote": "A bio-based approach to high-performance flame-retardant rigid polyurethane foams with integrated strength and thermal insulation",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-06"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.114963",
@@ -3227,7 +3250,7 @@
       "venue": "European Polymer Journal",
       "authors": "Kricheldorf, Weidner",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.114963",
       "language": "en",
       "via": "crossref",
@@ -3246,13 +3269,15 @@
       "quote_location": "title",
       "flags": [
         "number-not-in-quote",
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-22"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.114971",
@@ -3262,7 +3287,7 @@
       "venue": "European Polymer Journal",
       "authors": "Zheng, Yang, Pei et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.114971",
       "language": "en",
       "via": "crossref",
@@ -3280,13 +3305,15 @@
       "quote": "Sustainable lignin-derived elastomers with exceptional UV shielding, photothermal conversion, and power generation properties",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-29"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153447",
@@ -3296,7 +3323,7 @@
       "venue": "International Journal of Biological Macromolecules",
       "authors": "Sun, Qiu, Liu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijbiomac.2026.153447",
       "language": "en",
       "via": "crossref",
@@ -3314,13 +3341,15 @@
       "quote": "Lignin-based waterborne polyurethane for sustainable wood adhesives with enhanced strength and anti-aging properties",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-10"
     },
     {
       "id": "doi:10.1016/j.ijlmm.2026.01.005",
@@ -3330,7 +3359,7 @@
       "venue": "International Journal of Lightweight Materials and Manufacture",
       "authors": "Vidakis, Spyridaki, Mountakis et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijlmm.2026.01.005",
       "language": "en",
       "via": "crossref",
@@ -3348,13 +3377,15 @@
       "quote": "Load rate sensitivity and printability metrics of bio-derived polyhydroxyalkanoate (PHA) in material extrusion additive manufacturing",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-01-21"
     },
     {
       "id": "doi:10.1016/j.jcat.2026.116998",
@@ -3364,7 +3395,7 @@
       "venue": "Journal of Catalysis",
       "authors": "Zheng, Yan, Huang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcat.2026.116998",
       "language": "en",
       "via": "crossref",
@@ -3383,13 +3414,15 @@
       "quote_location": "title",
       "flags": [
         "number-not-in-quote",
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-05"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116062",
@@ -3433,7 +3466,7 @@
       "venue": "Polymer Degradation and Stability",
       "authors": "Yang, Wang, Song et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymdegradstab.2026.112219",
       "language": "en",
       "via": "crossref",
@@ -3451,13 +3484,15 @@
       "quote": "CO2-fixing transforms sustainable source to non-isocyanate polyurethane",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-16"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130483",
@@ -3467,7 +3502,7 @@
       "venue": "Polymer",
       "authors": "Jiang, Jiang, Xie et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130483",
       "language": "en",
       "via": "crossref",
@@ -3485,13 +3520,15 @@
       "quote": "CO2/propylene oxide copolymerization catalyzed by monoimidazole-modified cobaltoporphyrins",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-07"
     },
     {
       "id": "doi:10.1016/j.recm.2026.100233",
@@ -4265,7 +4302,7 @@
       "venue": "Bioresource Technology Reports",
       "authors": "Peng, He, Deng et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.biteb.2026.102969",
       "language": "en",
       "via": "crossref",
@@ -4283,13 +4320,15 @@
       "quote": "Mixed-carbon co-feeding of formate, acetate, and propionate enables tunable polyhydroxyalkanoate biosynthesis",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:35+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-29"
     },
     {
       "id": "doi:10.1016/j.cej.2026.179159",
@@ -4299,7 +4338,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Ge, Li, Jiang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.179159",
       "language": "en",
       "via": "crossref",
@@ -4317,13 +4356,15 @@
       "quote": "Filler-free, small-molecule-induced hydrogen-bond reconstruction enables enhanced piezoelectric performance in polyamide 11",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-07"
     },
     {
       "id": "doi:10.5109/7442748",
@@ -4573,7 +4614,7 @@
       "venue": "Biocatalysis and Agricultural Biotechnology",
       "authors": "Han, Jang, Eom et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.bcab.2026.104257",
       "language": "en",
       "via": "crossref",
@@ -4597,7 +4638,8 @@
       "triaged_at": "2026-10-20T18:20:35+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-18"
     },
     {
       "id": "doi:10.1016/j.biortech.2026.134758",
@@ -4607,7 +4649,7 @@
       "venue": "Bioresource Technology",
       "authors": "Brites, Benito-González, López-Rubio et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.biortech.2026.134758",
       "language": "en",
       "via": "crossref",
@@ -4625,13 +4667,15 @@
       "quote": "Dual valorization of rice and potato byproducts into nanostructured additives and starch matrices for thermoplastic starch bioplastics",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-04-30"
     },
     {
       "id": "doi:10.1016/j.cej.2026.179236",
@@ -4641,7 +4685,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Xi, Lin, Cao et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.179236",
       "language": "en",
       "via": "crossref",
@@ -4659,13 +4703,15 @@
       "quote": "high-performance lignocellulosic bioplastics from Ginkgo Biloba leaves",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-08"
     },
     {
       "id": "doi:10.1016/j.conbuildmat.2026.147606",
@@ -4675,7 +4721,7 @@
       "venue": "Construction and Building Materials",
       "authors": "He, Wang, Liu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.conbuildmat.2026.147606",
       "language": "en",
       "via": "crossref",
@@ -4693,13 +4739,15 @@
       "quote": "Cardanol-curing-enabled interfacial stabilization",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-30"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.114978",
@@ -4709,7 +4757,7 @@
       "venue": "European Polymer Journal",
       "authors": "Teja, Liu, Chuang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.114978",
       "language": "en",
       "via": "crossref",
@@ -4727,13 +4775,15 @@
       "quote": "Highly active tetranuclear sodium Salan complexes for the ring-opening polymerization of L-lactide",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-27"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.115019",
@@ -4743,7 +4793,7 @@
       "venue": "European Polymer Journal",
       "authors": "Liu, Song, Guo et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.115019",
       "language": "en",
       "via": "crossref",
@@ -4761,13 +4811,15 @@
       "quote": "Furan molecular architecture regulates the pyrolysis behavior and flame retardancy of bio-based DOPO-Derived epoxy thermosets",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-11"
     },
     {
       "id": "doi:10.1016/j.fbp.2026.06.022",
@@ -4777,7 +4829,7 @@
       "venue": "Food and Bioproducts Processing",
       "authors": "Dang, Yoksan, Matsumoto et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.fbp.2026.06.022",
       "language": "en",
       "via": "crossref",
@@ -4795,13 +4847,15 @@
       "quote": "PHBV/PBAT/plasticized duckweed biomass blends",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-25"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153503",
@@ -4811,7 +4865,7 @@
       "venue": "International Journal of Biological Macromolecules",
       "authors": "Li, Liu, Li et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijbiomac.2026.153503",
       "language": "en",
       "via": "crossref",
@@ -4830,13 +4884,15 @@
       "quote": "poly (butylene succinate-co-butylene terephthalate)/poly (L-lactic acid) composite films reinforced with coal gangue",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-11"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153522",
@@ -4846,7 +4902,7 @@
       "venue": "International Journal of Biological Macromolecules",
       "authors": "Yuan, Zhu, Liu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijbiomac.2026.153522",
       "language": "en",
       "via": "crossref",
@@ -4864,13 +4920,15 @@
       "quote": "Strength-toughness balanced, high UV-shielding PBAT/PLA-based films",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-13"
     },
     {
       "id": "doi:10.1016/j.ijlmm.2026.08.007",
@@ -4914,7 +4972,7 @@
       "venue": "Journal of Colloid and Interface Science",
       "authors": "Li, Zhou, Yao et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcis.2026.140402",
       "language": "en",
       "via": "crossref",
@@ -4932,13 +4990,15 @@
       "quote": "Tuning mesoporous architecture in Au-CoOx/m-CeO2 catalysts for enhanced aerobic oxidation of 5-Hydroxymethylfurfural to 2,5-Furandicarboxylic acid",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-03-28"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130471",
@@ -4948,7 +5008,7 @@
       "venue": "Polymer",
       "authors": "Wei, Li, Zeng et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130471",
       "language": "en",
       "via": "crossref",
@@ -4966,13 +5026,15 @@
       "quote": "Castor oil-based hyperbranched epoxy resins for simultaneous reinforcing and toughening of DGEBA thermosets",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-03"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130501",
@@ -4982,7 +5044,7 @@
       "venue": "Polymer",
       "authors": "Trofin, Borůvka, Kaineder et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130501",
       "language": "en",
       "via": "crossref",
@@ -5000,13 +5062,15 @@
       "quote": "Nucleation-driven self-reinforcement of Poly(lactic acid) via stereocomplexation: Mechanical and rheological properties",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-10"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130511",
@@ -5016,7 +5080,7 @@
       "venue": "Polymer",
       "authors": "Rao, Lu, Jiang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130511",
       "language": "en",
       "via": "crossref",
@@ -5035,13 +5099,15 @@
       "quote": "Phthalonitrile resins with benzoxazine moieties from bio-based monophenols: synthesis, curing and properties",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-13"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130536",
@@ -5051,7 +5117,7 @@
       "venue": "Polymer",
       "authors": "Zhang, Guo, Yu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130536",
       "language": "en",
       "via": "crossref",
@@ -5069,13 +5135,15 @@
       "quote": "Aggregate structure evolution of poly(lactic acid) fibers: Synergistically enhancing strength, toughness, and heat resistance via long-chain branching–heterogeneous nucleation coupling",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-18"
     },
     {
       "id": "doi:10.1016/j.seppur.2026.139866",
@@ -5150,7 +5218,7 @@
       "venue": "Indian Journal of Fibre & Textile Research",
       "authors": "",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.56042/ijftr.v51i3.20383",
       "language": "en",
       "via": "crossref",
@@ -5174,7 +5242,8 @@
       "triaged_at": "2026-10-20T18:21:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-03"
     },
     {
       "id": "doi:10.20944/preprints202609.0150.v1",
@@ -6289,7 +6358,7 @@
       "venue": "Biomass and Bioenergy",
       "authors": "Sharulnizam, Osman, Idris et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.biombioe.2026.109273",
       "language": "en",
       "via": "crossref",
@@ -6307,13 +6376,15 @@
       "quote": "Formaldehyde-free lignin-phenol glyoxal adhesives from coconut-shell Kraft lignin for plywood bonding",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-03-13"
     },
     {
       "id": "doi:10.1016/j.carpta.2026.101198",
@@ -6323,7 +6394,7 @@
       "venue": "Carbohydrate Polymer Technologies and Applications",
       "authors": "Martínez-Pérez, Dominici, García-Quesada et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.carpta.2026.101198",
       "language": "en",
       "via": "crossref",
@@ -6341,13 +6412,15 @@
       "quote": "Plasticization of extruded thermoplastic starch via xylitol–glycerol low transition temperature mixtures: synergistic effects compared to conventional polyol systems",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-09"
     },
     {
       "id": "doi:10.1016/j.enzmictec.2026.110931",
@@ -6357,7 +6430,7 @@
       "venue": "Enzyme and Microbial Technology",
       "authors": "Mukherjee, Wang, Venkiteshwaran et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.enzmictec.2026.110931",
       "language": "en",
       "via": "crossref",
@@ -6375,13 +6448,15 @@
       "quote": "Conversion of Poly(3-hydroxybutyrate) (PHB) bioplastics to short-chain fatty acids by acidogenic fermentation",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:35+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-10"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.114988",
@@ -6391,7 +6466,7 @@
       "venue": "European Polymer Journal",
       "authors": "Qi, Zhang, Ren et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.114988",
       "language": "en",
       "via": "crossref",
@@ -6411,13 +6486,15 @@
       "quote": "Highly flexible polyester macroinitiator enabled strength-retaining toughening of PLGA",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-30"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.115004",
@@ -6427,7 +6504,7 @@
       "venue": "European Polymer Journal",
       "authors": "Shi, Jia, He et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.115004",
       "language": "en",
       "via": "crossref",
@@ -6445,13 +6522,15 @@
       "quote": "Sustainable CO2-based Non-Isocyanate Polyurethanes: Performance optimization strategies and future Perspectives",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-03"
     },
     {
       "id": "doi:10.1016/j.indcrop.2026.124121",
@@ -6461,7 +6540,7 @@
       "venue": "Industrial Crops and Products",
       "authors": "Qi, Li, Song et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.indcrop.2026.124121",
       "language": "en",
       "via": "crossref",
@@ -6479,13 +6558,15 @@
       "quote": "Wholly bio-based hyperbranched waterborne polyurethane coatings reinforced with surface-engineered cellulose nanofibers",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-14"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.115993",
@@ -6495,7 +6576,7 @@
       "venue": "Materials Today Communications",
       "authors": "Carrasco-Fernández, Campos-Venegas, Estrada-Moreno et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtcomm.2026.115993",
       "language": "en",
       "via": "crossref",
@@ -6513,13 +6594,15 @@
       "quote": "Micropore formation during hydrolytic degradation of PLA/IA and PLA/PIA blends",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-25"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112260",
@@ -6529,7 +6612,7 @@
       "venue": "Polymer Degradation and Stability",
       "authors": "Molnár, Hsu, Uyama",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymdegradstab.2026.112260",
       "language": "en",
       "via": "crossref",
@@ -6548,13 +6631,15 @@
       "quote": "Comparative enzymatic degradation of poly(diethylene furanoate)-based block copolymers with polylactide or polycaprolactone",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-03"
     },
     {
       "id": "doi:10.1016/j.tibtech.2026.08.017",
@@ -7114,7 +7199,7 @@
       "venue": "Colloids and Surfaces A: Physicochemical and Engineering Aspects",
       "authors": "Baek, Lee",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.colsurfa.2026.140651",
       "language": "en",
       "via": "crossref",
@@ -7132,13 +7217,15 @@
       "quote": "Chitosan-templated enzymatic oxidative polymerization of phenolic pigments on bio-based polyamide 5,10",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-04-27"
     },
     {
       "id": "doi:10.56042/ijftr.v51i3.24186",
@@ -7148,7 +7235,7 @@
       "venue": "Indian Journal of Fibre & Textile Research",
       "authors": "",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.56042/ijftr.v51i3.24186",
       "language": "en",
       "via": "crossref",
@@ -7172,7 +7259,8 @@
       "triaged_at": "2026-10-20T18:21:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-03"
     },
     {
       "id": "doi:10.3390/polym18182238",
@@ -7284,7 +7372,7 @@
       "venue": "Applied Clay Science",
       "authors": "Suzuki, Watanabe, Otsuka et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.clay.2026.108276",
       "language": "en",
       "via": "crossref",
@@ -7302,13 +7390,15 @@
       "quote": "Transparent ultraviolet-protective moisture barrier films derived from clay mineral/mica and lignin",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-09"
     },
     {
       "id": "doi:10.1016/j.foodchem.2026.150300",
@@ -7318,7 +7408,7 @@
       "venue": "Food Chemistry",
       "authors": "Hu, Li, Wang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.foodchem.2026.150300",
       "language": "en",
       "via": "crossref",
@@ -7336,13 +7426,15 @@
       "quote": "Preparation of pea protein-chitosan composite film based on ultrasonic treatment and application to preserve perishable products",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-04"
     },
     {
       "id": "doi:10.1016/j.foodres.2026.119511",
@@ -7352,7 +7444,7 @@
       "venue": "Food Research International",
       "authors": "Laorenza, Sablani, Harnkarnsujarit",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.foodres.2026.119511",
       "language": "en",
       "via": "crossref",
@@ -7371,13 +7463,15 @@
       "quote": "Spectroscopic insights and comparative kinetic analysis of citral release from thermoplastic starch–PBAT films",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-26"
     },
     {
       "id": "doi:10.1016/j.fpsl.2026.101820",
@@ -7387,7 +7481,7 @@
       "venue": "Food Packaging and Shelf Life",
       "authors": "Gao, Zhang, Hou et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.fpsl.2026.101820",
       "language": "en",
       "via": "crossref",
@@ -7405,13 +7499,15 @@
       "quote": "Construction of starch/PBAT food packaging based on rigidity-affinity driven multidentate hydrogen bonding of tannic acid",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-27"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153475",
@@ -7421,7 +7517,7 @@
       "venue": "International Journal of Biological Macromolecules",
       "authors": "Vu, Aleem, Hadinoto",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijbiomac.2026.153475",
       "language": "en",
       "via": "crossref",
@@ -7439,13 +7535,15 @@
       "quote": "Lignin-reinforced film of curcumin-conjugated chitosan as photodynamically active antibacterial food packaging",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-10"
     },
     {
       "id": "doi:10.1016/j.indcrop.2026.124237",
@@ -7455,7 +7553,7 @@
       "venue": "Industrial Crops and Products",
       "authors": "Liu, Lei, Yang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.indcrop.2026.124237",
       "language": "en",
       "via": "crossref",
@@ -7473,13 +7571,15 @@
       "quote": "Polycaprolactone polyol/castor oil composite polyol-based polyurethane-coated urea",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-24"
     },
     {
       "id": "doi:10.1016/j.indcrop.2026.124250",
@@ -7489,7 +7589,7 @@
       "venue": "Industrial Crops and Products",
       "authors": "Wang, Wei, Zhu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.indcrop.2026.124250",
       "language": "en",
       "via": "crossref",
@@ -7513,7 +7613,8 @@
       "triaged_at": "2026-10-20T18:30:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-16"
     },
     {
       "id": "doi:10.1016/j.jaap.2026.108081",
@@ -7589,7 +7690,7 @@
       "venue": "Materials Today Communications",
       "authors": "John, Črešnar, Retko et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtcomm.2026.116140",
       "language": "en",
       "via": "crossref",
@@ -7612,7 +7713,8 @@
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-13"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116244",
@@ -7622,7 +7724,7 @@
       "venue": "Materials Today Communications",
       "authors": "Umeda, Yang, Xu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtcomm.2026.116244",
       "language": "en",
       "via": "crossref",
@@ -7646,7 +7748,8 @@
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-26"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112232",
@@ -7656,7 +7759,7 @@
       "venue": "Polymer Degradation and Stability",
       "authors": "Wang, Zhu, Gao et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymdegradstab.2026.112232",
       "language": "en",
       "via": "crossref",
@@ -7674,13 +7777,15 @@
       "quote": "Mussel-inspired copper-catechol coordination network enabled fire-retardant polylactide composites",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-20"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130472",
@@ -7690,7 +7795,7 @@
       "venue": "Polymer",
       "authors": "Liu, Li, Wu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130472",
       "language": "en",
       "via": "crossref",
@@ -7708,13 +7813,15 @@
       "quote": "Preparation of functional flexible polyvinyl chloride plastic by incorporating core-shell star copolymer Lignin-PCL",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-03"
     },
     {
       "id": "doi:10.1016/j.scenv.2026.100331",
@@ -7724,7 +7831,7 @@
       "venue": "Sustainable Chemistry for the Environment",
       "authors": "De Micco, Mondal, Rameshkumar et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.scenv.2026.100331",
       "language": "en",
       "via": "crossref",
@@ -7742,13 +7849,15 @@
       "quote": "Residual lignin-based poly(butylene succinate) composites for sustainable packaging",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-10"
     },
     {
       "id": "doi:10.1021/acs.iecr.6c03539",
@@ -7924,7 +8033,7 @@
       "venue": "The Oxford Journal of Student Scholarship",
       "authors": "Katakam",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.65161/recqerxgiemoxxhfe",
       "language": "en",
       "via": "crossref",
@@ -7946,7 +8055,8 @@
       "triaged_at": "2026-10-20T18:21:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-04"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10772273/v1",
@@ -8911,7 +9021,7 @@
       "venue": "LWT",
       "authors": "Qi, Qin, Sang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.lwt.2026.119839",
       "language": "en",
       "via": "crossref",
@@ -8929,13 +9039,15 @@
       "quote": "Chitosan/konjac glucomannan film modified with kaempferol-shellac nanoparticles for blueberry preservation",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-13"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116189",
@@ -8978,7 +9090,7 @@
       "venue": "Materials Today Sustainability",
       "authors": "Lledó, Martín-de León, Rodríguez-Pérez et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtsust.2026.101409",
       "language": "en",
       "via": "crossref",
@@ -8997,13 +9109,15 @@
       "quote": "Poly(lactic acid) porous materials fabricated by phase separation techniques: Processing-structure-application relationship",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-22"
     },
     {
       "id": "doi:10.1016/j.polymertesting.2026.109286",
@@ -9013,7 +9127,7 @@
       "venue": "Polymer Testing",
       "authors": "Pęśko, Masek",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymertesting.2026.109286",
       "language": "en",
       "via": "crossref",
@@ -9031,13 +9145,15 @@
       "quote": "Thermal decomposition and oxidation behavior of recycled PLA with natural additives",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-16"
     },
     {
       "id": "doi:10.1016/j.rineng.2026.111406",
@@ -9047,7 +9163,7 @@
       "venue": "Results in Engineering",
       "authors": "Coutand, Peyron, Gontard et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.rineng.2026.111406",
       "language": "en",
       "via": "crossref",
@@ -9065,13 +9181,15 @@
       "quote": "Safety-performance trade-off in PHBV/Peanut shell biocomposites",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-09"
     },
     {
       "id": "doi:10.1016/j.seppur.2026.138841",
@@ -9081,7 +9199,7 @@
       "venue": "Separation and Purification Technology",
       "authors": "Tang, Zeng, Lao et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.seppur.2026.138841",
       "language": "en",
       "via": "crossref",
@@ -9099,13 +9217,15 @@
       "quote": "A bamboo-inspired, biodegradable vanillin-chitosan aerogel for Efficient removal of microplastics and Nanoplastics from water",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-08"
     },
     {
       "id": "doi:10.1111/1541-4337.70610",
@@ -10013,7 +10133,7 @@
       "venue": "Applied Soft Computing",
       "authors": "Zahmatkeshan, Biglari, Mollaei Dariani",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.asoc.2026.115502",
       "language": "en",
       "via": "crossref",
@@ -10031,13 +10151,15 @@
       "quote": "Flexural optimization in repair of notched 3D-printed PLA with variable PLA patches",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-23"
     },
     {
       "id": "doi:10.1016/j.carbpol.2026.125519",
@@ -10047,7 +10169,7 @@
       "venue": "Carbohydrate Polymers",
       "authors": "He, Wang, Li",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.carbpol.2026.125519",
       "language": "en",
       "via": "crossref",
@@ -10065,13 +10187,15 @@
       "quote": "Fabrication of oxidized starch/whey protein isolate complexes for fluidized powder coating of starch: A novel preparation strategy of resistant starch granules",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-03"
     },
     {
       "id": "doi:10.1016/j.compositesb.2026.113885",
@@ -10081,7 +10205,7 @@
       "venue": "Composites Part B: Engineering",
       "authors": "Azman, Mohammad Taib, Abdul Manan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.compositesb.2026.113885",
       "language": "en",
       "via": "crossref",
@@ -10099,13 +10223,15 @@
       "quote": "Advances in nanocrystalline cellulose modified rubber thermoset composites for mobility applications",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-07"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153282",
@@ -10115,7 +10241,7 @@
       "venue": "International Journal of Biological Macromolecules",
       "authors": "Thakare, Duarah, Koch et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijbiomac.2026.153282",
       "language": "en",
       "via": "crossref",
@@ -10133,13 +10259,15 @@
       "quote": "Waste print paper generated cellulose-chitosan composite film for cell attachment application",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-30"
     },
     {
       "id": "doi:10.1016/j.jcbmtr.2026.100017",
@@ -10149,7 +10277,7 @@
       "venue": "Construction and Building Materials in Transportation",
       "authors": "Sun, Siwainao, Kelomae et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcbmtr.2026.100017",
       "language": "en",
       "via": "crossref",
@@ -10167,13 +10295,15 @@
       "quote": "polyurethane-modified bitumen containing waste PET-derived polyol and castor oil",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-18"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130521",
@@ -10183,7 +10313,7 @@
       "venue": "Polymer",
       "authors": "Zhou, Yu, Xu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130521",
       "language": "en",
       "via": "crossref",
@@ -10201,13 +10331,15 @@
       "quote": "Stretch-induced multiscale structural evolutions of poly(lactide-co-glycolide): Effects of copolymer composition and stretching temperature",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-14"
     },
     {
       "id": "doi:10.1016/j.polymertesting.2026.109343",
@@ -10217,7 +10349,7 @@
       "venue": "Polymer Testing",
       "authors": "Zhang, Ma, Guo et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymertesting.2026.109343",
       "language": "en",
       "via": "crossref",
@@ -10235,13 +10367,15 @@
       "quote": "Semiempirical condensed structure analysis and quantification of disorder for extrusion-printed polylactide filaments",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-28"
     },
     {
       "id": "doi:10.1016/j.polymertesting.2026.109352",
@@ -10284,7 +10418,7 @@
       "venue": "Separation and Purification Technology",
       "authors": "Nikita, Murthy, Nam",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.seppur.2026.138762",
       "language": "en",
       "via": "crossref",
@@ -10302,13 +10436,15 @@
       "quote": "Green-fabricated biodegradable poly (butylene adipate-co-terephthalate) membranes for phenol/water separation by pervaporation",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-02"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154315",
@@ -10968,7 +11104,7 @@
       "venue": "Carbohydrate Polymer Technologies and Applications",
       "authors": "Lalanne-Tisné, Eyley, Rankin et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.carpta.2026.101220",
       "language": "en",
       "via": "crossref",
@@ -10987,13 +11123,15 @@
       "quote": "Poly(ester carbonate) copolymers grafted cellulose nanocrystals by organocatalyzed ring-opening polymerization",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-18"
     },
     {
       "id": "doi:10.1016/j.enrev.2026.100206",
@@ -11037,7 +11175,7 @@
       "venue": "Materials Today Chemistry",
       "authors": "Xiao, Chen, Qian et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtchem.2026.103875",
       "language": "en",
       "via": "crossref",
@@ -11055,13 +11193,15 @@
       "quote": "Bio-based phosphorylated polydopamine@lignin synergizes with ammonium polyphosphate to enhance flame retardancy and smoke suppression of thermoplastic polyurethane",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-23"
     },
     {
       "id": "doi:10.1016/j.nanoso.2026.101745",
@@ -11071,7 +11211,7 @@
       "venue": "Nano-Structures & Nano-Objects",
       "authors": "Saoud, Babouri, Cheraitia et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.nanoso.2026.101745",
       "language": "en",
       "via": "crossref",
@@ -11089,13 +11229,15 @@
       "quote": "Development of nano-enhanced hybrid mixed cellulose ester membranes for water treatment",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-30"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130554",
@@ -11105,7 +11247,7 @@
       "venue": "Polymer",
       "authors": "Xie, Feng, Pan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130554",
       "language": "en",
       "via": "crossref",
@@ -11123,13 +11265,15 @@
       "quote": "Synthesis, crystallization behavior and mechanical property of novel poly(butylene oxalate-co-adipate) copolyesters",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-20"
     },
     {
       "id": "doi:10.1016/j.rcradv.2026.200380",
@@ -11237,7 +11381,7 @@
       "venue": "Journal of Transportation and Sustainable Technologies",
       "authors": "Thomas, Kabdrakhmanova, Rouxel",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.55228/jtst.2026.110492",
       "language": "en",
       "via": "crossref",
@@ -11259,7 +11403,8 @@
       "triaged_at": "2026-10-20T18:31:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-15"
     },
     {
       "id": "doi:10.59325/sjas.v9i2.330",
@@ -11466,7 +11611,7 @@
       "venue": "Carbohydrate Polymer Technologies and Applications",
       "authors": "Shafiei Navid, Hosseinzadeh, Mokhtari Bayeei",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.carpta.2026.101185",
       "language": "en",
       "via": "crossref",
@@ -11484,13 +11629,15 @@
       "quote": "Carboxylic acid calix[4]arene grafted on magnetic chitosan as a novel and reusable bio-based nanosorbent for efficient dyes removal from aqueous solutions",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-17"
     },
     {
       "id": "doi:10.1016/j.carpta.2026.101222",
@@ -11500,7 +11647,7 @@
       "venue": "Carbohydrate Polymer Technologies and Applications",
       "authors": "Russo, Langella, Sansone et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.carpta.2026.101222",
       "language": "en",
       "via": "crossref",
@@ -11518,13 +11665,15 @@
       "quote": "Effect of bio-derived additives on the structure and properties of cellulose–casein–lime hybrid composites",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-19"
     },
     {
       "id": "doi:10.1016/j.ceramint.2026.09.050",
@@ -11534,7 +11683,7 @@
       "venue": "Ceramics International",
       "authors": "Al-Qahtani, Al-Senani, Alqahtani",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ceramint.2026.09.050",
       "language": "en",
       "via": "crossref",
@@ -11558,7 +11707,8 @@
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-04"
     },
     {
       "id": "doi:10.1016/j.indcrop.2026.124156",
@@ -11568,7 +11718,7 @@
       "venue": "Industrial Crops and Products",
       "authors": "Ncube, Orasugh, Ray et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.indcrop.2026.124156",
       "language": "en",
       "via": "crossref",
@@ -11586,13 +11736,15 @@
       "quote": "Properties of nylon 6-based nanofibers from cowpea and marama bean protein with kafirin",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-21"
     },
     {
       "id": "doi:10.1016/j.mseb.2026.119588",
@@ -11602,7 +11754,7 @@
       "venue": "Materials Science and Engineering: B",
       "authors": "Thammannagowda, Shivanna, Shankaregowda et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mseb.2026.119588",
       "language": "en",
       "via": "crossref",
@@ -11620,13 +11772,15 @@
       "quote": "A flexible poly(butylene adipate-co-terephthalate)/CdFe2O4 polymer nanocomposite-based triboelectric nanogenerator",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-28"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112253",
@@ -11636,7 +11790,7 @@
       "venue": "Polymer Degradation and Stability",
       "authors": "Bi, Lv, Xue et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymdegradstab.2026.112253",
       "language": "en",
       "via": "crossref",
@@ -11654,13 +11808,15 @@
       "quote": "In situ polymerization of a P-N crosslinking network via steaming-induced polymerization for exceptionally durable and formaldehyde-free flame retardant cotton",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-30"
     },
     {
       "id": "doi:10.1111/1541-4337.70656",
@@ -12042,7 +12198,7 @@
       "venue": "Polymer",
       "authors": "Guo, Xu, Yan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130464",
       "language": "en",
       "via": "crossref",
@@ -12060,13 +12216,15 @@
       "quote": "A fully bio-based schiff base-copper complex enables PVA composites",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-03"
     },
     {
       "id": "doi:10.3390/polym18172134",
@@ -12666,7 +12824,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Zheng, Li, Chen et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178406",
       "language": "en",
       "via": "crossref",
@@ -12684,13 +12842,15 @@
       "quote": "lignin-chitosan encapsulated ammonium polyphosphate",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-15"
     },
     {
       "id": "doi:10.1016/j.cej.2026.178577",
@@ -12700,7 +12860,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Ye, Wang, Tan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178577",
       "language": "en",
       "via": "crossref",
@@ -12718,13 +12878,15 @@
       "quote": "Cellulose aerogel-based porous coaxial thermoplastic polyurethane fibers for thermal insulation",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-19"
     },
     {
       "id": "doi:10.1016/j.polymertesting.2026.109341",
@@ -12734,7 +12896,7 @@
       "venue": "Polymer Testing",
       "authors": "Geng, Li, Fan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymertesting.2026.109341",
       "language": "en",
       "via": "crossref",
@@ -12752,13 +12914,15 @@
       "quote": "Poly(lactic acid)-derived biomaterials: Design strategies, functional enhancements and clinical prospects in tissue engineering",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-26"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10727045/v1",
@@ -13129,7 +13293,7 @@
       "venue": "International Journal of Pharmaceutics",
       "authors": "Balla, Bikiaris, Christodoulou et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijpharm.2026.127232",
       "language": "en",
       "via": "crossref",
@@ -13147,13 +13311,15 @@
       "quote": "Droplet microfluidic fabrication of dimpled poly(lactic acid)-poloxamer microparticles for tuneable depot formulations",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-24"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c01722",
@@ -13491,7 +13657,7 @@
       "venue": "Carbohydrate Polymer Technologies and Applications",
       "authors": "Venkatraman, Larsson, Larsson et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.carpta.2026.101209",
       "language": "en",
       "via": "crossref",
@@ -13509,13 +13675,15 @@
       "quote": "Surface profiling of cellulose, hemicellulose, and lignin in softwood Kraft handsheets",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-27"
     },
     {
       "id": "doi:10.1016/j.cej.2026.178108",
@@ -13525,7 +13693,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Yang, Li, Ding et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178108",
       "language": "en",
       "via": "crossref",
@@ -13543,13 +13711,15 @@
       "quote": "Chitosan nanoparticle-doped polycarbonate/cellulose acetate blended adsorptive ultrafiltration membrane",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-07"
     },
     {
       "id": "doi:10.1016/j.coelec.2026.101944",
@@ -13591,7 +13761,7 @@
       "venue": "Desalination",
       "authors": "Zhang, Yan, Li et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.desal.2026.120331",
       "language": "en",
       "via": "crossref",
@@ -13609,13 +13779,15 @@
       "quote": "Boosting uranium adsorption performance by engineering flexible linkers in tannin-immobilized polyamide membranes",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-19"
     },
     {
       "id": "doi:10.1016/j.dmd.2026.100372",
@@ -13625,7 +13797,7 @@
       "venue": "Drug Metabolism and Disposition",
       "authors": "Yao, Wang, Bu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.dmd.2026.100372",
       "language": "en",
       "via": "crossref",
@@ -13643,13 +13815,15 @@
       "quote": "The impact of the DiI fluorescent probe on the in vivo fate of paclitaxel-loaded methoxy polyethylene glycol-block-poly (d,l-lactide) micelles",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:35+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-17"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.115016",
@@ -13659,7 +13833,7 @@
       "venue": "European Polymer Journal",
       "authors": "Namjoo, Sadeghi, Sadeghi Ghari",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.eurpolymj.2026.115016",
       "language": "en",
       "via": "crossref",
@@ -13677,13 +13851,15 @@
       "quote": "Microstructure evolution and toughening enhancement of PLA ternary blends",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-17"
     },
     {
       "id": "doi:10.1016/j.fuel.2026.138811",
@@ -13693,7 +13869,7 @@
       "venue": "Fuel",
       "authors": "Chen, Lv, Yang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.fuel.2026.138811",
       "language": "en",
       "via": "crossref",
@@ -13711,13 +13887,15 @@
       "quote": "Oxygen-vacancy-rich NiCo-Co-Co3C heterostructures for mild-condition hydrogenation of lignin-derived vanillin to methyl vanillyl alcohol",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-02-18"
     },
     {
       "id": "doi:10.1016/j.matchemphys.2026.132789",
@@ -13727,7 +13905,7 @@
       "venue": "Materials Chemistry and Physics",
       "authors": "Bi̇çer, Alkan, Yılmaz et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.matchemphys.2026.132789",
       "language": "en",
       "via": "crossref",
@@ -13745,13 +13923,15 @@
       "quote": "leak-proof poly(ethylene glycol)/ tea waste biochar/waste poly(vinyl chloride) composite phase change materials",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-13"
     },
     {
       "id": "doi:10.1016/j.mtcata.2026.100146",
@@ -13761,7 +13941,7 @@
       "venue": "Materials Today Catalysis",
       "authors": "Sinha, Meshram, Verma et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtcata.2026.100146",
       "language": "en",
       "via": "crossref",
@@ -13779,13 +13959,15 @@
       "quote": "Catalytic depolymerization and upcycling of PET waste into potentially 3D-printable and reprocessable thermoset",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-01"
     },
     {
       "id": "doi:10.1016/j.mtchem.2026.103819",
@@ -13795,7 +13977,7 @@
       "venue": "Materials Today Chemistry",
       "authors": "Ishida",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtchem.2026.103819",
       "language": "en",
       "via": "crossref",
@@ -13813,13 +13995,15 @@
       "quote": "The molecular origin of unusual and advantageous properties of benzoxazine monomers and polybenzoxazines",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-15"
     },
     {
       "id": "doi:10.1016/j.toxlet.2026.112487",
@@ -13829,7 +14013,7 @@
       "venue": "Toxicology Letters",
       "authors": "Dorokhin, Lipaikin, Yakushevich et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.toxlet.2026.112487",
       "language": "en",
       "via": "crossref",
@@ -13853,7 +14037,8 @@
       "triaged_at": "2026-10-20T18:21:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-07"
     },
     {
       "id": "doi:10.24908/iqurcp21835",
@@ -14477,7 +14662,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Yoo, Ko, Hwangbo et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178959",
       "language": "en",
       "via": "crossref",
@@ -14499,13 +14684,15 @@
       "quote": "Integrated bio-chemical pathway for the production of furan-based bio-lubricant and biodiesel from lignocellulosic biomass",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-30"
     },
     {
       "id": "doi:10.1016/j.cej.2026.181897",
@@ -14549,7 +14736,7 @@
       "venue": "Journal of Membrane Science",
       "authors": "Zhou, Chen, Yuan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.memsci.2026.125887",
       "language": "en",
       "via": "crossref",
@@ -14567,13 +14754,15 @@
       "quote": "Buffer-regulated interfacial polymerization of tannic acid for high-performance polyester nanofiltration membranes",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-07"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116114",
@@ -14583,7 +14772,7 @@
       "venue": "Materials Today Communications",
       "authors": "Ikeuchi, Iitomi, Inagaki et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtcomm.2026.116114",
       "language": "en",
       "via": "crossref",
@@ -14608,7 +14797,8 @@
       "triaged_at": "2026-10-20T18:21:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-09"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130550",
@@ -14618,7 +14808,7 @@
       "venue": "Polymer",
       "authors": "Alashry, Borreguero, Javier Ramos et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130550",
       "language": "en",
       "via": "crossref",
@@ -14636,13 +14826,15 @@
       "quote": "Upcycling isocyanate-derived fraction from polyurethane glycolysis into polyazomethines",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-20"
     },
     {
       "id": "doi:10.1016/j.trechm.2026.07.003",
@@ -14652,7 +14844,7 @@
       "venue": "Trends in Chemistry",
       "authors": "Tharayil, Badi",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.trechm.2026.07.003",
       "language": "en",
       "via": "crossref",
@@ -14670,13 +14862,15 @@
       "quote": "From polymerization to polymer backbone editing",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-31"
     },
     {
       "id": "doi:10.1016/j.ymben.2026.102492",
@@ -14686,7 +14880,7 @@
       "venue": "Metabolic Engineering",
       "authors": "Kheir Gouda, Voigt",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ymben.2026.102492",
       "language": "en",
       "via": "crossref",
@@ -14704,13 +14898,15 @@
       "quote": "Consumption of the degradation products of nylon 6 and nylon 6,6 as the sole carbon and nitrogen source",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:31:23+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-18"
     },
     {
       "id": "doi:10.1111/1541-4337.70611",
@@ -15114,7 +15310,7 @@
       "venue": "Cleaner Materials",
       "authors": "Hu, Chen, Tan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.clema.2026.100437",
       "language": "en",
       "via": "crossref",
@@ -15138,7 +15334,8 @@
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-20"
     },
     {
       "id": "doi:10.1002/agt2.70429",
@@ -15246,7 +15443,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Chen, Liu, Xu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178631",
       "language": "en",
       "via": "crossref",
@@ -15264,13 +15461,15 @@
       "quote": "Motif-preserving recycling of thermoset polyimides into recyclable polyimide films",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-21"
     },
     {
       "id": "doi:10.1016/j.chemosphere.2026.145032",
@@ -15280,7 +15479,7 @@
       "venue": "Chemosphere",
       "authors": "Ekvall, Boo, Lundqvist et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.chemosphere.2026.145032",
       "language": "en",
       "via": "crossref",
@@ -15298,13 +15497,15 @@
       "quote": "Temperature dependent leaching of substances from polyamide oven bags is toxic to zooplankton Daphnia magna",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:29:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-21"
     },
     {
       "id": "doi:10.1016/j.clema.2026.100435",
@@ -15314,7 +15515,7 @@
       "venue": "Cleaner Materials",
       "authors": "Bhandari, Samanta",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.clema.2026.100435",
       "language": "en",
       "via": "crossref",
@@ -15333,13 +15534,15 @@
       "quote": "Engineered thermoregulatory filament fabrication from recycled polyester sources",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:35+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-20"
     },
     {
       "id": "doi:10.1016/j.conbuildmat.2026.147254",
@@ -15349,7 +15552,7 @@
       "venue": "Construction and Building Materials",
       "authors": "Zhang, Wang, Li et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.conbuildmat.2026.147254",
       "language": "en",
       "via": "crossref",
@@ -15367,13 +15570,15 @@
       "quote": "Effect of polyurethane hard segment content, isocyanate index and dosage on the rheological properties and modification mechanisms of polyurethane-modified asphalt",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-02"
     },
     {
       "id": "doi:10.1016/j.envres.2026.124981",
@@ -15383,7 +15588,7 @@
       "venue": "Environmental Research",
       "authors": "Liu, Yang, Guan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.envres.2026.124981",
       "language": "en",
       "via": "crossref",
@@ -15401,13 +15606,15 @@
       "quote": "Machine learning-guided predictive modeling and optimization of polyamide-based thin-film nanocomposite reverse osmosis membranes",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-09"
     },
     {
       "id": "doi:10.1016/j.est.2026.123178",
@@ -15417,7 +15624,7 @@
       "venue": "Journal of Energy Storage",
       "authors": "Li, Yang, Li et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.est.2026.123178",
       "language": "en",
       "via": "crossref",
@@ -15435,13 +15642,15 @@
       "quote": "Siloxane-polycarbonate electrolyte with fast ion transport for solid lithium batteries",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-15"
     },
     {
       "id": "doi:10.1016/j.foodchem.2026.150305",
@@ -15451,7 +15660,7 @@
       "venue": "Food Chemistry",
       "authors": "Li, Jiang, Wang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.foodchem.2026.150305",
       "language": "en",
       "via": "crossref",
@@ -15469,13 +15678,15 @@
       "quote": "effects of poly-β-hydroxybutyrate on flesh quality in common carp",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-03"
     },
     {
       "id": "doi:10.1016/j.fpsl.2026.101826",
@@ -15485,7 +15696,7 @@
       "venue": "Food Packaging and Shelf Life",
       "authors": "Estremera, Blázquez-Martín, Nerín et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.fpsl.2026.101826",
       "language": "en",
       "via": "crossref",
@@ -15503,13 +15714,15 @@
       "quote": "Migration of non-intentionally added substances from thermoplastic polyurethane hydration packs under realistic and repeated-use conditions",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-04"
     },
     {
       "id": "doi:10.1016/j.ijadhadh.2026.104496",
@@ -15519,7 +15732,7 @@
       "venue": "International Journal of Adhesion and Adhesives",
       "authors": "Li, Rwei",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijadhadh.2026.104496",
       "language": "en",
       "via": "crossref",
@@ -15543,7 +15756,8 @@
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-26"
     },
     {
       "id": "doi:10.1016/j.jallcom.2026.190371",
@@ -15553,7 +15767,7 @@
       "venue": "Journal of Alloys and Compounds",
       "authors": "He, Yan, Wang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jallcom.2026.190371",
       "language": "en",
       "via": "crossref",
@@ -15571,13 +15785,15 @@
       "quote": "substitution of 2,5-furandicarboxylic acid for water oxidation and supercapacitors",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-10"
     },
     {
       "id": "doi:10.1016/j.jtice.2025.106098",
@@ -15587,7 +15803,7 @@
       "venue": "Journal of the Taiwan Institute of Chemical Engineers",
       "authors": "Ejaz, Mohamed, Kuo",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jtice.2025.106098",
       "language": "en",
       "via": "crossref",
@@ -15605,13 +15821,15 @@
       "quote": "Benzoxazine-linked polyhedral oligomeric silsesquioxane: 3D porous organic-inorganic polymer",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2025-03-25"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130641",
@@ -15621,7 +15839,7 @@
       "venue": "Polymer",
       "authors": "Ai, Tao, Li et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130641",
       "language": "en",
       "via": "crossref",
@@ -15639,13 +15857,15 @@
       "quote": "Corrigendum to “Correlation between mesophase-driven structural evolution and film-forming behavior of polylactide during sequential biaxial stretching”",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-11"
     },
     {
       "id": "doi:10.1016/j.seppur.2026.138402",
@@ -15655,7 +15875,7 @@
       "venue": "Separation and Purification Technology",
       "authors": "Akram, Liu, Niu",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.seppur.2026.138402",
       "language": "en",
       "via": "crossref",
@@ -15673,13 +15893,15 @@
       "quote": "Carboxymethyl cellulose-assisted polyamide nanofiltration membranes for improved desalination efficiency",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-05-10"
     },
     {
       "id": "doi:10.1088/1742-6596/3313/1/012109",
@@ -16857,7 +17079,7 @@
       "venue": "Food Physics",
       "authors": "Han, Ma, Gao et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.foodp.2026.100112",
       "language": "en",
       "via": "crossref",
@@ -16881,7 +17103,8 @@
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-01"
     },
     {
       "id": "doi:10.1016/j.hybadv.2026.100692",
@@ -16891,7 +17114,7 @@
       "venue": "Hybrid Advances",
       "authors": "Jagajeevan, Nanthini, Jaganathan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.hybadv.2026.100692",
       "language": "en",
       "via": "crossref",
@@ -16909,13 +17132,15 @@
       "quote": "A stacking ensemble framework with meta-learning for enhanced prediction of epoxy and epoxy-APTES coated steel corrosion in soil environments",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-22"
     },
     {
       "id": "doi:10.1016/j.hybadv.2026.100740",
@@ -16925,7 +17150,7 @@
       "venue": "Hybrid Advances",
       "authors": "Sari, Roto, Santosa",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.hybadv.2026.100740",
       "language": "en",
       "via": "crossref",
@@ -16947,7 +17172,8 @@
       "triaged_at": "2026-10-20T18:30:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-03"
     },
     {
       "id": "doi:10.1016/j.jmapro.2026.06.064",
@@ -16957,7 +17183,7 @@
       "venue": "Journal of Manufacturing Processes",
       "authors": "Raigar, Velu, Hsu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jmapro.2026.06.064",
       "language": "en",
       "via": "crossref",
@@ -16975,13 +17201,15 @@
       "quote": "Laser powder bed fusion of TPU/Epoxy thermoset polymer networks",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-06"
     },
     {
       "id": "doi:10.1016/j.memsci.2026.125851",
@@ -16991,7 +17219,7 @@
       "venue": "Journal of Membrane Science",
       "authors": "Song, Zou",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.memsci.2026.125851",
       "language": "en",
       "via": "crossref",
@@ -17010,13 +17238,15 @@
       "quote": "Chlorine-resistant polyester-polyamide TFC membranes via sequential interfacial polymerization",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-02"
     },
     {
       "id": "doi:10.1016/j.oceram.2026.101017",
@@ -17026,7 +17256,7 @@
       "venue": "Open Ceramics",
       "authors": "Kalpana, Rao, Raut et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.oceram.2026.101017",
       "language": "en",
       "via": "crossref",
@@ -17044,13 +17274,15 @@
       "quote": "polyethylene fiber reinforced FA & CCR based engineered geopolymer composites",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:30:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-07-16"
     },
     {
       "id": "doi:10.1016/j.psep.2026.109395",
@@ -17060,7 +17292,7 @@
       "venue": "Process Safety and Environmental Protection",
       "authors": "Li, Zheng, Li et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.psep.2026.109395",
       "language": "en",
       "via": "crossref",
@@ -17078,13 +17310,15 @@
       "quote": "Influence of NaCl on polycarbonate pyrolysis behavior and process optimization",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:31:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-04"
     },
     {
       "id": "doi:10.1021/acsabm.6c00543",
@@ -17225,7 +17459,7 @@
       "venue": "International Journal of Scientific Research in Engineering and Management",
       "authors": "Santoshkumar M. Dapkekar",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.55041/ijsrem.istcesd011",
       "language": "en",
       "via": "crossref",
@@ -17249,7 +17483,8 @@
       "triaged_at": "2026-10-20T18:21:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-28"
     },
     {
       "id": "news:eae2c519aef58759",
@@ -19256,7 +19491,7 @@
       "venue": "Biomedical Analysis",
       "authors": "Huang, Wu, Tang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.bioana.2026.08.001",
       "language": "en",
       "via": "crossref",
@@ -19268,9 +19503,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-27"
     },
     {
       "id": "doi:10.1016/j.biortech.2026.134964",
@@ -19280,7 +19517,7 @@
       "venue": "Bioresource Technology",
       "authors": "Cai, He, Qiu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.biortech.2026.134964",
       "language": "en",
       "via": "crossref",
@@ -19292,9 +19529,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-05-24"
     },
     {
       "id": "doi:10.1016/j.bjps.2026.07.012",
@@ -19304,7 +19543,7 @@
       "venue": "Journal of Plastic, Reconstructive & Aesthetic Surgery",
       "authors": "Aho, Tamminen",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.bjps.2026.07.012",
       "language": "en",
       "via": "crossref",
@@ -19316,9 +19555,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-16"
     },
     {
       "id": "doi:10.1016/j.bmcl.2026.130689",
@@ -19328,7 +19569,7 @@
       "venue": "Bioorganic & Medicinal Chemistry Letters",
       "authors": "Suchetti, Tempesti, Ferrayoli",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.bmcl.2026.130689",
       "language": "en",
       "via": "crossref",
@@ -19340,9 +19581,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-05-20"
     },
     {
       "id": "doi:10.1016/j.cej.2026.178660",
@@ -19352,7 +19595,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Kuan, Chu, Kuo",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178660",
       "language": "en",
       "via": "crossref",
@@ -19364,9 +19607,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-22"
     },
     {
       "id": "doi:10.1016/j.cej.2026.178709",
@@ -19376,7 +19621,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "Arıkaya, Düzyel, Yılmaz",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.178709",
       "language": "en",
       "via": "crossref",
@@ -19388,9 +19633,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-25"
     },
     {
       "id": "doi:10.1016/j.cej.2026.181996",
@@ -19400,7 +19647,7 @@
       "venue": "Chemical Engineering Journal",
       "authors": "",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cej.2026.181996",
       "language": "en",
       "via": "crossref",
@@ -19414,7 +19661,8 @@
       "flags": [
         "keyword-gate"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-09-18"
     },
     {
       "id": "doi:10.1016/j.cjche.2026.08.027",
@@ -19424,7 +19672,7 @@
       "venue": "Chinese Journal of Chemical Engineering",
       "authors": "Ji, Ma, Lu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.cjche.2026.08.027",
       "language": "en",
       "via": "crossref",
@@ -19438,7 +19686,8 @@
       "flags": [
         "keyword-gate"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-09-17"
     },
     {
       "id": "doi:10.1016/j.clscn.2026.100351",
@@ -19448,7 +19697,7 @@
       "venue": "Cleaner Logistics and Supply Chain",
       "authors": "Alam, Sayem, Khan",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.clscn.2026.100351",
       "language": "en",
       "via": "crossref",
@@ -19460,9 +19709,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-26"
     },
     {
       "id": "doi:10.1016/j.comptc.2026.115897",
@@ -19472,7 +19723,7 @@
       "venue": "Computational and Theoretical Chemistry",
       "authors": "Nemadzhilili, Kabanda",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.comptc.2026.115897",
       "language": "en",
       "via": "crossref",
@@ -19484,9 +19735,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-05-29"
     },
     {
       "id": "doi:10.1016/j.ctta.2026.100349",
@@ -19496,7 +19749,7 @@
       "venue": "Chemical Thermodynamics and Thermal Analysis",
       "authors": "Devaiah, Kumar, Gardas",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ctta.2026.100349",
       "language": "en",
       "via": "crossref",
@@ -19508,9 +19761,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-20"
     },
     {
       "id": "doi:10.1016/j.dyepig.2026.113787",
@@ -19520,7 +19775,7 @@
       "venue": "Dyes and Pigments",
       "authors": "Safir Filho, Rodembusch",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.dyepig.2026.113787",
       "language": "en",
       "via": "crossref",
@@ -19532,9 +19787,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-04-12"
     },
     {
       "id": "doi:10.1016/j.enconman.2026.121681",
@@ -19544,7 +19801,7 @@
       "venue": "Energy Conversion and Management",
       "authors": "Huang, Wu, Deng",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.enconman.2026.121681",
       "language": "en",
       "via": "crossref",
@@ -19556,9 +19813,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-05-30"
     },
     {
       "id": "doi:10.1016/j.giant.2026.100407",
@@ -19568,7 +19827,7 @@
       "venue": "Giant",
       "authors": "Chen, Gu, Lu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.giant.2026.100407",
       "language": "en",
       "via": "crossref",
@@ -19580,9 +19839,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-02"
     },
     {
       "id": "doi:10.1016/j.ijpharm.2026.127263",
@@ -19592,7 +19853,7 @@
       "venue": "International Journal of Pharmaceutics",
       "authors": "Stoilov, Truong, Delaney et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ijpharm.2026.127263",
       "language": "en",
       "via": "crossref",
@@ -19604,9 +19865,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-02"
     },
     {
       "id": "doi:10.1016/j.inoche.2026.116992",
@@ -19616,7 +19879,7 @@
       "venue": "Inorganic Chemistry Communications",
       "authors": "Jiji, Kalaivani, Jagadeesan",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.inoche.2026.116992",
       "language": "en",
       "via": "crossref",
@@ -19628,9 +19891,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-06"
     },
     {
       "id": "doi:10.1016/j.jaap.2026.107880",
@@ -19640,7 +19905,7 @@
       "venue": "Journal of Analytical and Applied Pyrolysis",
       "authors": "De Mol, Desmyter, Ronsse et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jaap.2026.107880",
       "language": "en",
       "via": "crossref",
@@ -19653,9 +19918,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-17"
     },
     {
       "id": "doi:10.1016/j.jcis.2026.140458",
@@ -19665,7 +19932,7 @@
       "venue": "Journal of Colloid and Interface Science",
       "authors": "Olejnik, Łapeta, Frydrych et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcis.2026.140458",
       "language": "en",
       "via": "crossref",
@@ -19677,9 +19944,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-04-03"
     },
     {
       "id": "doi:10.1016/j.jcou.2026.103318",
@@ -19689,7 +19958,7 @@
       "venue": "Journal of CO2 Utilization",
       "authors": "Hu, Wang",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcou.2026.103318",
       "language": "en",
       "via": "crossref",
@@ -19701,9 +19970,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-23"
     },
     {
       "id": "doi:10.1016/j.jcou.2026.103507",
@@ -19713,7 +19984,7 @@
       "venue": "Journal of CO2 Utilization",
       "authors": "Gao, Dong, Guo et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcou.2026.103507",
       "language": "en",
       "via": "crossref",
@@ -19725,9 +19996,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-10"
     },
     {
       "id": "doi:10.1016/j.jcou.2026.103532",
@@ -19737,7 +20010,7 @@
       "venue": "Journal of CO2 Utilization",
       "authors": "Mei, Lyu, Lv et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcou.2026.103532",
       "language": "en",
       "via": "crossref",
@@ -19749,9 +20022,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-31"
     },
     {
       "id": "doi:10.1016/j.jcou.2026.103534",
@@ -19761,7 +20036,7 @@
       "venue": "Journal of CO2 Utilization",
       "authors": "Alkhatib, Anwer, Salih et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcou.2026.103534",
       "language": "en",
       "via": "crossref",
@@ -19773,9 +20048,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-30"
     },
     {
       "id": "doi:10.1016/j.jcou.2026.103540",
@@ -19785,7 +20062,7 @@
       "venue": "Journal of CO2 Utilization",
       "authors": "Klockow, Linder",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcou.2026.103540",
       "language": "en",
       "via": "crossref",
@@ -19797,9 +20074,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-22"
     },
     {
       "id": "doi:10.1016/j.jcou.2026.103543",
@@ -19809,7 +20088,7 @@
       "venue": "Journal of CO2 Utilization",
       "authors": "Meng, Rocks, Dugulan et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcou.2026.103543",
       "language": "en",
       "via": "crossref",
@@ -19821,9 +20100,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-17"
     },
     {
       "id": "doi:10.1016/j.jcou.2026.103545",
@@ -19833,7 +20114,7 @@
       "venue": "Journal of CO2 Utilization",
       "authors": "Huang, Hu, Chen et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jcou.2026.103545",
       "language": "en",
       "via": "crossref",
@@ -19845,9 +20126,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-18"
     },
     {
       "id": "doi:10.1016/j.jenvman.2026.130746",
@@ -19857,7 +20140,7 @@
       "venue": "Journal of Environmental Management",
       "authors": "Kotoka, Cui, Gutierrez et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jenvman.2026.130746",
       "language": "en",
       "via": "crossref",
@@ -19869,9 +20152,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-26"
     },
     {
       "id": "doi:10.1016/j.jmat.2026.101278",
@@ -19881,7 +20166,7 @@
       "venue": "Journal of Materiomics",
       "authors": "Cheng, Yang, Han et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.jmat.2026.101278",
       "language": "en",
       "via": "crossref",
@@ -19893,9 +20178,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-19"
     },
     {
       "id": "doi:10.1016/j.lwt.2026.119834",
@@ -19905,7 +20192,7 @@
       "venue": "LWT",
       "authors": "Ding, Zhou, Wu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.lwt.2026.119834",
       "language": "en",
       "via": "crossref",
@@ -19917,9 +20204,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-12"
     },
     {
       "id": "doi:10.1016/j.marenvres.2026.108280",
@@ -19929,7 +20218,7 @@
       "venue": "Marine Environmental Research",
       "authors": "Zhao, Hu, Han et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.marenvres.2026.108280",
       "language": "en",
       "via": "crossref",
@@ -19941,9 +20230,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-14"
     },
     {
       "id": "doi:10.1016/j.mcat.2026.116210",
@@ -19953,7 +20244,7 @@
       "venue": "Molecular Catalysis",
       "authors": "De, Narayanan",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mcat.2026.116210",
       "language": "en",
       "via": "crossref",
@@ -19965,9 +20256,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-20"
     },
     {
       "id": "doi:10.1016/j.micromeso.2026.114286",
@@ -19977,7 +20270,7 @@
       "venue": "Microporous and Mesoporous Materials",
       "authors": "Düzyel, Arıkaya, Yılmaz",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.micromeso.2026.114286",
       "language": "en",
       "via": "crossref",
@@ -19990,9 +20283,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-21"
     },
     {
       "id": "doi:10.1016/j.molstruc.2026.146284",
@@ -20002,7 +20297,7 @@
       "venue": "Journal of Molecular Structure",
       "authors": "Santakul, Chanthaset, Yaemphutchong et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.molstruc.2026.146284",
       "language": "en",
       "via": "crossref",
@@ -20014,9 +20309,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-04-16"
     },
     {
       "id": "doi:10.1016/j.mtbio.2026.103711",
@@ -20026,7 +20323,7 @@
       "venue": "Materials Today Bio",
       "authors": "Li, Wang, Xu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtbio.2026.103711",
       "language": "en",
       "via": "crossref",
@@ -20044,7 +20341,8 @@
       "flags": [
         "keyword-gate"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-09-30"
     },
     {
       "id": "doi:10.1016/j.mtchem.2026.103952",
@@ -20054,7 +20352,7 @@
       "venue": "Materials Today Chemistry",
       "authors": "Buijsen, Weidner, Kricheldorf",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.mtchem.2026.103952",
       "language": "en",
       "via": "crossref",
@@ -20066,9 +20364,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-20"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116187",
@@ -20102,7 +20402,7 @@
       "venue": "Phytomedicine",
       "authors": "Wang, Kim, Cui et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.phymed.2026.158423",
       "language": "en",
       "via": "crossref",
@@ -20114,9 +20414,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-12"
     },
     {
       "id": "doi:10.1016/j.physletb.2026.140833",
@@ -20126,7 +20428,7 @@
       "venue": "Physics Letters B",
       "authors": "Franchino-Viñas, Mazzitelli, Pla",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.physletb.2026.140833",
       "language": "en",
       "via": "crossref",
@@ -20138,9 +20440,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-08-11"
     },
     {
       "id": "doi:10.1016/j.plaphy.2026.111575",
@@ -20150,7 +20454,7 @@
       "venue": "Plant Physiology and Biochemistry",
       "authors": "Wang, Liu, Bao et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.plaphy.2026.111575",
       "language": "en",
       "via": "crossref",
@@ -20162,9 +20466,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-30"
     },
     {
       "id": "doi:10.1016/j.plaphy.2026.111703",
@@ -20174,7 +20480,7 @@
       "venue": "Plant Physiology and Biochemistry",
       "authors": "Imran, Zhao, Zhou et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.plaphy.2026.111703",
       "language": "en",
       "via": "crossref",
@@ -20188,7 +20494,8 @@
       "flags": [
         "keyword-gate"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-09-01"
     },
     {
       "id": "doi:10.1016/j.poly.2026.118297",
@@ -20198,7 +20505,7 @@
       "venue": "Polyhedron",
       "authors": "Asha, Jaabil, Alphonse et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.poly.2026.118297",
       "language": "en",
       "via": "crossref",
@@ -20210,9 +20517,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-13"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130426",
@@ -20222,7 +20531,7 @@
       "venue": "Polymer",
       "authors": "Chang, He, Chen et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130426",
       "language": "en",
       "via": "crossref",
@@ -20234,9 +20543,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-01"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130460",
@@ -20246,7 +20557,7 @@
       "venue": "Polymer",
       "authors": "Nagarajan, Govindraj, Krishnasamy",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130460",
       "language": "en",
       "via": "crossref",
@@ -20258,9 +20569,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-06"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130479",
@@ -20270,7 +20583,7 @@
       "venue": "Polymer",
       "authors": "Li, Sun, Yang et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.polymer.2026.130479",
       "language": "en",
       "via": "crossref",
@@ -20282,9 +20595,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-07-07"
     },
     {
       "id": "doi:10.1016/j.reactfunctpolym.2026.106828",
@@ -20294,7 +20609,7 @@
       "venue": "Reactive and Functional Polymers",
       "authors": "G, M, S et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.reactfunctpolym.2026.106828",
       "language": "en",
       "via": "crossref",
@@ -20306,9 +20621,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-01"
     },
     {
       "id": "doi:10.1016/j.reactfunctpolym.2026.106841",
@@ -20318,7 +20635,7 @@
       "venue": "Reactive and Functional Polymers",
       "authors": "Srinivasan, Appasamy, Mohamed Mydeen et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.reactfunctpolym.2026.106841",
       "language": "en",
       "via": "crossref",
@@ -20330,9 +20647,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-09"
     },
     {
       "id": "doi:10.1016/j.rser.2026.117027",
@@ -20342,7 +20661,7 @@
       "venue": "Renewable and Sustainable Energy Reviews",
       "authors": "Zhu, Wu, Cheng et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.rser.2026.117027",
       "language": "en",
       "via": "crossref",
@@ -20354,9 +20673,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-05-08"
     },
     {
       "id": "doi:10.1016/j.seppur.2026.138765",
@@ -20366,7 +20687,7 @@
       "venue": "Separation and Purification Technology",
       "authors": "Mohammadikish, Padyab",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.seppur.2026.138765",
       "language": "en",
       "via": "crossref",
@@ -20378,9 +20699,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-03"
     },
     {
       "id": "doi:10.1016/j.tetlet.2026.156156",
@@ -20390,7 +20713,7 @@
       "venue": "Tetrahedron Letters",
       "authors": "Dufour, Kerr",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.tetlet.2026.156156",
       "language": "en",
       "via": "crossref",
@@ -20402,9 +20725,11 @@
       "route": "none",
       "hidden": true,
       "flags": [
-        "keyword-gate"
+        "keyword-gate",
+        "pre-window"
       ],
-      "relevance": 0
+      "relevance": 0,
+      "first_available": "2026-06-03"
     },
     {
       "id": "doi:10.1016/j.vetpar.2026.110931",
@@ -20686,7 +21011,7 @@
       "venue": "Biomass and Bioenergy",
       "authors": "Lee, Zhu, Xu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.biombioe.2026.109222",
       "language": "en",
       "via": "crossref",
@@ -20704,13 +21029,15 @@
       "quote": "Flavor and antioxidant mechanism of saponin active substances",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:35+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-03-10"
     },
     {
       "id": "doi:10.1016/j.ceramint.2026.09.479",
@@ -20720,7 +21047,7 @@
       "venue": "Ceramics International",
       "authors": "Song, Wang, Zhu et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.ceramint.2026.09.479",
       "language": "en",
       "via": "crossref",
@@ -20744,7 +21071,8 @@
       "triaged_at": "2026-10-20T18:20:35+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-28"
     },
     {
       "id": "doi:10.1016/j.hrtlng.2026.102789",
@@ -20754,7 +21082,7 @@
       "venue": "Heart & Lung",
       "authors": "Csonka, Vähätalo, Ilmarinen et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.hrtlng.2026.102789",
       "language": "en",
       "via": "crossref",
@@ -20772,13 +21100,15 @@
       "quote": "home PEF monitoring",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:20:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-04-14"
     },
     {
       "id": "doi:10.1016/j.jppr.2026.08.002",
@@ -20820,7 +21150,7 @@
       "venue": "Pulsed Power",
       "authors": "Han, Chen, Geng et al.",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.1016/j.pup.2026.100007",
       "language": "en",
       "via": "crossref",
@@ -20838,13 +21168,15 @@
       "quote": "PEF applications in plant tissue disruption",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:21:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-06-20"
     },
     {
       "id": "doi:10.1021/acsnano.6c04698",
@@ -21006,7 +21338,7 @@
       "venue": "Indian Journal of Fibre & Textile Research",
       "authors": "",
       "published_date": "2026-09-01",
-      "date_precision": "month",
+      "date_precision": "day",
       "url": "https://doi.org/10.56042/ijftr.v51i3.23348",
       "language": "en",
       "via": "crossref",
@@ -21030,7 +21362,8 @@
       "triaged_at": "2026-10-20T18:31:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-09-20261020T181820Z-c05f31",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-03"
     },
     {
       "id": "news:087108bfb3b8d1dd",

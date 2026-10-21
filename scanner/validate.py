@@ -143,8 +143,10 @@ def validate_all() -> list[str]:
     for path in sorted((DATA / "developments").glob("*.yaml")):
         month = path.stem
         devs = _dates(yaml.safe_load(path.read_text()) or [])
-        cutoff = window(month)[1].isoformat()
+        first_day, cutoff = (x.isoformat() for x in window(month))
         for d in devs:
+            if d.get("published_date") and d["published_date"] < first_day and not d.get("repeat_reason"):
+                errors.append(f"developments/{month}/{d['id']}: published {d['published_date']}, before the month began (not new this month)")
             errors += _errs(dev_schema, d, f"developments/{month}/{d.get('id')}")
             errors += check_development(d, cutoff)
             k = _key(d)
@@ -161,6 +163,14 @@ def validate_all() -> list[str]:
             errors.append(f"newsletter/{path.stem}: signed without reviewer name and date")
         devs = {d["id"]: d for d in (yaml.safe_load((DATA / "developments" / f"{path.stem}.yaml").read_text()) or [])} \
             if (DATA / "developments" / f"{path.stem}.yaml").exists() else {}
+        lead_file = DATA / "leads" / f"{path.stem}.json"
+        month_leads = {c["id"]: c for c in json.loads(lead_file.read_text())["leads"]} if lead_file.exists() else {}
+        for s in n.get("shortlist") or []:
+            c = month_leads.get(s["lead_id"])
+            if c is None:
+                errors.append(f"newsletter/{path.stem}: shortlisted lead {s['lead_id']} is not in leads/{path.stem}.json")
+            elif "pre-window" in c.get("flags", []):
+                errors.append(f"newsletter/{path.stem}: shortlisted lead {s['lead_id']} was online before the month began")
         for card in n.get("cards") or []:
             if card["development"] not in devs:
                 errors.append(f"newsletter/{path.stem}: card cites unknown development {card['development']}")

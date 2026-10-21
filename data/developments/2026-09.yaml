@@ -76,3 +76,100 @@
   tracking: milestone
   selection_score: {relevance: 2, novelty: 1, evidence: 1, consequence: 2, learning: 1}
   review: {status: evidence-checked, reviewer: null, date: null}
+# Evidence check by the build editor on 2026-10-21 from the published abstract (Crossref and OpenAlex copies agree).
+# The full text is paywalled and was not read: test standards, specimen conditions, the neat-PLA baseline and any
+# heat-resistance numbers are therefore not recorded. Not signed (G4).
+- id: pla-pa11-nanosilica-elastomer-toughening
+  month: 2026-09
+  title: PLA/PA11 blend toughened and compatibilised with a bio-based nanosilica/epoxy elastomer hybrid
+  route: pla
+  lead_id: "doi:10.1021/acs.iecr.6c03874"
+  dedupe_key: {technology: PLA/PA11 blend + amino-functionalised nanosilica/epoxy elastomer, organization: Tianjin University / PetroChina, facility: lab, event: journal article}
+  repeat_reason: null
+  polymer_family: PLA blend (PLA/PA11) with an elastomer/nanosilica hybrid
+  feedstock: Not disclosed in the abstract
+  monomers: []  # not named in the abstract
+  synthesis_route: Melt blending of PLA and PA11 with a modified elastomer carrying amino-functionalised nanosilica (abstract; processing details not read)
+  novelty_type: new-formulation-or-application
+  novelty_note: New compatibiliser/toughener for a known blend pair; not new chemistry or a new production route.
+  event: >-
+    A Tianjin University / PetroChina team reports PLA/PA11 composites with a bio-based amino-functionalised
+    nanosilica/epoxy elastomer hybrid. The optimised formulation (5 wt % modified elastomer with 10 wt % SiO2)
+    reaches 61.7 MPa tensile strength, 49.8 kJ/m2 notched impact strength and 399 % elongation at break.
+  published_date: 2026-09-21
+  event_date: 2026-09-21
+  sources:
+    - url: https://doi.org/10.1021/acs.iecr.6c03874
+      doi: 10.1021/acs.iecr.6c03874
+      locator: abstract (Ind. Eng. Chem. Res., published online 21 Sep 2026)
+      published: 2026-09-21
+      kind: peer-reviewed article
+      quote: "we develop PLA composites exhibiting concurrently high stiffness, toughness, and heat resistance by incorporating renewable polyamide11 (PA11) and a biobased amino-functionalized nanosilica/epoxy elastomer hybrid (Ex)"
+  actors:
+    - {name: Tianjin University, role: research}
+    - {name: "Petrochemical Research Institute, PetroChina Company Limited", role: research}
+    - {name: Sinopec Yanshan Petrochemical Company, role: partner}
+  research_location: Tianjin, China (author affiliations on Crossref)
+  production_site: Not disclosed
+  target_region: Not disclosed
+  demonstrated_stage: lab
+  plans: Not disclosed
+  trl: {value: Not reported}
+  capacity: {value: Not disclosed}
+  performance:
+    - property: tensile strength
+      value: 61.7
+      unit: MPa
+      conditions: optimised formulation 55-5E10 (5 wt % modified elastomer E10 with 10 wt % SiO2)
+      measured_or_claimed: measured
+      method: Not read (full text paywalled)
+      comparator: Not stated in the abstract
+      source: https://doi.org/10.1021/acs.iecr.6c03874
+      locator: abstract
+      quote: "The optimized formulation, 55-5E10 (comprising 5 wt % modified elastomer E10 with 10 wt % SiO2), achieves a tensile strength of 61.7 MPa, a notched impact strength of 49.8 kJ/m2, and an elongation at break of 399%."
+    - property: notched impact strength
+      value: 49.8
+      unit: kJ/m²
+      conditions: optimised formulation 55-5E10
+      measured_or_claimed: measured
+      method: Not read (full text paywalled)
+      comparator: Not stated in the abstract
+      source: https://doi.org/10.1021/acs.iecr.6c03874
+      locator: abstract
+      quote: "The optimized formulation, 55-5E10 (comprising 5 wt % modified elastomer E10 with 10 wt % SiO2), achieves a tensile strength of 61.7 MPa, a notched impact strength of 49.8 kJ/m2, and an elongation at break of 399%."
+    - property: elongation at break
+      value: 399
+      unit: "%"
+      conditions: optimised formulation 55-5E10
+      measured_or_claimed: measured
+      method: Not read (full text paywalled)
+      comparator: Not stated in the abstract
+      source: https://doi.org/10.1021/acs.iecr.6c03874
+      locator: abstract
+      quote: "The optimized formulation, 55-5E10 (comprising 5 wt % modified elastomer E10 with 10 wt % SiO2), achieves a tensile strength of 61.7 MPa, a notched impact strength of 49.8 kJ/m2, and an elongation at break of 399%."
+  cost: {value: Not disclosed}
+  climate: {value: Not disclosed}
+  residual_fossil: Not disclosed (SiO2 and the epoxy elastomer's origin beyond "biobased" are not specified in the abstract)
+  feedstock_availability: Not disclosed
+  eol_constraints: Not disclosed; a three-component blend with PA11 and silica is not addressed for recycling or composting in the abstract
+  main_barrier: Balancing toughness and heat resistance in PLA without lowering bio-based content (authors' framing).
+  missing_evidence: >-
+    Full text not read (paywalled): PLA:PA11 ratio behind the code "55-5E10", test standards and specimen conditioning,
+    the neat-PLA and uncompatibilised-blend baselines, heat-resistance data (claimed in the abstract without a number),
+    bio-based content of the final composite, and the identity of "EMG". The abstract mixes "Ex" and "EMG" for the
+    elastomer; not resolved.
+  next_question: What heat-deflection temperature and bio-based carbon content does the optimised formulation reach, measured to which standard?
+  attributes:
+    bio_based_origin:
+      value: PLA with PA11 described as renewable and a compatibiliser described as bio-based (authors' statement)
+      quote: "by incorporating renewable polyamide11 (PA11) and a biobased amino-functionalized nanosilica/epoxy elastomer hybrid (Ex)"
+      source: https://doi.org/10.1021/acs.iecr.6c03874
+    biobased_carbon_measured: {value: Not disclosed}
+    mass_balance: {value: Not disclosed}
+    biodegradable_env: {value: Not disclosed}
+    compostable: {value: Not disclosed}
+    recyclable: {value: Not disclosed}
+  label: peer-reviewed
+  tracking: data-gap
+  selection_score: {relevance: 2, novelty: 1, evidence: 1, consequence: 1, learning: 2}
+  review: {status: evidence-checked, reviewer: null, date: null}

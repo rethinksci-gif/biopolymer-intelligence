@@ -115,6 +115,43 @@ def cmd_scan(args):
     print(f"{shown} shown / {len(leads)} total -> {path}; calls={run['llm_calls']} usage={run['usage']} pending={pending}")
 
 
+def cmd_recheck_dates(args):
+    """Re-date leads that only carry a month-precision (issue) date: look up the Crossref record's first
+    availability and hide, with a `pre-window` flag, any lead that was online before the month began."""
+    from .http import get_json
+    from .months import window
+    from .sources import first_available
+
+    start, _ = window(args.month)
+    path = DATA / "leads" / f"{args.month}.json"
+    doc = _read(path, None)
+    if doc is None:
+        sys.exit(f"no leads file for {args.month}")
+    checked = moved = failed = 0
+    for c in doc["leads"]:
+        if c.get("date_precision") != "month" or not c.get("doi") or "pre-window" in c.get("flags", []):
+            continue
+        try:
+            m = get_json("https://api.crossref.org/works/" + c["doi"])["message"]
+        except Exception as exc:  # reported, never fatal: the lead keeps its issue date
+            failed += 1
+            print(f"  ! {c['doi']}: {exc}")
+            continue
+        checked += 1
+        first, exact = first_available(m) or (c["published_date"], False)
+        c["first_available"] = first
+        if exact:
+            c["date_precision"] = "day"
+        if first < start.isoformat():
+            c["hidden"] = True
+            c["flags"] = sorted(set(c.get("flags", [])) | {"pre-window"})
+            moved += 1
+    doc["triage_pending"] = sum(c.get("route") == "untriaged" and "pre-window" not in c.get("flags", []) for c in doc["leads"])
+    doc["updated"] = _now()
+    _write(path, doc)
+    print(f"{args.month}: {checked} issue-dated leads checked, {moved} online before {start} hidden as pre-window, {failed} lookups failed")
+
+
 def cmd_structures(args):
     from .structures import StructureError, render, verify
 
@@ -163,6 +200,9 @@ def main():
     s.add_argument("--month")
     s.add_argument("--max-calls", type=int)
     s.set_defaults(fn=cmd_scan)
+    rd = sub.add_parser("recheck-dates", help="re-date issue-dated leads by first availability; hide pre-window ones")
+    rd.add_argument("month")
+    rd.set_defaults(fn=cmd_recheck_dates)
     st = sub.add_parser("structures", help="verify structures against PubChem and render SVGs")
     st.add_argument("--refresh", action="store_true", help="look up CIDs missing from the PubChem cache")
     st.add_argument("--verify-only", action="store_true")
