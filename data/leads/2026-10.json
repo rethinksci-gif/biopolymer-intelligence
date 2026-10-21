@@ -6,7 +6,7 @@
   ],
   "scanned_through": "2026-10-20",
   "status": "in-progress",
-  "updated": "2026-10-21T17:29:58+00:00",
+  "updated": "2026-10-21T17:49:00+00:00",
   "triage_model": "deepseek-flash",
   "prompt_version": "1",
   "triage_pending": 4,
@@ -82,7 +82,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "news:036a31e5441c6df0",
@@ -179,7 +180,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c02133",
@@ -214,7 +216,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1007/s10965-026-05146-4",
@@ -247,7 +250,8 @@
       "triaged_at": "2026-10-20T18:35:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1016/j.compositesb.2026.114006",
@@ -353,7 +357,8 @@
       "triaged_at": "2026-10-20T18:37:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1002/pola.70361",
@@ -386,7 +391,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.26434/chemrxiv.15009986/v1",
@@ -418,7 +424,8 @@
       "triaged_at": "2026-10-20T18:59:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10980126/v1",
@@ -452,7 +459,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11122985/v1",
@@ -484,7 +492,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "news:dca32307c9ad7fc1",
@@ -552,7 +561,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1021/acsmacrolett.6c00423",
@@ -586,7 +596,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.3390/foods15203630",
@@ -618,7 +629,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11090787/v1",
@@ -652,7 +664,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130972",
@@ -686,7 +699,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1021/acspolymersau.6c00173",
@@ -718,7 +732,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "news:47de3be52d3a9506",
@@ -788,7 +803,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "news:033f345b04081b46",
@@ -852,7 +868,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1002/pen.70977",
@@ -886,7 +903,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "doi:10.1002/cssc.71139",
@@ -920,7 +938,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.1021/acsappcat.6c00056",
@@ -952,7 +971,8 @@
       "triaged_at": "2026-10-20T18:41:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.3390/ma19204406",
@@ -985,7 +1005,8 @@
       "triaged_at": "2026-10-20T18:41:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.3389/fmats.2026.1945972",
@@ -1019,7 +1040,8 @@
       "triaged_at": "2026-10-20T19:05:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130603",
@@ -1089,7 +1111,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1177/08927057261500224",
@@ -1121,7 +1144,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "doi:10.1002/cplu.70261",
@@ -1154,7 +1178,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1016/j.aiepr.2026.100288",
@@ -1401,7 +1426,8 @@
       "triaged_at": "2026-10-20T18:36:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130663",
@@ -1472,7 +1498,8 @@
       "triaged_at": "2026-10-20T18:37:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.porgcoat.2026.110664",
@@ -1506,7 +1533,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.watres.2026.127070",
@@ -1540,7 +1568,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.26434/chemrxiv.15009898/v1",
@@ -1572,7 +1601,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154787",
@@ -1604,7 +1634,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1021/acs.biomac.6c01056",
@@ -1638,7 +1669,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130943",
@@ -1670,7 +1702,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1051/ocl/2026027/pdf",
@@ -1771,7 +1804,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010012/v1",
@@ -1803,7 +1837,8 @@
       "triaged_at": "2026-10-20T18:59:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.5071/34theubce2026-6bv.2.30",
@@ -1869,7 +1904,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c01662",
@@ -1901,7 +1937,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "news:01d97a08549e5282",
@@ -1967,7 +2004,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1007/s10924-026-03971-8",
@@ -2002,7 +2040,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1122/8.0001229",
@@ -2034,7 +2073,8 @@
       "triaged_at": "2026-10-20T18:41:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "news:7d8d5191e443a689",
@@ -2212,7 +2252,8 @@
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1002/star.70309",
@@ -2245,7 +2286,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1016/j.biortech.2026.134979",
@@ -2675,7 +2717,8 @@
       "triaged_at": "2026-10-20T18:45:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130984",
@@ -2778,7 +2821,8 @@
       "triaged_at": "2026-10-20T18:37:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1021/acsmacrolett.6c00434",
@@ -2810,7 +2854,8 @@
       "triaged_at": "2026-10-20T18:46:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "epmc:PMC:PMC13665954",
@@ -2878,7 +2923,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.fpsl.2026.101856",
@@ -2913,7 +2959,8 @@
       "triaged_at": "2026-10-20T18:37:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116292",
@@ -2946,7 +2993,8 @@
       "triaged_at": "2026-10-20T18:37:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1002/pen.70915",
@@ -2979,7 +3027,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "news:b4b343fee303b566",
@@ -3111,7 +3160,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1007/s44347-026-00068-2",
@@ -3146,7 +3196,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1016/j.polymertesting.2026.109384",
@@ -3182,7 +3233,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.5071/34theubce2026-6cv.6.20",
@@ -3281,7 +3333,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11117473/v1",
@@ -3314,7 +3367,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "epmc:PMC:PMC13655256",
@@ -3381,7 +3435,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "openalex:W7222988324",
@@ -3448,7 +3503,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1021/acs.biomac.6c01649",
@@ -3483,7 +3539,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1002/ange.4709247",
@@ -3517,7 +3574,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.3390/jmmp10100434",
@@ -3549,7 +3607,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1007/s11356-026-38285-8",
@@ -3583,7 +3642,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1002/pen.70955",
@@ -3618,7 +3678,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "news:d2e539461a40aeff",
@@ -3866,7 +3927,8 @@
       "triaged_at": "2026-10-20T18:37:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "news:79e8a4604d4e1970",
@@ -3934,7 +3996,8 @@
       "triaged_at": "2026-10-20T18:39:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1002/cssc.71140",
@@ -3969,7 +4032,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.15407/polymerj.48.03.131",
@@ -4001,7 +4065,8 @@
       "triaged_at": "2026-10-20T19:04:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1002/mame.70369",
@@ -4036,7 +4101,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1002/slct.74840",
@@ -4069,7 +4135,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1007/s10562-026-05534-x",
@@ -4104,7 +4171,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.biortech.2026.135023",
@@ -4640,7 +4708,8 @@
       "triaged_at": "2026-10-20T18:37:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1038/s41579-026-01370-3",
@@ -4672,7 +4741,8 @@
       "triaged_at": "2026-10-20T18:46:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1186/s40538-026-01069-w",
@@ -4704,7 +4774,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1186/s42825-026-00263-8",
@@ -4736,7 +4807,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.26434/chemrxiv.10002026/v3",
@@ -4773,7 +4845,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "news:5b9e16b774917dbd",
@@ -4838,7 +4911,8 @@
       "triaged_at": "2026-10-20T18:46:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1007/s10924-026-03977-2",
@@ -4872,7 +4946,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1007/s13399-026-07296-3",
@@ -4906,7 +4981,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112512",
@@ -4940,7 +5016,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1002/cssc.71132",
@@ -4973,7 +5050,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1002/pen.70920",
@@ -5006,7 +5084,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1007/s10570-026-07232-8",
@@ -5041,7 +5120,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130905",
@@ -5075,7 +5155,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1002/pen.70936",
@@ -5110,7 +5191,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1002/smll.75955",
@@ -5143,7 +5225,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.cej.2026.182719",
@@ -5177,7 +5260,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154729",
@@ -5211,7 +5295,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154746",
@@ -5243,7 +5328,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116309",
@@ -5275,7 +5361,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.surfin.2026.110873",
@@ -5309,7 +5396,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1021/acssuschemeng.6c08214",
@@ -5341,7 +5429,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1038/s41467-026-78220-6",
@@ -5375,7 +5464,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "news:5f059996585519bd",
@@ -5441,7 +5531,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1021/acsapm.6c03271",
@@ -5473,7 +5564,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "news:a01d69e8ec6c26c9",
@@ -5542,7 +5634,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.3390/physchem6040061",
@@ -5576,7 +5669,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.3390/polym18192438",
@@ -5608,7 +5702,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1021/acsapm.6c03079",
@@ -5641,7 +5736,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "news:9b2f434e1475283f",
@@ -5707,7 +5803,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1002/pc.71620",
@@ -5741,7 +5838,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1177/07316844261496370",
@@ -5775,7 +5873,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "epmc:PMC:PMC13647332",
@@ -5908,7 +6007,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1002/cssc.71131",
@@ -5944,7 +6044,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1021/acsapm.6c03777",
@@ -5978,7 +6079,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "news:297947038a76a39e",
@@ -6044,7 +6146,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1007/s10924-026-04008-w",
@@ -6080,7 +6183,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1007/s44347-026-00070-8",
@@ -6112,7 +6216,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.29165/ajarcde.v10i3.1398",
@@ -6146,7 +6251,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.34874/prsm.ehei-jst-vol6iss2.68306",
@@ -6212,7 +6318,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.3390/jmmp10100438",
@@ -6246,7 +6353,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "news:627574bf28148f3b",
@@ -6312,7 +6420,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "news:8acc49f7434f90e7",
@@ -6378,7 +6487,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "news:5f3f5659145d074e",
@@ -6475,7 +6585,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1002/slct.74750",
@@ -6508,7 +6619,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1016/j.cej.2026.179503",
@@ -6614,7 +6726,8 @@
       "triaged_at": "2026-10-20T18:36:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.nxmate.2026.102634",
@@ -6791,7 +6904,8 @@
       "triaged_at": "2026-10-20T18:45:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1016/j.susmat.2026.e02142",
@@ -6860,7 +6974,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.3390/polym18192413",
@@ -6894,7 +7009,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1021/acsomega.6c06950",
@@ -6926,7 +7042,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1002/pola.70358",
@@ -6958,7 +7075,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1007/s10570-026-07240-8",
@@ -6990,7 +7108,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.12913/22998624/224885",
@@ -7022,7 +7141,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1002/pc.71698",
@@ -7056,7 +7176,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1021/acsapm.6c02724",
@@ -7088,7 +7209,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1186/s12934-026-03135-2",
@@ -7120,7 +7242,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1007/s10965-026-05140-w",
@@ -7154,7 +7277,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1177/14777606261497024",
@@ -7188,7 +7312,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.24294/jpse026180009",
@@ -7222,7 +7347,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1002/sscp.70331",
@@ -7256,7 +7382,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.3390/agriengineering8100434",
@@ -7288,7 +7415,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010369/v1",
@@ -7321,7 +7449,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.3390/polym18202498",
@@ -7354,7 +7483,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11047802/v1",
@@ -7388,7 +7518,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "epmc:PMC:PMC13659735",
@@ -7488,7 +7619,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.3390/polym18202571",
@@ -7520,7 +7652,8 @@
       "triaged_at": "2026-10-20T19:04:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "news:add57a38c7a6e22b",
@@ -7616,13 +7749,15 @@
       "quote": "The influence of natural fillers on the mechanical properties of polylactide-based composites produced by fused filament fabrication 3D printing",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-30"
     },
     {
       "id": "doi:10.1039/d6ra04655j",
@@ -7654,7 +7789,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1002/macp.70348",
@@ -7688,7 +7824,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1002/pls2.70075",
@@ -7723,7 +7860,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1007/s42247-026-01551-z",
@@ -7757,7 +7895,8 @@
       "triaged_at": "2026-10-20T18:42:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1016/j.bioorg.2026.110431",
@@ -7899,7 +8038,8 @@
       "triaged_at": "2026-10-20T18:42:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.cej.2026.182837",
@@ -8112,7 +8252,8 @@
       "triaged_at": "2026-10-20T18:44:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153437",
@@ -8248,13 +8389,15 @@
       "quote": "Prediction of tensile strength of PHBV-sunflower husk biocomposites",
       "quote_location": "title",
       "flags": [
+        "pre-window",
         "title-only"
       ],
-      "hidden": false,
+      "hidden": true,
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-08-30"
     },
     {
       "id": "doi:10.3390/su181910047",
@@ -8286,7 +8429,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.38124/ijisrt/26sep825",
@@ -8318,7 +8462,8 @@
       "triaged_at": "2026-10-20T18:46:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "epmc:PMC:PMC13667222",
@@ -8420,7 +8565,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1080/15440478.2026.2741507",
@@ -8454,7 +8600,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130917",
@@ -8488,7 +8635,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1021/acsomega.6c09378",
@@ -8523,7 +8671,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1002/ange.3998761",
@@ -8556,7 +8705,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1002/admi.70683",
@@ -8588,7 +8738,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1002/app.71599",
@@ -8623,7 +8774,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1134/s1062359026602892",
@@ -8655,7 +8807,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.64898/2026.09.29.755274",
@@ -8687,7 +8840,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1002/pat.70763",
@@ -8719,7 +8873,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1002/vnl.70158",
@@ -8753,7 +8908,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.cej.2026.182814",
@@ -8787,7 +8943,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.21203/rs.3.rs-9801627/v1",
@@ -8821,7 +8978,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "epmc:PMC:PMC13635999",
@@ -8925,7 +9083,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.3390/polym18192449",
@@ -8957,7 +9116,8 @@
       "triaged_at": "2026-10-20T18:39:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154798",
@@ -8989,7 +9149,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1080/10298436.2026.2745036",
@@ -9023,7 +9184,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.3390/ijms27198923",
@@ -9055,7 +9217,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1016/j.enzmictec.2026.110981",
@@ -9087,7 +9250,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1038/s43246-026-01398-1",
@@ -9119,7 +9283,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1002/cssc.71121",
@@ -9153,7 +9318,8 @@
       "triaged_at": "2026-10-20T19:01:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1021/acsapm.6c02926",
@@ -9185,7 +9351,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.3390/su182010302",
@@ -9218,7 +9385,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1002/advs.78210",
@@ -9252,7 +9420,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1007/s10924-026-03964-7",
@@ -9286,7 +9455,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1007/s10924-026-03985-2",
@@ -9318,7 +9488,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1002/anie.8633090",
@@ -9352,7 +9523,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1007/s00170-026-19294-w",
@@ -9387,7 +9559,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.3390/polym18202494",
@@ -9421,7 +9594,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1177/08927057261498040",
@@ -9455,7 +9629,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.17222/mit.2026.1749",
@@ -9489,7 +9664,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.5281/zenodo.23351031",
@@ -9553,7 +9729,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1108/prt-06-2026-0096",
@@ -9587,7 +9764,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1016/j.foodhyd.2026.113505",
@@ -9621,7 +9799,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1016/j.fpsl.2026.101859",
@@ -9654,7 +9833,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.32710/tekstilvekonfeksiyon.1680999",
@@ -9686,7 +9866,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1007/s10570-026-07228-4",
@@ -9720,7 +9901,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1080/19397038.2026.2743213",
@@ -9752,7 +9934,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "epmc:PMC:PMC13671094",
@@ -9820,7 +10003,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.3390/polym18202539",
@@ -9853,7 +10037,8 @@
       "triaged_at": "2026-10-20T19:04:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1038/s41598-026-72667-9",
@@ -9887,7 +10072,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1016/j.apmt.2026.103364",
@@ -10067,7 +10253,8 @@
       "triaged_at": "2026-10-20T18:42:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1016/j.clay.2026.108287",
@@ -10315,7 +10502,8 @@
       "triaged_at": "2026-10-20T18:44:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.nxener.2026.100797",
@@ -10603,7 +10791,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.48550/arxiv.2610.01576",
@@ -10669,7 +10858,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1016/j.cej.2026.182720",
@@ -10703,7 +10893,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1002/chem.71779",
@@ -10735,7 +10926,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1002/pen.70866",
@@ -10769,7 +10961,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.cej.2026.182824",
@@ -10803,7 +10996,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154743",
@@ -10837,7 +11031,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1002/star.70308",
@@ -10869,7 +11064,8 @@
       "triaged_at": "2026-10-20T18:59:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1021/acs.biomac.6c01353",
@@ -10901,7 +11097,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1186/s11671-026-04975-y",
@@ -10936,7 +11133,8 @@
       "triaged_at": "2026-10-20T18:59:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1016/j.matdes.2026.117200",
@@ -10970,7 +11168,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010087/v1",
@@ -11004,7 +11203,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "epmc:PMC:PMC13644395",
@@ -11070,7 +11270,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.37349/eff.2026.1010192",
@@ -11102,7 +11303,8 @@
       "triaged_at": "2026-10-20T19:01:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1080/10601325.2026.2742409",
@@ -11136,7 +11338,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c02061",
@@ -11168,7 +11371,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1021/acsapm.6c03633",
@@ -11202,7 +11406,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1002/pc.71723",
@@ -11236,7 +11441,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10156786/v1",
@@ -11270,7 +11476,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.3390/polym18202493",
@@ -11304,7 +11511,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "news:ae446f15ecaf5f9c",
@@ -11368,7 +11576,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1002/advs.78314",
@@ -11400,7 +11609,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1002/pen.70905",
@@ -11432,7 +11642,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1016/j.foodchem.2026.151588",
@@ -11466,7 +11677,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1021/acs.jafc.6c11041",
@@ -11498,7 +11710,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "news:d5a4013d2a7df3af",
@@ -11564,7 +11777,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "epmc:PMC:PMC13673873",
@@ -11703,7 +11917,8 @@
       "triaged_at": "2026-10-20T18:43:28+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.eurpolymj.2026.115065",
@@ -11809,7 +12024,8 @@
       "triaged_at": "2026-10-20T18:43:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1016/j.icheatmasstransfer.2026.112199",
@@ -11879,7 +12095,8 @@
       "triaged_at": "2026-10-20T18:36:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1016/j.indcrop.2026.124473",
@@ -11911,7 +12128,8 @@
       "triaged_at": "2026-10-20T18:44:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.jhazmat.2026.143709",
@@ -11979,7 +12197,8 @@
       "triaged_at": "2026-10-20T18:44:28+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1016/j.lwt.2026.119920",
@@ -12083,7 +12302,8 @@
       "triaged_at": "2026-10-20T18:36:34+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.nxmate.2026.102611",
@@ -12219,13 +12439,15 @@
       "quote": "chitosan/pullulan composite film (CS/PULL CF) incorporating pullulan-based anisaldehyde/cinnamaldehyde nanocapsules",
       "quote_location": "abstract",
       "flags": [
-        "number-not-in-quote"
+        "number-not-in-quote",
+        "pre-window"
       ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-28"
     },
     {
       "id": "doi:10.1177/09673911261497823",
@@ -12257,7 +12479,8 @@
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10709949/v1",
@@ -12290,7 +12513,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.3390/antiox15101265",
@@ -12322,7 +12546,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1007/s11998-026-01390-x",
@@ -12357,7 +12582,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1021/acs.biomac.6c01586",
@@ -12392,7 +12618,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1007/s10570-026-07214-w",
@@ -12426,7 +12653,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1007/s10965-026-05139-3",
@@ -12460,7 +12688,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1002/masy.70475",
@@ -12492,7 +12721,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "epmc:PMC:PMC13639871",
@@ -12561,7 +12791,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1016/j.cej.2026.182895",
@@ -12596,7 +12827,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116263",
@@ -12628,7 +12860,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1177/00405175261490347",
@@ -12660,7 +12893,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1002/app.71568",
@@ -12693,7 +12927,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112532",
@@ -12725,7 +12960,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1016/j.rineng.2026.113484",
@@ -12759,7 +12995,8 @@
       "triaged_at": "2026-10-20T18:39:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.26877/asset.v8i4.2700",
@@ -12793,7 +13030,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1021/acsomega.6c07788",
@@ -12827,7 +13065,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1002/pen.70939",
@@ -12861,7 +13100,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1016/j.reactfunctpolym.2026.106971",
@@ -12894,7 +13134,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1016/j.matchemphys.2026.133176",
@@ -12928,7 +13169,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.20944/preprints202610.1265.v1",
@@ -12960,7 +13202,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154880",
@@ -12992,7 +13235,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.3390/polym18202533",
@@ -13024,7 +13268,8 @@
       "triaged_at": "2026-10-20T19:03:37+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "news:841408e00f2a2bcd",
@@ -13089,7 +13334,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "epmc:PMC:PMC13670868",
@@ -13187,7 +13433,8 @@
       "triaged_at": "2026-10-20T19:05:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.1002/cbdv.71645",
@@ -13214,12 +13461,15 @@
       "summary": "Chitosan films loaded with Mitracarpus frigidus and Lantana camara extracts were prepared and shown in vitro to have antioxidant, anti-inflammatory and wound-healing activity.",
       "quote": "Chitosan films containing 0.5%, 1.0%, and 2.5% (w/w) of the selected association were homogeneous, thermally stable",
       "quote_location": "abstract",
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:42:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-30"
     },
     {
       "id": "doi:10.1002/pen.70925",
@@ -13251,7 +13501,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.carbpol.2026.125631",
@@ -13502,7 +13753,8 @@
       "triaged_at": "2026-10-20T18:36:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.nxmate.2026.103704",
@@ -13642,7 +13894,8 @@
       "triaged_at": "2026-10-20T18:37:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1111/jfpe.70841",
@@ -13676,7 +13929,8 @@
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1134/s0022093026050170",
@@ -13708,7 +13962,8 @@
       "triaged_at": "2026-10-20T18:37:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.3390/polym18192399",
@@ -13740,7 +13995,8 @@
       "triaged_at": "2026-10-20T18:46:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "epmc:PMC:PMC13666809",
@@ -13806,7 +14062,8 @@
       "triaged_at": "2026-10-20T18:46:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1186/s12863-026-01489-5",
@@ -13840,7 +14097,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1002/star.70307",
@@ -13874,7 +14132,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1080/25740881.2026.2741630",
@@ -13913,7 +14172,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.29303/jpm.v21i5.12089",
@@ -13945,7 +14205,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "news:51278721522d9169",
@@ -14010,7 +14271,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "epmc:PMC:PMC13637709",
@@ -14108,7 +14370,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1002/marc.70455",
@@ -14140,7 +14403,8 @@
       "triaged_at": "2026-10-20T18:39:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.3390/ma19204277",
@@ -14172,7 +14436,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1007/s00464-026-13480-3",
@@ -14206,7 +14471,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.30880/jsmpm.2026.06.02.001",
@@ -14238,7 +14504,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1016/j.marpolbul.2026.120459",
@@ -14270,7 +14537,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.3390/gels12100921",
@@ -14304,7 +14572,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010523/v1",
@@ -14338,7 +14607,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.3390/polym18202552",
@@ -14373,7 +14643,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1002/star.70313",
@@ -14405,7 +14676,8 @@
       "triaged_at": "2026-10-20T19:03:37+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.3389/fsufs.2026.1942487",
@@ -14437,7 +14709,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154896",
@@ -14469,7 +14742,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1515/cdbme-2026-0126",
@@ -14501,7 +14775,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1002/open.70303",
@@ -14528,12 +14803,15 @@
       "summary": "Compares FDM printers and setups for conductive PLA-based printed electrodes, finding higher-automation systems gave better electrochemical performance than entry-level platforms.",
       "quote": "the electrochemical performance of conductive polylactic acid (PLA)",
       "quote_location": "abstract",
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-24"
     },
     {
       "id": "doi:10.1002/pat.70768",
@@ -14565,7 +14843,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1002/pls2.70074",
@@ -14597,7 +14876,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1007/s10646-026-03162-0",
@@ -14631,7 +14911,8 @@
       "triaged_at": "2026-10-20T18:35:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.foodhyd.2026.112749",
@@ -14843,7 +15124,8 @@
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.3389/fmech.2026.1973220",
@@ -14875,7 +15157,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "epmc:PMC:PMC13666331",
@@ -14945,7 +15228,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130906",
@@ -14979,7 +15263,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1080/1023666x.2026.2736090",
@@ -15017,7 +15302,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "news:536c95c3eaaa54df",
@@ -15082,7 +15368,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1021/acsomega.6c06928",
@@ -15114,7 +15401,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1002/app.71388",
@@ -15146,7 +15434,8 @@
       "triaged_at": "2026-10-20T18:39:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1002/app.71621",
@@ -15178,7 +15467,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1016/j.frintr.2026.100026",
@@ -15211,7 +15501,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "epmc:PMC:PMC13647840",
@@ -15313,7 +15604,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1007/s10924-026-04007-x",
@@ -15348,7 +15640,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1016/j.jece.2026.125512",
@@ -15382,7 +15675,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.154840",
@@ -15416,7 +15710,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.26434/chemrxiv.15006763/v2",
@@ -15448,7 +15743,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010361/v1",
@@ -15484,7 +15780,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1007/s11694-026-05012-3",
@@ -15518,7 +15815,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1108/4dp-06-2026-0006",
@@ -15552,7 +15850,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1007/s10570-026-07237-3",
@@ -15584,7 +15883,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1007/s42464-026-00395-w",
@@ -15618,7 +15918,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.3390/polym18202536",
@@ -15650,7 +15951,8 @@
       "triaged_at": "2026-10-20T19:03:37+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1002/slct.74836",
@@ -15682,7 +15984,8 @@
       "triaged_at": "2026-10-20T19:03:37+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1038/s41598-026-75673-z",
@@ -15714,7 +16017,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.23796/lj/2026.010",
@@ -15748,7 +16052,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "news:9b394070e76a4aae",
@@ -15812,7 +16117,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "doi:10.1021/acsaenm.6c01112",
@@ -15844,7 +16150,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1007/s10854-026-18594-x",
@@ -15878,7 +16185,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.ijbiomac.2026.153949",
@@ -15946,7 +16254,8 @@
       "triaged_at": "2026-10-20T18:36:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1016/j.recm.2026.100234",
@@ -15978,7 +16287,8 @@
       "triaged_at": "2026-10-20T18:45:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "epmc:PMC:PMC13665314",
@@ -16046,7 +16356,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.3390/polym18192415",
@@ -16078,7 +16389,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.advmem.2026.100269",
@@ -16110,7 +16422,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.9734/ejnfs/2026/v18i102167",
@@ -16142,7 +16455,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1080/15440478.2026.2735776",
@@ -16175,7 +16489,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.55041/ijcope.v2i10.020",
@@ -16209,7 +16524,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.xphs.2026.104524",
@@ -16243,7 +16559,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1002/app.71628",
@@ -16275,7 +16592,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1111/1744-7917.70378",
@@ -16307,7 +16625,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "openalex:W7221736828",
@@ -16405,7 +16724,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.56211/blendsains.v5i2.2027",
@@ -16437,7 +16757,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1016/j.bioadv.2026.215249",
@@ -16471,7 +16792,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.31127/tuje.1968493",
@@ -16503,7 +16825,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1177/08927057261476957",
@@ -16535,7 +16858,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "doi:10.1016/j.electacta.2026.149600",
@@ -16786,7 +17110,8 @@
       "triaged_at": "2026-10-20T18:44:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.talanta.2026.129798",
@@ -16856,7 +17181,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1021/acssuschemeng.6c05879",
@@ -16889,7 +17215,8 @@
       "triaged_at": "2026-10-20T18:47:08+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "news:219f676dd5bea02a",
@@ -16986,7 +17313,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.21831/jps.v31i2.96941",
@@ -17018,7 +17346,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.3390/app16199799",
@@ -17050,7 +17379,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1007/s10570-026-07225-7",
@@ -17084,7 +17414,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.compositesa.2026.110343",
@@ -17116,7 +17447,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1088/1748-3190/aeb0ec",
@@ -17148,7 +17480,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1002/bkcs.70223",
@@ -17180,7 +17513,8 @@
       "triaged_at": "2026-10-20T18:59:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.5281/zenodo.23234900",
@@ -17246,7 +17580,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11058187/v1",
@@ -17281,7 +17616,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010146/v1",
@@ -17313,7 +17649,8 @@
       "triaged_at": "2026-10-20T19:01:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "epmc:PMC:PMC13647875",
@@ -17380,7 +17717,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.36371/port.2026.4.28",
@@ -17412,7 +17750,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1021/acsmacrolett.6c00449",
@@ -17444,7 +17783,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.7862/rc.2026.7",
@@ -17476,7 +17816,8 @@
       "triaged_at": "2026-10-20T19:03:37+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.3390/ma19204348",
@@ -17508,7 +17849,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "news:8a62c2d573b88ce6",
@@ -17749,7 +18091,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010076/v1",
@@ -17782,7 +18125,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "news:8078cc20163841cf",
@@ -17910,7 +18254,8 @@
       "triaged_at": "2026-10-20T19:03:37+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.64898/2026.10.15.759203",
@@ -17942,7 +18287,8 @@
       "triaged_at": "2026-10-20T19:04:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "epmc:PMC:PMC13660397",
@@ -18040,7 +18386,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1002/ange.3897515",
@@ -18072,7 +18419,8 @@
       "triaged_at": "2026-10-20T19:05:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.1016/j.checat.2026.101844",
@@ -18251,7 +18599,8 @@
       "triaged_at": "2026-10-20T18:44:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1016/j.nxmate.2026.103419",
@@ -18320,7 +18669,8 @@
       "triaged_at": "2026-10-20T18:45:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.optmat.2026.118247",
@@ -18533,7 +18883,8 @@
       "triaged_at": "2026-10-20T18:46:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.34133/research.1439",
@@ -18561,12 +18912,15 @@
       "summary": "Review of mechanisms by which ingested micro- and nanoplastics disrupt intestinal homeostasis and affect other organs via gut-organ axes.",
       "quote": "biodegradable plastics, despite lower environmental persistence, may produce bioactive degradation products in the gastrointestinal tract",
       "quote_location": "abstract",
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:46:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-03"
     },
     {
       "id": "epmc:PMC:PMC13667199",
@@ -18666,7 +19020,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1186/s11671-026-04928-5",
@@ -18698,7 +19053,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.3390/bios16100556",
@@ -18730,7 +19086,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1021/acsaem.6c02154",
@@ -18764,7 +19121,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1038/s41598-026-69963-9",
@@ -18796,7 +19154,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1021/acscatal.6c06150",
@@ -18828,7 +19187,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1021/acsomega.6c06646",
@@ -18860,7 +19220,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.66158/vodj.26.3.3.4",
@@ -18895,7 +19256,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "news:025dfe2da0a6cd71",
@@ -19025,7 +19387,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010247/v1",
@@ -19057,7 +19420,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1038/s41598-026-75623-9",
@@ -19089,7 +19453,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.5599/admet.3626",
@@ -19123,7 +19488,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1002/adsu.70680",
@@ -19157,7 +19523,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "news:2ea18f2a4803ca47",
@@ -19253,7 +19620,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1186/s12870-026-10089-5",
@@ -19287,7 +19655,8 @@
       "triaged_at": "2026-10-20T19:04:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10552119/v1",
@@ -19319,7 +19688,8 @@
       "triaged_at": "2026-10-20T19:04:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "news:8792e8cf500b9e3b",
@@ -19385,7 +19755,8 @@
       "triaged_at": "2026-10-20T19:05:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.1007/s13399-026-07306-4",
@@ -19417,7 +19788,8 @@
       "triaged_at": "2026-10-20T18:42:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1016/j.envpol.2026.128734",
@@ -19487,7 +19859,8 @@
       "triaged_at": "2026-10-20T18:44:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1016/j.nxmate.2026.103726",
@@ -19520,7 +19893,8 @@
       "triaged_at": "2026-10-20T18:36:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.polymdegradstab.2026.112307",
@@ -19654,7 +20028,8 @@
       "triaged_at": "2026-10-20T18:46:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1116/6.0005571",
@@ -19686,7 +20061,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "news:bd8cf28a9c4508c4",
@@ -19785,7 +20161,8 @@
       "triaged_at": "2026-10-20T18:48:13+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.memlet.2026.100129",
@@ -19817,7 +20194,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1002/pola.70360",
@@ -19852,7 +20230,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1039/d6tb00260a",
@@ -19884,7 +20263,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.64898/2026.10.04.756612",
@@ -19916,7 +20296,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.26434/chemrxiv.15009977/v1",
@@ -19948,7 +20329,8 @@
       "triaged_at": "2026-10-20T18:59:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "news:cbb7dc3ed07b43c1",
@@ -20012,7 +20394,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1007/s00289-026-06712-y",
@@ -20044,7 +20427,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1111/nph.71574",
@@ -20076,7 +20460,8 @@
       "triaged_at": "2026-10-20T18:59:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1002/app.71567",
@@ -20108,7 +20493,8 @@
       "triaged_at": "2026-10-20T18:59:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.26554/ijems.2026.10.4.308-317",
@@ -20142,7 +20528,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "epmc:PMC:PMC13642252",
@@ -20308,7 +20695,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1021/acspolymersau.6c00183",
@@ -20340,7 +20728,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "news:c881b942df3cf6c8",
@@ -20404,7 +20793,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1021/acssuschemeng.6c06440",
@@ -20437,7 +20827,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "doi:10.1016/j.cej.2026.179937",
@@ -20541,7 +20932,8 @@
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.24017/science.2026.2.5",
@@ -20573,7 +20965,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1002/app.71627",
@@ -20605,7 +20998,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.3390/polym18202560",
@@ -20637,7 +21031,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1002/pen.70924",
@@ -20669,7 +21064,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.apsb.2026.10.017",
@@ -20701,7 +21097,8 @@
       "triaged_at": "2026-10-20T18:35:57+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1016/j.btre.2026.e00985",
@@ -20769,7 +21166,8 @@
       "triaged_at": "2026-10-20T18:43:18+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.commatsci.2025.114467",
@@ -21018,7 +21416,8 @@
       "triaged_at": "2026-10-20T18:44:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1016/j.jhazmat.2026.143500",
@@ -21555,7 +21954,8 @@
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.22271/chemi.2026.v14.i10a.12835",
@@ -21589,7 +21989,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.3390/app16199745",
@@ -21621,7 +22022,8 @@
       "triaged_at": "2026-10-20T18:46:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.26434/chemrxiv.10002042/v2",
@@ -21653,7 +22055,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1021/jacs.6c15261",
@@ -21688,7 +22091,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1038/s41598-026-70802-0",
@@ -21720,7 +22124,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c02077",
@@ -21752,7 +22157,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1080/03639045.2026.2729380",
@@ -21779,12 +22185,15 @@
       "summary": "Review of mucoadhesive buccal films, including chitosan, hydroxypropyl methylcellulose, alginate and silk fibroin matrices, for systemic insulin delivery.",
       "quote": "Mucoadhesive buccal films are a promising alternative for insulin administration.",
       "quote_location": "abstract",
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-12"
     },
     {
       "id": "doi:10.64149/j.ijesrt.15.6.14-35",
@@ -21816,7 +22225,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "news:43b519abe0938be5",
@@ -21916,7 +22326,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "news:67b8fc3a58bb1ee4",
@@ -21982,7 +22393,8 @@
       "triaged_at": "2026-10-20T18:59:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1016/j.jbiotec.2026.09.017",
@@ -22014,7 +22426,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "news:be0d6a6773d1189c",
@@ -22078,7 +22491,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.3390/textiles6040124",
@@ -22111,7 +22525,8 @@
       "triaged_at": "2026-10-20T18:39:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "epmc:PMC:PMC13643387",
@@ -22178,7 +22593,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1021/acs.chemmater.6c01600",
@@ -22212,7 +22628,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1038/s41538-026-01189-5",
@@ -22244,7 +22661,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.3390/pharmaceutics18101278",
@@ -22277,7 +22695,8 @@
       "triaged_at": "2026-10-20T19:01:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.3390/foods15203600",
@@ -22309,7 +22728,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1021/acs.iecr.6c02834",
@@ -22341,7 +22761,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c01730",
@@ -22373,7 +22794,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1021/acsbiomaterials.6c01093",
@@ -22406,7 +22828,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1186/s11671-026-04930-x",
@@ -22438,7 +22861,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1002/app.71638",
@@ -22470,7 +22894,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c01015",
@@ -22502,7 +22927,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11040259/v1",
@@ -22536,7 +22962,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010381/v1",
@@ -22568,7 +22995,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.3390/architecture6040185",
@@ -22600,7 +23028,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1080/25740881.2026.2748826",
@@ -22634,7 +23063,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "epmc:PMC:PMC13662769",
@@ -22700,7 +23130,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.3390/foods15203651",
@@ -22732,7 +23163,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.25258/ijddt.16.72s.48",
@@ -22766,7 +23198,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.3390/ma19204364",
@@ -22798,7 +23231,8 @@
       "triaged_at": "2026-10-20T19:04:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "epmc:PMC:PMC13660526",
@@ -22865,7 +23299,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1007/s11249-026-02220-2",
@@ -22897,7 +23332,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-18"
     },
     {
       "id": "news:1d03e2059a7867be",
@@ -22961,7 +23397,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1186/s12284-026-00963-z",
@@ -22995,7 +23432,8 @@
       "triaged_at": "2026-10-20T19:05:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "news:6c260e0a83522db6",
@@ -23095,7 +23533,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1002/jbt.71070",
@@ -23122,12 +23561,15 @@
       "summary": "Review of evidence that microplastics and nanoplastics accumulate in brain tissue and are linked to neuroinflammation and neurodegeneration.",
       "quote": "Microplastics (MPs) and nanoplastics (NPs) have emerged as ubiquitous environmental contaminants",
       "quote_location": "abstract",
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-24"
     },
     {
       "id": "doi:10.1002/mbo3.70411",
@@ -23154,12 +23596,15 @@
       "summary": "Review of carbon quantum dot antibiofilm agents, their mechanisms and surface passivation with cationic polymers, lysozyme or targeting ligands.",
       "quote": "Carbon dots (CDs) have emerged as a versatile nanoplatform",
       "quote_location": "abstract",
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-14"
     },
     {
       "id": "doi:10.1007/s10706-026-03907-y",
@@ -23191,7 +23636,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1007/s11356-026-38243-4",
@@ -23225,7 +23671,8 @@
       "triaged_at": "2026-10-20T18:42:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.compositesa.2026.110010",
@@ -23652,7 +24099,8 @@
       "triaged_at": "2026-10-20T18:44:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1016/j.jclepro.2026.149625",
@@ -23684,7 +24132,8 @@
       "triaged_at": "2026-10-20T18:44:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1016/j.jcomc.2026.100794",
@@ -23752,7 +24201,8 @@
       "triaged_at": "2026-10-20T18:44:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1016/j.jdcr.2026.07.021",
@@ -23962,7 +24412,8 @@
       "triaged_at": "2026-10-20T18:44:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.1016/j.mtbio.2026.103763",
@@ -24033,7 +24484,8 @@
       "triaged_at": "2026-10-20T18:44:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130544",
@@ -24315,7 +24767,8 @@
       "triaged_at": "2026-10-20T18:37:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1021/acscatal.6c05917",
@@ -24347,7 +24800,8 @@
       "triaged_at": "2026-10-20T18:46:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1021/acsomega.6c05772",
@@ -24379,7 +24833,8 @@
       "triaged_at": "2026-10-20T18:46:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1021/jacs.6c13637",
@@ -24411,7 +24866,8 @@
       "triaged_at": "2026-10-20T18:37:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1038/s41598-026-71583-2",
@@ -24443,7 +24899,8 @@
       "triaged_at": "2026-10-20T18:46:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1098/rstb.2025.0268",
@@ -24475,7 +24932,8 @@
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.2118/1026-0020-jpt",
@@ -24507,7 +24965,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.61099/jpmei.v3i3.571",
@@ -24539,7 +24998,8 @@
       "triaged_at": "2026-10-20T18:46:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "epmc:PMC:PMC13650387",
@@ -24707,7 +25167,8 @@
       "triaged_at": "2026-10-20T18:46:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1016/j.watres.2026.127062",
@@ -24739,7 +25200,8 @@
       "triaged_at": "2026-10-20T18:37:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1039/d6ra04768h",
@@ -24773,7 +25235,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1126/sciadv.aef4504",
@@ -24807,7 +25270,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.26434/chemrxiv.15009775/v1",
@@ -24839,7 +25303,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.31224/8339",
@@ -24866,12 +25331,15 @@
       "summary": "Study compares glass fiber reinforced PA6 GF30 with metal and unreinforced polyamide in a conveyor roller bearing housing, reporting advantages in strength and wear resistance.",
       "quote": "glass fiber reinforced polyamide (PA6 GF30) in the bearing housing",
       "quote_location": "abstract",
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-26"
     },
     {
       "id": "doi:10.3390/molecules31193517",
@@ -24904,7 +25372,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.48084/etasr.20697",
@@ -24936,7 +25405,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.3390/app16199814",
@@ -24970,7 +25440,8 @@
       "triaged_at": "2026-10-20T18:47:47+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.3390/ma19194216",
@@ -25002,7 +25473,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-03"
     },
     {
       "id": "doi:10.1186/s11671-026-04970-3",
@@ -25034,7 +25506,8 @@
       "triaged_at": "2026-10-20T18:38:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11015910/v1",
@@ -25069,7 +25542,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "doi:10.1016/j.biortech.2026.136019",
@@ -25103,7 +25577,8 @@
       "triaged_at": "2026-10-20T18:38:41+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.jaap.2026.108171",
@@ -25137,7 +25612,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.polymer.2026.130935",
@@ -25169,7 +25645,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1016/j.tifs.2026.106141",
@@ -25202,7 +25679,8 @@
       "triaged_at": "2026-10-20T18:48:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1038/s41467-026-78278-2",
@@ -25234,7 +25712,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1021/acsabm.6c01403",
@@ -25266,7 +25745,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.3390/cells15191818",
@@ -25299,7 +25779,8 @@
       "triaged_at": "2026-10-20T18:59:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "epmc:PMC:PMC13635293",
@@ -25367,7 +25848,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1021/acs.jpcb.6c04366",
@@ -25399,7 +25881,8 @@
       "triaged_at": "2026-10-20T18:39:07+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11077753/v1",
@@ -25433,7 +25916,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1002/adhm.71814",
@@ -25465,7 +25949,8 @@
       "triaged_at": "2026-10-20T18:59:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1016/j.jmrt.2026.09.263",
@@ -25497,7 +25982,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1038/s41598-026-74632-y",
@@ -25531,7 +26017,8 @@
       "triaged_at": "2026-10-20T18:59:43+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.30546/209501.101.2026.3.03.705",
@@ -25565,7 +26052,8 @@
       "triaged_at": "2026-10-20T18:59:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.33003/fjs-2026-1020-5783",
@@ -25599,7 +26087,8 @@
       "triaged_at": "2026-10-20T18:59:56+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-07"
     },
     {
       "id": "doi:10.1007/s43939-026-00867-1",
@@ -25634,7 +26123,8 @@
       "triaged_at": "2026-10-20T18:39:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1021/acs.langmuir.6c04393",
@@ -25666,7 +26156,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010082/v1",
@@ -25699,7 +26190,8 @@
       "triaged_at": "2026-10-20T18:39:33+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "epmc:PMC:PMC13643267",
@@ -25766,7 +26258,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1021/prechem.6c00130",
@@ -25800,7 +26293,8 @@
       "triaged_at": "2026-10-20T19:00:09+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10794787/v1",
@@ -25832,7 +26326,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.55092/bm20260009",
@@ -25864,7 +26359,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11121059/v1",
@@ -25897,7 +26393,8 @@
       "triaged_at": "2026-10-20T18:39:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1021/acs.biomac.6c01970",
@@ -25931,7 +26428,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1021/acsmacrolett.6c00488",
@@ -25963,7 +26461,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.21203/rs.3.rs-11071437/v1",
@@ -25995,7 +26494,8 @@
       "triaged_at": "2026-10-20T19:00:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "epmc:PMC:PMC13647935",
@@ -26061,7 +26561,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1021/acsomega.6c05088",
@@ -26093,7 +26594,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.64898/2026.10.08.757803",
@@ -26126,7 +26628,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1002/cssc.71137",
@@ -26158,7 +26661,8 @@
       "triaged_at": "2026-10-20T19:01:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1002/pc.71598",
@@ -26190,7 +26694,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1016/j.chroma.2026.467537",
@@ -26222,7 +26727,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1016/j.mtcomm.2026.116345",
@@ -26256,7 +26762,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1002/pc.71728",
@@ -26288,7 +26795,8 @@
       "triaged_at": "2026-10-20T18:39:58+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1021/acsmacrolett.6c00468",
@@ -26320,7 +26828,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1021/acsomega.6c07464",
@@ -26354,7 +26863,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1002/app.71636",
@@ -26388,7 +26898,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1007/s13726-026-01767-0",
@@ -26422,7 +26933,8 @@
       "triaged_at": "2026-10-20T19:01:49+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1177/08927057261488738",
@@ -26454,7 +26966,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1177/08927057261494293",
@@ -26486,7 +26999,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "news:52e9115a061bb7d4",
@@ -26553,7 +27067,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1038/s41598-026-76062-2",
@@ -26586,7 +27101,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.21203/rs.3.rs-10751179/v2",
@@ -26618,7 +27134,8 @@
       "triaged_at": "2026-10-20T19:02:21+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1038/s44385-026-00120-7",
@@ -26650,7 +27167,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010481/v1",
@@ -26683,7 +27201,8 @@
       "triaged_at": "2026-10-20T18:40:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1007/s40964-026-02011-0",
@@ -26715,7 +27234,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1021/acs.estlett.6c00673",
@@ -26747,7 +27267,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c01698",
@@ -26779,7 +27300,8 @@
       "triaged_at": "2026-10-20T19:02:51+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.53941/agrbio.2026.100013",
@@ -26815,7 +27337,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.54779/chl20260561",
@@ -26848,7 +27371,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1002/anse.70136",
@@ -26880,7 +27404,8 @@
       "triaged_at": "2026-10-20T19:03:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1007/s10692-026-10671-5",
@@ -26915,7 +27440,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1007/s10751-026-02824-z",
@@ -26949,7 +27475,8 @@
       "triaged_at": "2026-10-20T19:03:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1088/1361-6439/aeb4c4",
@@ -26981,7 +27508,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.15294/joct.v3i2.64436",
@@ -27013,7 +27541,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.54779/chl20260544",
@@ -27045,7 +27574,8 @@
       "triaged_at": "2026-10-20T19:03:37+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "epmc:PMC:PMC13672762",
@@ -27114,7 +27644,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c01855",
@@ -27146,7 +27677,8 @@
       "triaged_at": "2026-10-20T18:41:05+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.1038/s41467-026-77188-7",
@@ -27178,7 +27710,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "epmc:PMC:PMC13655416",
@@ -27346,7 +27879,8 @@
       "triaged_at": "2026-10-20T18:41:16+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.25258/ijddt.16.87s.10",
@@ -27378,7 +27912,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.3390/polym18202555",
@@ -27412,7 +27947,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.21275/sr261016133854",
@@ -27446,7 +27982,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.47191/ijmra/v9-i10-15",
@@ -27480,7 +28017,8 @@
       "triaged_at": "2026-10-20T19:04:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-17"
     },
     {
       "id": "doi:10.15407/polymerj.48.03.099",
@@ -27512,7 +28050,8 @@
       "triaged_at": "2026-10-20T18:41:29+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "news:910a77cab858d52a",
@@ -27576,7 +28115,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1021/acsomega.5c07849",
@@ -27608,7 +28148,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1177/08927057261500297",
@@ -27642,7 +28183,8 @@
       "triaged_at": "2026-10-20T19:04:36+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1177/10996362261501437",
@@ -27674,7 +28216,8 @@
       "triaged_at": "2026-10-20T19:04:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "epmc:PMC:PMC13670298",
@@ -27774,7 +28317,8 @@
       "triaged_at": "2026-10-20T18:41:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.1364/ao.613352",
@@ -27808,7 +28352,8 @@
       "triaged_at": "2026-10-20T18:41:46+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-20"
     },
     {
       "id": "doi:10.1002/adfm.78534",
@@ -27840,7 +28385,8 @@
       "triaged_at": "2026-10-20T18:42:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1002/batt.70502",
@@ -27872,7 +28418,8 @@
       "triaged_at": "2026-10-20T18:42:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1002/slct.74790",
@@ -27904,7 +28451,8 @@
       "triaged_at": "2026-10-20T18:35:44+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1016/j.nxmate.2026.103388",
@@ -28008,7 +28556,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.2147/ijn.s626198",
@@ -28040,7 +28589,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1088/2634-4386/aeaf79",
@@ -28072,7 +28622,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.1007/s11242-026-02360-y",
@@ -28106,7 +28657,8 @@
       "triaged_at": "2026-10-20T18:47:59+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-04"
     },
     {
       "id": "doi:10.1021/acsapm.6c02505",
@@ -28138,7 +28690,8 @@
       "triaged_at": "2026-10-20T18:38:52+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.1002/cbic.70566",
@@ -28170,7 +28723,8 @@
       "triaged_at": "2026-10-20T19:00:40+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-09"
     },
     {
       "id": "doi:10.1007/s12034-026-03781-7",
@@ -28204,7 +28758,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.20944/preprints202610.1053.v1",
@@ -28238,7 +28793,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1002/pen.70879",
@@ -28270,7 +28826,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.22270/jddt.v16i10.8015",
@@ -28302,7 +28859,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010514/v1",
@@ -28334,7 +28892,8 @@
       "triaged_at": "2026-10-20T19:03:26+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-15"
     },
     {
       "id": "doi:10.25258/ijddt.16.74s.129",
@@ -28366,7 +28925,8 @@
       "triaged_at": "2026-10-20T19:04:48+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-19"
     },
     {
       "id": "doi:10.1002/cbdv.71789",
@@ -28393,12 +28953,15 @@
       "summary": "",
       "quote": "",
       "quote_location": null,
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:42:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-30"
     },
     {
       "id": "doi:10.1002/cbdv.71829",
@@ -28430,7 +28993,8 @@
       "triaged_at": "2026-10-20T18:42:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1016/j.engfailanal.2026.111504",
@@ -28462,7 +29026,8 @@
       "triaged_at": "2026-10-20T18:43:28+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1016/j.newton.2026.100714",
@@ -28564,7 +29129,8 @@
       "triaged_at": "2026-10-20T18:45:18+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1016/j.radphyschem.2026.114000",
@@ -28632,7 +29198,8 @@
       "triaged_at": "2026-10-20T18:37:39+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "doi:10.1002/pen.70930",
@@ -28664,7 +29231,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.1016/j.colsurfb.2026.116252",
@@ -28696,7 +29264,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.26434/chemrxiv.15010248/v1",
@@ -28730,7 +29299,8 @@
       "triaged_at": "2026-10-20T18:40:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1021/acsaenm.6c01185",
@@ -28763,7 +29333,8 @@
       "triaged_at": "2026-10-20T18:40:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-14"
     },
     {
       "id": "doi:10.1002/adsc.70796",
@@ -31814,12 +32385,15 @@
       "summary": "",
       "quote": "",
       "quote_location": null,
-      "flags": [],
+      "flags": [
+        "pre-window"
+      ],
       "hidden": true,
       "triaged_at": "2026-10-20T18:46:11+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-09-26"
     },
     {
       "id": "doi:10.3389/fmars.2026.1936773",
@@ -31851,7 +32425,8 @@
       "triaged_at": "2026-10-20T18:46:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-01"
     },
     {
       "id": "epmc:PMC:PMC13661110",
@@ -32138,7 +32713,8 @@
       "triaged_at": "2026-10-20T18:47:17+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.3390/nu18193256",
@@ -32170,7 +32746,8 @@
       "triaged_at": "2026-10-20T18:38:04+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.64898/2026.09.30.755803",
@@ -32204,7 +32781,8 @@
       "triaged_at": "2026-10-20T18:47:31+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-02"
     },
     {
       "id": "doi:10.5796/electrochemistry.26-74062",
@@ -32767,7 +33345,8 @@
       "triaged_at": "2026-10-20T18:48:27+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-05"
     },
     {
       "id": "news:3a6cbae1fe943d44",
@@ -33354,7 +33933,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "doi:10.12991/jrespharm.1717276",
@@ -33386,7 +33966,8 @@
       "triaged_at": "2026-10-20T18:59:12+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-06"
     },
     {
       "id": "epmc:PMC:PMC13643104",
@@ -34270,7 +34851,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.3390/nano16191273",
@@ -34302,7 +34884,8 @@
       "triaged_at": "2026-10-20T19:00:24+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-08"
     },
     {
       "id": "doi:10.1080/10409238.2026.2743913",
@@ -35113,7 +35696,8 @@
       "triaged_at": "2026-10-20T19:01:19+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.36721/pjps/2026.40.16572.1",
@@ -35145,7 +35729,8 @@
       "triaged_at": "2026-10-20T19:01:32+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "epmc:PMC:PMC13654183",
@@ -35225,7 +35810,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-11"
     },
     {
       "id": "doi:10.1002/cctc.71108",
@@ -35694,7 +36280,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1007/s44347-026-00067-3",
@@ -35726,7 +36313,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1021/acs.macromol.6c01448",
@@ -35758,7 +36346,8 @@
       "triaged_at": "2026-10-20T18:40:15+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T183350Z-d30b0f",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-10"
     },
     {
       "id": "doi:10.20944/preprints202610.1000.v1",
@@ -35790,7 +36379,8 @@
       "triaged_at": "2026-10-20T19:02:06+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-12"
     },
     {
       "id": "doi:10.1021/acs.chas.6c00115",
@@ -36302,7 +36892,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.64898/2026.10.12.758675",
@@ -36334,7 +36925,8 @@
       "triaged_at": "2026-10-20T19:02:38+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-13"
     },
     {
       "id": "doi:10.1002/advs.78245",
@@ -37628,7 +38220,8 @@
       "triaged_at": "2026-10-20T19:03:54+00:00",
       "model": "deepseek-flash",
       "run_id": "2026-10-20261020T185724Z-0d7ad2",
-      "prompt_version": "1"
+      "prompt_version": "1",
+      "first_available": "2026-10-16"
     },
     {
       "id": "epmc:PMC:PMC13659849",
