@@ -52,7 +52,7 @@ Workflows: `ci.yml` (all checks + gitleaks), `deploy.yml` (Pages on push to `mai
 
 ## First run (20 Oct 2026)
 
-September 2026: 1,328 records discovered, 296 removed by the keyword gate, 600 triaged in 60 flash calls, 200 leads shown, 433 left "triage pending" (budget); on 21 Oct `recheck-dates` hid 155 issue-dated records that were online before 1 September (48 of them had been shown), leaving 152 shown. October 2026 (scanned through 20 Oct, in progress): 1,229 discovered, 337 gated, 600 triaged, 168 shown, 292 pending. Token use per run is in `data/runs/`. Trial newsletter skeleton: `/newsletter/2026-09/`.
+September 2026: 1,328 records discovered, 296 removed by the keyword gate, 600 triaged in 60 flash calls, 200 leads shown, 433 left "triage pending" (budget); on 21 Oct `recheck-dates` hid 155 issue-dated records that were online before 1 September (48 of them had been shown), leaving 152 shown. October 2026 (scanned through 20 Oct, in progress): 1,229 discovered, 337 gated, 600 triaged locally plus 289 in the Actions run; after `recheck-dates` (216 issue-dated records online before 1 October hidden) 167 shown, 4 pending. Token use per run is in `data/runs/`. Trial newsletter skeleton: `/newsletter/2026-09/`.
 
 ## Contributing
 
